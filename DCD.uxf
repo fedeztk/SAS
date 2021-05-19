@@ -15,7 +15,8 @@
 --
 +create(s: Service, u:User)
 //+setService(s:Service)
-//+setOwner(o:Owner)</panel_attributes>
+//+setOwner(o:Owner)
++contains(task)</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
