@@ -262,8 +262,8 @@ fg=blue
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1344</x>
-      <y>1386</y>
+      <x>1036</x>
+      <y>1344</y>
       <w>196</w>
       <h>98</h>
     </coordinates>
@@ -374,16 +374,16 @@ relativo a v</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1428</x>
+      <x>1120</x>
       <y>1260</y>
-      <w>196</w>
-      <h>154</h>
+      <w>308</w>
+      <h>112</h>
     </coordinates>
     <panel_attributes>lt=-
 m1=1
 m2=0..n
 è assegnato a v</panel_attributes>
-    <additional_attributes>10.0;90.0;10.0;10.0</additional_attributes>
+    <additional_attributes>10.0;60.0;10.0;40.0;170.0;40.0;170.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
@@ -597,7 +597,7 @@ m2=0..n
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>1624</x>
+      <x>2002</x>
       <y>966</y>
       <w>140</w>
       <h>98</h>
@@ -610,8 +610,8 @@ m2=0..n
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>1680</x>
-      <y>1176</y>
+      <x>1694</x>
+      <y>1624</y>
       <w>210</w>
       <h>56</h>
     </coordinates>
@@ -623,8 +623,8 @@ m2=0..n
   <element>
     <id>UMLNote</id>
     <coordinates>
-      <x>1694</x>
-      <y>1302</y>
+      <x>1862</x>
+      <y>686</y>
       <w>336</w>
       <h>98</h>
     </coordinates>
@@ -637,10 +637,10 @@ bg=yellow</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>1918</x>
+      <x>1974</x>
       <y>1176</y>
       <w>210</w>
-      <h>56</h>
+      <h>98</h>
     </coordinates>
     <panel_attributes>Turno di servizio
 --
@@ -650,13 +650,109 @@ bg=yellow</panel_attributes>
   <element>
     <id>UMLNote</id>
     <coordinates>
-      <x>1694</x>
-      <y>1414</y>
+      <x>1862</x>
+      <y>798</y>
       <w>336</w>
       <h>98</h>
     </coordinates>
     <panel_attributes>ricorrenza
 bg=yellow</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2058</x>
+      <y>1050</y>
+      <w>182</w>
+      <h>154</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=0..n
+m2=0..n
+disponible in v</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;90.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1526</x>
+      <y>1204</y>
+      <w>308</w>
+      <h>448</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=0..n
+m2=0..1
+&lt; imposta</panel_attributes>
+    <additional_attributes>10.0;20.0;170.0;20.0;170.0;300.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1806</x>
+      <y>1204</y>
+      <w>196</w>
+      <h>448</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=0..n
+m2=0..1
+imposta &gt;</panel_attributes>
+    <additional_attributes>120.0;20.0;10.0;20.0;10.0;300.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1470</x>
+      <y>1260</y>
+      <w>182</w>
+      <h>182</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=0..1
+m2=0..n
+appartiene a v</panel_attributes>
+    <additional_attributes>10.0;110.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1386</x>
+      <y>1414</y>
+      <w>196</w>
+      <h>98</h>
+    </coordinates>
+    <panel_attributes>blocco
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2058</x>
+      <y>1260</y>
+      <w>182</w>
+      <h>182</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=0..1
+m2=0..n
+appartiene a v</panel_attributes>
+    <additional_attributes>10.0;110.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1974</x>
+      <y>1414</y>
+      <w>196</w>
+      <h>98</h>
+    </coordinates>
+    <panel_attributes>blocco
+--
+</panel_attributes>
     <additional_attributes/>
   </element>
 </diagram>
