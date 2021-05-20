@@ -686,7 +686,8 @@ attributo</panel_attributes>
     <panel_attributes>Turno
 --
 orario:
-data:</panel_attributes>
+data:
+bloccato ? verificare tutti o uno dei due</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -724,5 +725,19 @@ m1=1
 m2=0..n
 contiene ^</panel_attributes>
     <additional_attributes>10.0;80.0;10.0;10.0;230.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1340</x>
+      <y>1000</y>
+      <w>230</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=0..n
+m2=0..n
+in relazione con v</panel_attributes>
+    <additional_attributes>10.0;10.0;90.0;10.0;90.0;60.0;10.0;60.0</additional_attributes>
   </element>
 </diagram>
