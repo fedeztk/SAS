@@ -638,22 +638,22 @@ disponible in v</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1280</x>
-      <y>1080</y>
-      <w>130</w>
-      <h>110</h>
+      <x>1090</x>
+      <y>780</y>
+      <w>280</w>
+      <h>130</h>
     </coordinates>
     <panel_attributes>lt=-
 m1=0..1
 m2=0..n
 appartiene a v</panel_attributes>
-    <additional_attributes>10.0;90.0;10.0;10.0</additional_attributes>
+    <additional_attributes>160.0;10.0;160.0;100.0;10.0;100.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1220</x>
-      <y>1170</y>
+      <x>1180</x>
+      <y>720</y>
       <w>140</w>
       <h>70</h>
     </coordinates>
