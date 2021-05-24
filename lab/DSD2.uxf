@@ -75,7 +75,7 @@ addTask(job)</panel_attributes>
       <x>441</x>
       <y>198</y>
       <w>18</w>
-      <h>477</h>
+      <h>585</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes/>
@@ -109,7 +109,7 @@ user</panel_attributes>
     <coordinates>
       <x>0</x>
       <y>252</y>
-      <w>1287</w>
+      <w>1395</w>
       <h>576</h>
     </coordinates>
     <panel_attributes>[ !user.isChef]
@@ -139,18 +139,18 @@ throw UseCaseLogicException</panel_attributes>
     <coordinates>
       <x>450</x>
       <y>387</y>
-      <w>216</w>
+      <w>522</w>
       <h>36</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;&gt;
-create(job)</panel_attributes>
-    <additional_attributes>10.0;20.0;220.0;20.0</additional_attributes>
+addTask(job)</panel_attributes>
+    <additional_attributes>10.0;20.0;560.0;20.0</additional_attributes>
   </element>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>648</x>
-      <y>387</y>
+      <x>1125</x>
+      <y>396</y>
       <w>153</w>
       <h>27</h>
     </coordinates>
@@ -194,19 +194,19 @@ UserManager</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>720</x>
-      <y>504</y>
+      <x>1188</x>
+      <y>414</y>
       <w>27</w>
-      <h>351</h>
+      <h>135</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;370.0;10.0;10.0</additional_attributes>
+    <additional_attributes>10.0;130.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>720</x>
-      <y>414</y>
+      <x>1188</x>
+      <y>423</y>
       <w>18</w>
       <h>99</h>
     </coordinates>
@@ -239,21 +239,21 @@ ArrayList&lt;Task&gt;</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>450</x>
-      <y>495</y>
-      <w>288</w>
+      <x>945</x>
+      <y>504</y>
+      <w>270</w>
       <h>36</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 t</panel_attributes>
-    <additional_attributes>10.0;20.0;300.0;20.0</additional_attributes>
+    <additional_attributes>10.0;20.0;280.0;20.0</additional_attributes>
   </element>
   <element>
     <id>UMLFrame</id>
     <coordinates>
       <x>315</x>
       <y>675</y>
-      <w>639</w>
+      <w>540</w>
       <h>90</h>
     </coordinates>
     <panel_attributes>foreach er in
@@ -264,14 +264,14 @@ fg=blue</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>450</x>
+      <x>441</x>
       <y>702</y>
-      <w>369</w>
+      <w>378</w>
       <h>36</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;&gt;
 updateTaskAdded(t)</panel_attributes>
-    <additional_attributes>10.0;20.0;390.0;20.0</additional_attributes>
+    <additional_attributes>10.0;20.0;400.0;20.0</additional_attributes>
   </element>
   <element>
     <id>UMLGeneric</id>
@@ -310,37 +310,25 @@ KitchenTaskEventReceiver</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>729</x>
-      <y>432</y>
-      <w>180</w>
+      <x>1197</x>
+      <y>441</y>
+      <w>189</w>
       <h>63</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;&gt;
-this.consistingJob=j</panel_attributes>
+this.consistingJob=job</panel_attributes>
     <additional_attributes>10.0;10.0;40.0;10.0;40.0;50.0;10.0;50.0</additional_attributes>
   </element>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>729</x>
-      <y>477</y>
+      <x>1197</x>
+      <y>486</y>
       <w>18</w>
       <h>18</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>450</x>
-      <y>531</y>
-      <w>513</w>
-      <h>36</h>
-    </coordinates>
-    <panel_attributes>lt=-&gt;&gt;&gt;
-add(t)</panel_attributes>
-    <additional_attributes>10.0;20.0;550.0;20.0</additional_attributes>
   </element>
   <element>
     <id>UMLGeneric</id>
@@ -371,7 +359,7 @@ notifyTaskAdded(t)</panel_attributes>
       <x>450</x>
       <y>648</y>
       <w>18</w>
-      <h>18</h>
+      <h>126</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes/>
@@ -381,7 +369,7 @@ notifyTaskAdded(t)</panel_attributes>
     <coordinates>
       <x>27</x>
       <y>315</y>
-      <w>1251</w>
+      <w>1359</w>
       <h>504</h>
     </coordinates>
     <panel_attributes>[ currentSummarySheet == null ] 
@@ -428,26 +416,62 @@ SummarySheet</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
-    <id>UMLGeneric</id>
-    <coordinates>
-      <x>945</x>
-      <y>549</y>
-      <w>18</w>
-      <h>36</h>
-    </coordinates>
-    <panel_attributes/>
-    <additional_attributes/>
-  </element>
-  <element>
     <id>Relation</id>
     <coordinates>
-      <x>954</x>
+      <x>945</x>
       <y>540</y>
-      <w>216</w>
+      <w>225</w>
       <h>36</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;&gt;
 add(t)</panel_attributes>
+    <additional_attributes>10.0;20.0;230.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>945</x>
+      <y>396</y>
+      <w>198</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+create(job)</panel_attributes>
+    <additional_attributes>10.0;20.0;200.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>450</x>
+      <y>558</y>
+      <w>522</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+t</panel_attributes>
+    <additional_attributes>10.0;20.0;560.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>252</x>
+      <y>765</y>
+      <w>216</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+t</panel_attributes>
     <additional_attributes>10.0;20.0;220.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>945</x>
+      <y>405</y>
+      <w>18</w>
+      <h>171</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
   </element>
 </diagram>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <diagram program="umlet" version="14.3.0">
-  <zoom_level>10</zoom_level>
+  <zoom_level>12</zoom_level>
   <element>
     <id>UMLPackage</id>
     <coordinates>
-      <x>180</x>
-      <y>190</y>
-      <w>100</w>
-      <h>70</h>
+      <x>216</x>
+      <y>48</y>
+      <w>120</w>
+      <h>84</h>
     </coordinates>
     <panel_attributes>UI</panel_attributes>
     <additional_attributes/>
@@ -15,10 +15,10 @@
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>390</x>
-      <y>210</y>
-      <w>170</w>
-      <h>50</h>
+      <x>468</x>
+      <y>72</y>
+      <w>204</w>
+      <h>60</h>
     </coordinates>
     <panel_attributes>kitchenTaskMgr:
 KitchenTaskManager</panel_attributes>
@@ -27,10 +27,10 @@ KitchenTaskManager</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>220</x>
-      <y>250</y>
-      <w>30</w>
-      <h>590</h>
+      <x>264</x>
+      <y>120</y>
+      <w>36</w>
+      <h>708</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;570.0</additional_attributes>
@@ -38,10 +38,10 @@ KitchenTaskManager</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>460</x>
-      <y>250</y>
-      <w>30</w>
-      <h>590</h>
+      <x>552</x>
+      <y>120</y>
+      <w>36</w>
+      <h>708</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;570.0</additional_attributes>
@@ -49,10 +49,10 @@ KitchenTaskManager</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>470</x>
-      <y>150</y>
-      <w>190</w>
-      <h>40</h>
+      <x>564</x>
+      <y>0</y>
+      <w>228</w>
+      <h>48</h>
     </coordinates>
     <panel_attributes>1a loadSummarySheet</panel_attributes>
     <additional_attributes>10.0;20.0;170.0;20.0</additional_attributes>
@@ -60,10 +60,10 @@ KitchenTaskManager</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>220</x>
-      <y>280</y>
-      <w>270</w>
-      <h>40</h>
+      <x>264</x>
+      <y>156</y>
+      <w>324</w>
+      <h>48</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;&gt;
 loadSummarySheet(ss)</panel_attributes>
@@ -72,10 +72,10 @@ loadSummarySheet(ss)</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>460</x>
-      <y>300</y>
-      <w>20</w>
-      <h>450</h>
+      <x>552</x>
+      <y>180</y>
+      <w>24</w>
+      <h>540</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes/>
@@ -83,10 +83,10 @@ loadSummarySheet(ss)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>470</x>
-      <y>300</y>
-      <w>200</w>
-      <h>40</h>
+      <x>564</x>
+      <y>180</y>
+      <w>240</w>
+      <h>48</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;&gt;
 getCurrentUser()</panel_attributes>
@@ -95,10 +95,10 @@ getCurrentUser()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>470</x>
-      <y>330</y>
-      <w>200</w>
-      <h>40</h>
+      <x>564</x>
+      <y>216</y>
+      <w>240</w>
+      <h>48</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 user</panel_attributes>
@@ -107,10 +107,10 @@ user</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>50</x>
-      <y>370</y>
-      <w>900</w>
-      <h>440</h>
+      <x>60</x>
+      <y>264</y>
+      <w>1080</w>
+      <h>528</h>
     </coordinates>
     <panel_attributes>[ !user.isChef ]
 fg=#761C8C
@@ -124,10 +124,10 @@ layer=-1</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>220</x>
-      <y>380</y>
-      <w>270</w>
-      <h>40</h>
+      <x>264</x>
+      <y>276</y>
+      <w>324</w>
+      <h>48</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 throw UseCaseLogicException</panel_attributes>
@@ -136,10 +136,10 @@ throw UseCaseLogicException</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>470</x>
-      <y>440</y>
-      <w>370</w>
-      <h>40</h>
+      <x>564</x>
+      <y>348</y>
+      <w>444</w>
+      <h>48</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;&gt;
 isOwner(user)</panel_attributes>
@@ -148,10 +148,10 @@ isOwner(user)</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>570</x>
-      <y>210</y>
-      <w>170</w>
-      <h>50</h>
+      <x>684</x>
+      <y>72</y>
+      <w>204</w>
+      <h>60</h>
     </coordinates>
     <panel_attributes>userMgr:
 UserManager</panel_attributes>
@@ -160,10 +160,10 @@ UserManager</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>640</x>
-      <y>250</y>
-      <w>30</w>
-      <h>590</h>
+      <x>768</x>
+      <y>120</y>
+      <w>36</w>
+      <h>708</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;570.0</additional_attributes>
@@ -171,10 +171,10 @@ UserManager</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>640</x>
-      <y>320</y>
-      <w>20</w>
-      <h>30</h>
+      <x>768</x>
+      <y>204</y>
+      <w>24</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes/>
@@ -182,10 +182,10 @@ UserManager</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>220</x>
-      <y>730</y>
-      <w>270</w>
-      <h>40</h>
+      <x>264</x>
+      <y>696</y>
+      <w>324</w>
+      <h>48</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 currentSummarySheet</panel_attributes>
@@ -194,10 +194,10 @@ currentSummarySheet</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>470</x>
-      <y>660</y>
-      <w>270</w>
-      <h>70</h>
+      <x>564</x>
+      <y>612</y>
+      <w>324</w>
+      <h>84</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;&gt;
 setCurrentSummarySheet(ss)</panel_attributes>
@@ -206,10 +206,10 @@ setCurrentSummarySheet(ss)</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>470</x>
-      <y>710</y>
-      <w>20</w>
-      <h>20</h>
+      <x>564</x>
+      <y>672</y>
+      <w>24</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes/>
@@ -217,10 +217,10 @@ setCurrentSummarySheet(ss)</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>90</x>
-      <y>540</y>
-      <w>820</w>
-      <h>240</h>
+      <x>108</x>
+      <y>468</y>
+      <w>984</w>
+      <h>288</h>
     </coordinates>
     <panel_attributes>[!correctOwner]
 fg=#761C8C
@@ -235,10 +235,10 @@ lw=2
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>470</x>
-      <y>480</y>
-      <w>370</w>
-      <h>40</h>
+      <x>564</x>
+      <y>396</y>
+      <w>444</w>
+      <h>48</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 correctOwner</panel_attributes>
@@ -247,22 +247,22 @@ correctOwner</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>220</x>
-      <y>570</y>
-      <w>280</w>
-      <h>40</h>
+      <x>264</x>
+      <y>504</y>
+      <w>336</w>
+      <h>48</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
-throw IllegalUserException</panel_attributes>
+throw SummarySheetException</panel_attributes>
     <additional_attributes>10.0;20.0;260.0;20.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>820</x>
-      <y>250</y>
-      <w>30</w>
-      <h>580</h>
+      <x>984</x>
+      <y>120</y>
+      <w>36</w>
+      <h>696</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;560.0</additional_attributes>
@@ -270,10 +270,10 @@ throw IllegalUserException</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>760</x>
-      <y>210</y>
-      <w>170</w>
-      <h>50</h>
+      <x>912</x>
+      <y>72</y>
+      <w>204</w>
+      <h>60</h>
     </coordinates>
     <panel_attributes>ss:
 SummarySheet</panel_attributes>
@@ -282,10 +282,10 @@ SummarySheet</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>820</x>
-      <y>460</y>
-      <w>20</w>
-      <h>40</h>
+      <x>984</x>
+      <y>372</y>
+      <w>24</w>
+      <h>48</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes/>

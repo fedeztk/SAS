@@ -1,25 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <diagram program="umlet" version="14.3.0">
-  <zoom_level>10</zoom_level>
+  <zoom_level>14</zoom_level>
   <element>
     <id>UMLActor</id>
     <coordinates>
-      <x>0</x>
+      <x>336</x>
       <y>0</y>
-      <w>160</w>
-      <h>120</h>
+      <w>140</w>
+      <h>154</h>
     </coordinates>
-    <panel_attributes>Personale di servizio
-Cuoco</panel_attributes>
+    <panel_attributes>Dipendente</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLDeployment</id>
     <coordinates>
-      <x>550</x>
-      <y>40</y>
-      <w>110</w>
-      <h>50</h>
+      <x>1064</x>
+      <y>28</y>
+      <w>154</w>
+      <h>70</h>
     </coordinates>
     <panel_attributes>Sistema</panel_attributes>
     <additional_attributes/>
@@ -27,10 +26,10 @@ Cuoco</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>70</x>
-      <y>150</y>
-      <w>550</w>
-      <h>50</h>
+      <x>392</x>
+      <y>182</y>
+      <w>770</w>
+      <h>70</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 Disponibilità registrate
@@ -40,22 +39,22 @@ Disponibilità registrate
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>70</x>
-      <y>120</y>
-      <w>550</w>
-      <h>40</h>
+      <x>392</x>
+      <y>140</y>
+      <w>770</w>
+      <h>56</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;&gt;
-1. Indica le disponibilità (insieme di turni)</panel_attributes>
+1. Indica le disponibilità (insieme di turni, periodo?)</panel_attributes>
     <additional_attributes>10.0;20.0;530.0;20.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>70</x>
-      <y>110</y>
-      <w>30</w>
-      <h>110</h>
+      <x>392</x>
+      <y>126</y>
+      <w>42</w>
+      <h>154</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;90.0</additional_attributes>
@@ -63,10 +62,10 @@ Disponibilità registrate
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>590</x>
-      <y>100</y>
-      <w>30</w>
-      <h>120</h>
+      <x>1120</x>
+      <y>112</y>
+      <w>42</w>
+      <h>168</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;100.0</additional_attributes>
@@ -74,22 +73,21 @@ Disponibilità registrate
   <element>
     <id>UMLActor</id>
     <coordinates>
-      <x>0</x>
-      <y>290</y>
-      <w>160</w>
-      <h>120</h>
+      <x>336</x>
+      <y>378</y>
+      <w>140</w>
+      <h>154</h>
     </coordinates>
-    <panel_attributes>Personale di servizio
-Cuoco</panel_attributes>
+    <panel_attributes>Dipendente</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLDeployment</id>
     <coordinates>
-      <x>550</x>
-      <y>330</y>
-      <w>110</w>
-      <h>50</h>
+      <x>1050</x>
+      <y>448</y>
+      <w>154</w>
+      <h>70</h>
     </coordinates>
     <panel_attributes>Sistema</panel_attributes>
     <additional_attributes/>
@@ -97,10 +95,10 @@ Cuoco</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>70</x>
-      <y>590</y>
-      <w>550</w>
-      <h>50</h>
+      <x>392</x>
+      <y>882</y>
+      <w>770</w>
+      <h>70</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 Modifica disponibilità registrate
@@ -110,57 +108,57 @@ Modifica disponibilità registrate
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>70</x>
-      <y>550</y>
-      <w>550</w>
-      <h>40</h>
+      <x>392</x>
+      <y>826</y>
+      <w>770</w>
+      <h>56</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;&gt;
-1a.1 Modifica le disponibilità (insieme di turni)</panel_attributes>
+1a.1 Modifica le disponibilità (insieme di turni, periodo?)</panel_attributes>
     <additional_attributes>10.0;20.0;530.0;20.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>70</x>
-      <y>400</y>
-      <w>30</w>
-      <h>320</h>
+      <x>392</x>
+      <y>504</y>
+      <w>42</w>
+      <h>742</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;300.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;510.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>590</x>
-      <y>390</y>
-      <w>30</w>
-      <h>320</h>
+      <x>1120</x>
+      <y>504</y>
+      <w>42</w>
+      <h>742</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;300.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;510.0</additional_attributes>
   </element>
   <element>
     <id>UMLNote</id>
     <coordinates>
-      <x>280</x>
-      <y>230</y>
-      <w>180</w>
+      <x>644</x>
+      <y>322</y>
+      <w>280</w>
       <h>70</h>
     </coordinates>
-    <panel_attributes>Estensione 1a
-Eccezioni 1a, 1a.1a
+    <panel_attributes>Estensione 1a, 1b
+Eccezioni 1a, 1b, 1a.1a, 1b.1a
 bg=yellow</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>70</x>
-      <y>450</y>
-      <w>550</w>
-      <h>50</h>
+      <x>392</x>
+      <y>602</y>
+      <w>770</w>
+      <h>70</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 Disponibilità registrate
@@ -170,22 +168,22 @@ Disponibilità registrate
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>70</x>
-      <y>410</y>
-      <w>550</w>
-      <h>40</h>
+      <x>392</x>
+      <y>546</y>
+      <w>770</w>
+      <h>56</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;&gt;
-1. Indica le disponibilità (insieme di turni)</panel_attributes>
+1. Indica le disponibilità (insieme di turni, periodo?)</panel_attributes>
     <additional_attributes>10.0;20.0;530.0;20.0</additional_attributes>
   </element>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>20</x>
-      <y>400</y>
-      <w>630</w>
-      <h>290</h>
+      <x>322</x>
+      <y>532</y>
+      <w>882</w>
+      <h>672</h>
     </coordinates>
     <panel_attributes>ALT
 fg=#761C8C
@@ -199,20 +197,28 @@ lw=2
 
 
 
+
+
+
+
 -.</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>30</x>
-      <y>440</y>
-      <w>600</w>
-      <h>90</h>
+      <x>336</x>
+      <y>588</y>
+      <w>840</w>
+      <h>210</h>
     </coordinates>
     <panel_attributes>ALT
 bg=#ffaaaa
 --
+
+-.
+
+
 
 -.
 fg=#D3001B
@@ -222,10 +228,10 @@ layer=0</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>70</x>
-      <y>490</y>
-      <w>550</w>
-      <h>50</h>
+      <x>392</x>
+      <y>658</y>
+      <w>770</w>
+      <h>70</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 fg=red
@@ -236,10 +242,10 @@ fg=red
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>590</x>
-      <y>500</y>
-      <w>20</w>
-      <h>20</h>
+      <x>1120</x>
+      <y>672</y>
+      <w>28</w>
+      <h>28</h>
     </coordinates>
     <panel_attributes>type=termination
 fg=red
@@ -249,10 +255,10 @@ lw=2</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>70</x>
-      <y>640</y>
-      <w>550</w>
-      <h>50</h>
+      <x>392</x>
+      <y>952</y>
+      <w>770</w>
+      <h>70</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 fg=red
@@ -263,10 +269,10 @@ fg=red
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>30</x>
-      <y>580</y>
-      <w>600</w>
-      <h>100</h>
+      <x>336</x>
+      <y>868</y>
+      <w>840</w>
+      <h>140</h>
     </coordinates>
     <panel_attributes>ALT
 bg=#ffaaaa
@@ -280,10 +286,106 @@ layer=0</panel_attributes>
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>590</x>
-      <y>650</y>
-      <w>20</w>
-      <h>20</h>
+      <x>1120</x>
+      <y>966</y>
+      <w>28</w>
+      <h>28</h>
+    </coordinates>
+    <panel_attributes>type=termination
+fg=red
+lw=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>392</x>
+      <y>1064</y>
+      <w>770</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+Eliminazione disponibilità registrate
+</panel_attributes>
+    <additional_attributes>10.0;20.0;530.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>392</x>
+      <y>1008</y>
+      <w>770</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+1b.1 Elimina le disponibilità (insieme di turni, periodo?)</panel_attributes>
+    <additional_attributes>10.0;20.0;530.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>392</x>
+      <y>1134</y>
+      <w>770</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+fg=red
+1b.1a.1 Notifica che il turno è bloccato
+</panel_attributes>
+    <additional_attributes>10.0;20.0;530.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>336</x>
+      <y>1050</y>
+      <w>840</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>ALT
+bg=#ffaaaa
+--
+
+-.
+fg=#D3001B
+layer=0</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>1120</x>
+      <y>1148</y>
+      <w>28</w>
+      <h>28</h>
+    </coordinates>
+    <panel_attributes>type=termination
+fg=red
+lw=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>392</x>
+      <y>742</y>
+      <w>770</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+fg=red
+1b.1 Notifica che non si è selezionato tutto il blocco di turni
+</panel_attributes>
+    <additional_attributes>10.0;20.0;530.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>1120</x>
+      <y>756</y>
+      <w>28</w>
+      <h>28</h>
     </coordinates>
     <panel_attributes>type=termination
 fg=red
