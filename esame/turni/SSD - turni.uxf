@@ -929,10 +929,10 @@ fg=red
       <x>2717</x>
       <y>247</y>
       <w>39</w>
-      <h>624</h>
+      <h>598</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;460.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;440.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
@@ -940,10 +940,10 @@ fg=red
       <x>3250</x>
       <y>247</y>
       <w>39</w>
-      <h>624</h>
+      <h>598</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;460.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;440.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
@@ -1036,7 +1036,7 @@ bg=#B8E0E0</panel_attributes>
       <x>2626</x>
       <y>481</y>
       <w>767</w>
-      <h>221</h>
+      <h>195</h>
     </coordinates>
     <panel_attributes>OPT
 fg=#128C86
@@ -1341,10 +1341,10 @@ bg=#B8E0E0</panel_attributes>
       <x>2470</x>
       <y>1677</y>
       <w>39</w>
-      <h>858</h>
+      <h>871</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;640.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;650.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
@@ -1661,8 +1661,8 @@ bg=#B8E0E0</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>2704</x>
-      <y>728</y>
+      <x>2717</x>
+      <y>702</y>
       <w>572</w>
       <h>52</h>
     </coordinates>
@@ -1673,8 +1673,8 @@ bg=#B8E0E0</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>2704</x>
-      <y>767</y>
+      <x>2717</x>
+      <y>741</y>
       <w>572</w>
       <h>52</h>
     </coordinates>
@@ -1686,7 +1686,7 @@ Blocco impostato</panel_attributes>
     <id>UMLFrame</id>
     <coordinates>
       <x>2626</x>
-      <y>715</y>
+      <y>689</y>
       <w>767</w>
       <h>117</h>
     </coordinates>
@@ -1927,7 +1927,7 @@ Turni di cucina programmati</panel_attributes>
     <coordinates>
       <x>3549</x>
       <y>351</y>
-      <w>767</w>
+      <w>702</w>
       <h>117</h>
     </coordinates>
     <panel_attributes>OPT
@@ -1940,7 +1940,7 @@ bg=#B8E0E0</panel_attributes>
     <coordinates>
       <x>3549</x>
       <y>481</y>
-      <w>767</w>
+      <w>702</w>
       <h>117</h>
     </coordinates>
     <panel_attributes>OPT
@@ -1989,7 +1989,7 @@ Blocco impostato</panel_attributes>
     <coordinates>
       <x>3549</x>
       <y>611</y>
-      <w>767</w>
+      <w>702</w>
       <h>260</h>
     </coordinates>
     <panel_attributes>OPT
@@ -2037,6 +2037,239 @@ lw=2
 
 
 -.</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>2886</x>
+      <y>2262</y>
+      <w>689</w>
+      <h>182</h>
+    </coordinates>
+    <panel_attributes>ALT
+fg=#761C8C
+bg=#e7bfff
+lw=2
+--
+
+
+-.</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2951</x>
+      <y>2353</y>
+      <w>572</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+1a.4a.1 Elimina un blocco sui turni (lista di turni di cucina)</panel_attributes>
+    <additional_attributes>10.0;20.0;420.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2951</x>
+      <y>2392</y>
+      <w>572</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+Blocco eliminato</panel_attributes>
+    <additional_attributes>10.0;20.0;420.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLActor</id>
+    <coordinates>
+      <x>2847</x>
+      <y>1742</y>
+      <w>156</w>
+      <h>143</h>
+    </coordinates>
+    <panel_attributes>Organizzatore</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>3419</x>
+      <y>1807</y>
+      <w>143</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>Sistema</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2951</x>
+      <y>1872</y>
+      <w>39</w>
+      <h>624</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;460.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>3484</x>
+      <y>1872</y>
+      <w>39</w>
+      <h>624</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;460.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2938</x>
+      <y>2015</y>
+      <w>572</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+1a.2 Crea turni di servizio (lista di date, orario, scadenza?)</panel_attributes>
+    <additional_attributes>10.0;20.0;420.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2938</x>
+      <y>1950</y>
+      <w>572</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+Restituisce gli eventi</panel_attributes>
+    <additional_attributes>10.0;20.0;420.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2912</x>
+      <y>2132</y>
+      <w>624</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+1a.3 Programma turni di servizio (lista di turni di servizio, periodo)</panel_attributes>
+    <additional_attributes>30.0;20.0;440.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2951</x>
+      <y>2171</y>
+      <w>572</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+Turni di servizio programmati</panel_attributes>
+    <additional_attributes>10.0;20.0;420.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>2873</x>
+      <y>1898</y>
+      <w>728</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>OPT
+fg=#128C86
+bg=#B8E0E0</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>3068</x>
+      <y>1664</y>
+      <w>312</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>Estensione 1a.4a: 
+bg=yellow</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2938</x>
+      <y>1911</y>
+      <w>585</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+1a.1. Consulta gli eventi()</panel_attributes>
+    <additional_attributes>10.0;20.0;430.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2938</x>
+      <y>2054</y>
+      <w>572</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+Turni di servizio creati</panel_attributes>
+    <additional_attributes>10.0;20.0;420.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>2873</x>
+      <y>2106</y>
+      <w>728</w>
+      <h>117</h>
+    </coordinates>
+    <panel_attributes>OPT
+fg=#128C86
+bg=#B8E0E0</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2951</x>
+      <y>2262</y>
+      <w>572</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+1a.4 Imposta un blocco sui turni (lista di turni di cucina)</panel_attributes>
+    <additional_attributes>10.0;20.0;420.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2951</x>
+      <y>2301</y>
+      <w>572</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+Blocco impostato</panel_attributes>
+    <additional_attributes>10.0;20.0;420.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>2873</x>
+      <y>2236</y>
+      <w>728</w>
+      <h>221</h>
+    </coordinates>
+    <panel_attributes>OPT
+fg=#128C86
+bg=#B8E0E0</panel_attributes>
     <additional_attributes/>
   </element>
 </diagram>
