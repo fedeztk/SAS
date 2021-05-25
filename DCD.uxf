@@ -7,7 +7,7 @@
       <x>396</x>
       <y>1305</y>
       <w>369</w>
-      <h>207</h>
+      <h>225</h>
     </coordinates>
     <panel_attributes>SummarySheet
 --
@@ -25,7 +25,8 @@
 +deleteTask(t: Task)
 +modifyTask(task, tl?, portions?,
                   duration?, cook?, job?)
-+disassignTask(t: Task)</panel_attributes>
++disassignTask(t: Task)
++ taskDone(task)</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -559,13 +560,13 @@ fg=gray</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>495</x>
-      <y>1503</y>
+      <y>1521</y>
       <w>90</w>
-      <h>414</h>
+      <h>396</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 serviceUsed</panel_attributes>
-    <additional_attributes>60.0;440.0;30.0;440.0;30.0;10.0</additional_attributes>
+    <additional_attributes>60.0;420.0;30.0;420.0;30.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
