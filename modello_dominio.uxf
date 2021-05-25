@@ -599,7 +599,7 @@ m2=0..n
       <w>266</w>
       <h>140</h>
     </coordinates>
-    <panel_attributes>
+    <panel_attributes>Dipendennte
 --
 </panel_attributes>
     <additional_attributes/>
@@ -653,8 +653,7 @@ appartiene a v</panel_attributes>
       <h>98</h>
     </coordinates>
     <panel_attributes>Calendario generale
---
-attributo</panel_attributes>
+--</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -669,7 +668,7 @@ attributo</panel_attributes>
 --
 orario:
 data:
-bloccato:</panel_attributes>
+scadenza:</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -727,10 +726,10 @@ in relazione con v</panel_attributes>
     <coordinates>
       <x>1120</x>
       <y>1708</y>
-      <w>140</w>
+      <w>238</w>
       <h>98</h>
     </coordinates>
-    <panel_attributes>Dipendente
+    <panel_attributes>Personale di servizio
 --
 </panel_attributes>
     <additional_attributes/>
