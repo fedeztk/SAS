@@ -313,6 +313,7 @@ Completato: sì/no
     <panel_attributes>Turno di cucina
 --
 location: 
+saturo:
 
 </panel_attributes>
     <additional_attributes/>
@@ -464,13 +465,13 @@ bg=yellow</panel_attributes>
       <x>1764</x>
       <y>1512</y>
       <w>182</w>
-      <h>182</h>
+      <h>168</h>
     </coordinates>
     <panel_attributes>lt=-
 m1=0..n
 m2=0..n
 disponible in v</panel_attributes>
-    <additional_attributes>10.0;110.0;10.0;10.0</additional_attributes>
+    <additional_attributes>10.0;100.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
@@ -595,7 +596,7 @@ m2=0..n
     <id>UMLGeneric</id>
     <coordinates>
       <x>1652</x>
-      <y>1666</y>
+      <y>1652</y>
       <w>266</w>
       <h>140</h>
     </coordinates>
@@ -725,7 +726,7 @@ in relazione con v</panel_attributes>
     <id>UMLGeneric</id>
     <coordinates>
       <x>1120</x>
-      <y>1708</y>
+      <y>1778</y>
       <w>238</w>
       <h>98</h>
     </coordinates>
@@ -740,21 +741,21 @@ in relazione con v</panel_attributes>
       <x>1176</x>
       <y>1414</y>
       <w>42</w>
-      <h>322</h>
+      <h>392</h>
     </coordinates>
     <panel_attributes/>
-    <additional_attributes>10.0;10.0;10.0;210.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;260.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
       <x>1176</x>
-      <y>1624</y>
+      <y>1694</y>
       <w>504</w>
-      <h>126</h>
+      <h>42</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>340.0;70.0;10.0;10.0</additional_attributes>
+    <additional_attributes>340.0;10.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLNote</id>
