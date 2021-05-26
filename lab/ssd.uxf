@@ -381,10 +381,10 @@ fg=red
       <x>1940</x>
       <y>230</y>
       <w>30</w>
-      <h>650</h>
+      <h>670</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;630.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;650.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
@@ -392,10 +392,10 @@ fg=red
       <x>2460</x>
       <y>200</y>
       <w>30</w>
-      <h>680</h>
+      <h>700</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;660.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;680.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
@@ -528,11 +528,11 @@ bg=#B8E0E0</panel_attributes>
     <coordinates>
       <x>3030</x>
       <y>0</y>
-      <w>160</w>
+      <w>230</w>
       <h>70</h>
     </coordinates>
     <panel_attributes>Estensioni 5a,5b,5c
-Eccezione 5a, 5a.1a
+Eccezione 5a, 5a.1a, 5b, 5a.1b
 
 bg=yellow</panel_attributes>
     <additional_attributes/>
@@ -610,10 +610,10 @@ compito rimosso</panel_attributes>
       <x>2820</x>
       <y>170</y>
       <w>30</w>
-      <h>1050</h>
+      <h>1120</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;1030.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;1100.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
@@ -621,10 +621,10 @@ compito rimosso</panel_attributes>
       <x>3340</x>
       <y>140</y>
       <w>30</w>
-      <h>1080</h>
+      <h>1150</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;1060.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;1130.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
@@ -718,7 +718,7 @@ bg=#B8E0E0</panel_attributes>
       <x>2700</x>
       <y>240</y>
       <w>700</w>
-      <h>960</h>
+      <h>1020</h>
     </coordinates>
     <panel_attributes>LOOP
 fg=blue
@@ -732,7 +732,7 @@ lw=2
       <x>2710</x>
       <y>440</y>
       <w>680</w>
-      <h>650</h>
+      <h>720</h>
     </coordinates>
     <panel_attributes>LOOP
 fg=blue
@@ -783,7 +783,7 @@ fg=red
     <id>Relation</id>
     <coordinates>
       <x>2820</x>
-      <y>720</y>
+      <y>780</y>
       <w>550</w>
       <h>50</h>
     </coordinates>
@@ -796,7 +796,7 @@ fg=red
     <id>Relation</id>
     <coordinates>
       <x>2820</x>
-      <y>790</y>
+      <y>840</y>
       <w>550</w>
       <h>40</h>
     </coordinates>
@@ -808,7 +808,7 @@ Conferma modifica</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>2820</x>
-      <y>930</y>
+      <y>990</y>
       <w>550</w>
       <h>40</h>
     </coordinates>
@@ -820,7 +820,7 @@ Conferma modifica</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>2820</x>
-      <y>960</y>
+      <y>1020</y>
       <w>550</w>
       <h>40</h>
     </coordinates>
@@ -832,7 +832,7 @@ Registra la disassegnazione del compito</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>2820</x>
-      <y>1000</y>
+      <y>1080</y>
       <w>550</w>
       <h>40</h>
     </coordinates>
@@ -844,7 +844,7 @@ Registra la disassegnazione del compito</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>2820</x>
-      <y>1030</y>
+      <y>1110</y>
       <w>550</w>
       <h>40</h>
     </coordinates>
@@ -858,7 +858,7 @@ Registra l'avvenuta esecuzione del compito</panel_attributes>
       <x>2730</x>
       <y>540</y>
       <w>650</w>
-      <h>540</h>
+      <h>610</h>
     </coordinates>
     <panel_attributes>ALT
 fg=#761C8C
@@ -874,7 +874,11 @@ lw=2
 
 
 
+
+
+
 -.
+
 
 
 
@@ -902,11 +906,15 @@ lw=2
       <x>2790</x>
       <y>590</y>
       <w>580</w>
-      <h>110</h>
+      <h>160</h>
     </coordinates>
     <panel_attributes>ALT
 bg=#ffaaaa
 --
+
+-.
+
+
 
 -.
 fg=#D3001B
@@ -1264,13 +1272,17 @@ bg=#B8E0E0</panel_attributes>
     <id>UMLFrame</id>
     <coordinates>
       <x>2790</x>
-      <y>780</y>
+      <y>830</y>
       <w>580</w>
-      <h>110</h>
+      <h>140</h>
     </coordinates>
     <panel_attributes>ALT
 bg=#ffaaaa
 --
+
+-.
+
+
 
 -.
 fg=#D3001B
@@ -1281,7 +1293,7 @@ layer=0</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>2820</x>
-      <y>840</y>
+      <y>890</y>
       <w>550</w>
       <h>50</h>
     </coordinates>
@@ -1295,7 +1307,7 @@ fg=red
     <id>UMLSpecialState</id>
     <coordinates>
       <x>3340</x>
-      <y>850</y>
+      <y>900</y>
       <w>20</w>
       <h>20</h>
     </coordinates>
@@ -1419,7 +1431,7 @@ bg=#B8E0E0</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>2820</x>
-      <y>1140</y>
+      <y>1210</y>
       <w>550</w>
       <h>40</h>
     </coordinates>
@@ -1431,7 +1443,7 @@ Saturazione turno modificata</panel_attributes>
     <id>UMLFrame</id>
     <coordinates>
       <x>2730</x>
-      <y>1100</y>
+      <y>1170</y>
       <w>650</w>
       <h>80</h>
     </coordinates>
@@ -1444,12 +1456,66 @@ bg=#B8E0E0</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>2820</x>
-      <y>1110</y>
+      <y>1180</y>
       <w>550</w>
       <h>40</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;&gt;
 6. Modifica saturazione turno di cucina(turno di cucina, valore)</panel_attributes>
     <additional_attributes>10.0;20.0;530.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2820</x>
+      <y>700</y>
+      <w>550</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+5b.1 Notifica all'utente che il turno è saturo
+fg=red
+</panel_attributes>
+    <additional_attributes>10.0;20.0;530.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>3340</x>
+      <y>710</y>
+      <w>20</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>type=termination
+fg=red
+lw=3</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2820</x>
+      <y>940</y>
+      <w>550</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+5a.1b.1 Notifica all'utente che il turno è saturo
+fg=red
+</panel_attributes>
+    <additional_attributes>10.0;20.0;530.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>3340</x>
+      <y>950</y>
+      <w>20</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>type=termination
+fg=red
+lw=3</panel_attributes>
+    <additional_attributes/>
   </element>
 </diagram>
