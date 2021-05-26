@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <diagram program="umlet" version="14.3.0">
-  <zoom_level>9</zoom_level>
+  <zoom_level>6</zoom_level>
   <element>
     <id>UMLPackage</id>
     <coordinates>
-      <x>117</x>
-      <y>0</y>
-      <w>90</w>
-      <h>63</h>
+      <x>84</x>
+      <y>60</y>
+      <w>60</w>
+      <h>42</h>
     </coordinates>
     <panel_attributes>UI</panel_attributes>
     <additional_attributes/>
@@ -15,21 +15,21 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>144</x>
-      <y>54</y>
-      <w>36</w>
-      <h>1107</h>
+      <x>96</x>
+      <y>96</y>
+      <w>30</w>
+      <h>810</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>20.0;10.0;10.0;1210.0</additional_attributes>
+    <additional_attributes>30.0;10.0;10.0;1330.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>153</x>
-      <y>72</y>
-      <w>225</w>
-      <h>45</h>
+      <x>108</x>
+      <y>108</y>
+      <w>150</w>
+      <h>30</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;&gt;
 modifyTask(task, tl?, portions?,
@@ -39,21 +39,21 @@ duration?, cook?, job?)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>360</x>
-      <y>54</y>
-      <w>27</w>
-      <h>1116</h>
+      <x>246</x>
+      <y>96</y>
+      <w>18</w>
+      <h>816</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;1220.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;1340.0</additional_attributes>
   </element>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>360</x>
-      <y>90</y>
-      <w>18</w>
-      <h>1035</h>
+      <x>246</x>
+      <y>120</y>
+      <w>12</w>
+      <h>762</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes/>
@@ -61,10 +61,10 @@ duration?, cook?, job?)</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>297</x>
-      <y>18</y>
-      <w>153</w>
-      <h>45</h>
+      <x>204</x>
+      <y>72</y>
+      <w>102</w>
+      <h>30</h>
     </coordinates>
     <panel_attributes>kitchenTaskMgr:
 KitchenTaskManager</panel_attributes>
@@ -73,10 +73,10 @@ KitchenTaskManager</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>369</x>
-      <y>99</y>
-      <w>189</w>
-      <h>36</h>
+      <x>252</x>
+      <y>126</y>
+      <w>126</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;&gt;
 getCurrentUser()</panel_attributes>
@@ -85,10 +85,10 @@ getCurrentUser()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>369</x>
-      <y>126</y>
-      <w>189</w>
-      <h>36</h>
+      <x>252</x>
+      <y>144</y>
+      <w>126</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 user</panel_attributes>
@@ -97,21 +97,21 @@ user</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>540</x>
-      <y>54</y>
-      <w>27</w>
-      <h>117</h>
+      <x>360</x>
+      <y>96</y>
+      <w>24</w>
+      <h>126</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;110.0</additional_attributes>
+    <additional_attributes>20.0;10.0;10.0;190.0</additional_attributes>
   </element>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>477</x>
-      <y>18</y>
-      <w>153</w>
-      <h>45</h>
+      <x>324</x>
+      <y>72</y>
+      <w>102</w>
+      <h>30</h>
     </coordinates>
     <panel_attributes>userMgr:
 UserManager</panel_attributes>
@@ -120,10 +120,10 @@ UserManager</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>153</x>
-      <y>171</y>
-      <w>234</w>
-      <h>36</h>
+      <x>108</x>
+      <y>174</y>
+      <w>156</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 throw UseCaseLogicException</panel_attributes>
@@ -133,9 +133,9 @@ throw UseCaseLogicException</panel_attributes>
     <id>UMLFrame</id>
     <coordinates>
       <x>0</x>
-      <y>153</y>
-      <w>1692</w>
-      <h>990</h>
+      <y>210</y>
+      <w>1128</w>
+      <h>684</h>
     </coordinates>
     <panel_attributes>[ !user.isChef ]
 fg=#761C8C
@@ -149,10 +149,10 @@ layer=-10</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>153</x>
-      <y>243</y>
-      <w>234</w>
-      <h>36</h>
+      <x>108</x>
+      <y>222</y>
+      <w>156</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 throw SummarySheetException</panel_attributes>
@@ -161,10 +161,10 @@ throw SummarySheetException</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>369</x>
-      <y>288</y>
-      <w>369</w>
-      <h>36</h>
+      <x>252</x>
+      <y>252</y>
+      <w>246</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;&gt;
 contains(task)</panel_attributes>
@@ -173,10 +173,10 @@ contains(task)</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>126</x>
-      <y>216</y>
-      <w>1557</w>
-      <h>918</h>
+      <x>90</x>
+      <y>204</y>
+      <w>1038</w>
+      <h>684</h>
     </coordinates>
     <panel_attributes>[ currentSummarySheet == null ]
 fg=#761C8C
@@ -193,10 +193,10 @@ layer=-2
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>720</x>
-      <y>306</y>
-      <w>18</w>
-      <h>45</h>
+      <x>486</x>
+      <y>264</y>
+      <w>12</w>
+      <h>30</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes/>
@@ -204,21 +204,21 @@ layer=-2
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>720</x>
-      <y>54</y>
-      <w>27</w>
-      <h>1071</h>
+      <x>486</x>
+      <y>96</y>
+      <w>18</w>
+      <h>816</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;1170.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;1340.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>729</x>
-      <y>297</y>
-      <w>180</w>
-      <h>36</h>
+      <x>492</x>
+      <y>258</y>
+      <w>120</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;&gt;
 contains(task)</panel_attributes>
@@ -227,10 +227,10 @@ contains(task)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>729</x>
-      <y>324</y>
-      <w>171</w>
-      <h>36</h>
+      <x>492</x>
+      <y>276</y>
+      <w>114</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 isIn</panel_attributes>
@@ -239,10 +239,10 @@ isIn</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>882</x>
-      <y>54</y>
-      <w>27</w>
-      <h>360</h>
+      <x>594</x>
+      <y>96</y>
+      <w>18</w>
+      <h>240</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;380.0</additional_attributes>
@@ -250,10 +250,10 @@ isIn</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>882</x>
-      <y>315</y>
-      <w>18</w>
-      <h>27</h>
+      <x>594</x>
+      <y>270</y>
+      <w>12</w>
+      <h>18</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes/>
@@ -261,10 +261,10 @@ isIn</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>819</x>
-      <y>18</y>
-      <w>153</w>
-      <h>45</h>
+      <x>552</x>
+      <y>72</y>
+      <w>102</w>
+      <h>30</h>
     </coordinates>
     <panel_attributes>taskList:
 Arraylist&lt;Task&gt;</panel_attributes>
@@ -273,10 +273,10 @@ Arraylist&lt;Task&gt;</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>648</x>
-      <y>18</y>
-      <w>162</w>
-      <h>45</h>
+      <x>438</x>
+      <y>72</y>
+      <w>108</w>
+      <h>30</h>
     </coordinates>
     <panel_attributes>currentSummarySheet:
 SummarySheet</panel_attributes>
@@ -285,10 +285,10 @@ SummarySheet</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>369</x>
-      <y>333</y>
-      <w>369</w>
-      <h>36</h>
+      <x>252</x>
+      <y>282</y>
+      <w>246</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 isIn</panel_attributes>
@@ -297,10 +297,10 @@ isIn</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>153</x>
-      <y>378</y>
-      <w>234</w>
-      <h>36</h>
+      <x>108</x>
+      <y>312</y>
+      <w>156</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 throw SummarySheetException</panel_attributes>
@@ -309,10 +309,10 @@ throw SummarySheetException</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>135</x>
-      <y>360</y>
-      <w>1539</w>
-      <h>765</h>
+      <x>96</x>
+      <y>300</y>
+      <w>1026</w>
+      <h>582</h>
     </coordinates>
     <panel_attributes>[ isIn == false ]
 fg=#761C8C
@@ -329,10 +329,10 @@ layer=-1
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>369</x>
-      <y>423</y>
-      <w>369</w>
-      <h>45</h>
+      <x>252</x>
+      <y>420</y>
+      <w>246</w>
+      <h>30</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;&gt;
 modifyTask(task, tl?, portions?,
@@ -342,10 +342,10 @@ duration?, cook?, job?)</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>999</x>
-      <y>18</y>
-      <w>153</w>
-      <h>45</h>
+      <x>672</x>
+      <y>72</y>
+      <w>102</w>
+      <h>30</h>
     </coordinates>
     <panel_attributes>task:
 Task</panel_attributes>
@@ -354,10 +354,10 @@ Task</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>1071</x>
-      <y>459</y>
-      <w>18</w>
-      <h>558</h>
+      <x>720</x>
+      <y>438</y>
+      <w>12</w>
+      <h>372</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes/>
@@ -365,21 +365,21 @@ Task</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1071</x>
-      <y>54</y>
-      <w>27</w>
-      <h>1089</h>
+      <x>720</x>
+      <y>96</y>
+      <w>18</w>
+      <h>822</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;1190.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;1350.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1080</x>
-      <y>477</y>
-      <w>198</w>
-      <h>63</h>
+      <x>726</x>
+      <y>450</y>
+      <w>132</w>
+      <h>42</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;&gt;
 this.quantity=portions</panel_attributes>
@@ -388,10 +388,10 @@ this.quantity=portions</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>1080</x>
-      <y>522</y>
-      <w>18</w>
-      <h>18</h>
+      <x>726</x>
+      <y>480</y>
+      <w>12</w>
+      <h>12</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes/>
@@ -399,10 +399,10 @@ this.quantity=portions</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1080</x>
-      <y>558</y>
-      <w>171</w>
-      <h>63</h>
+      <x>726</x>
+      <y>504</y>
+      <w>114</w>
+      <h>42</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;&gt;
 this.time=duration</panel_attributes>
@@ -411,10 +411,10 @@ this.time=duration</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>1080</x>
-      <y>603</y>
-      <w>18</w>
-      <h>18</h>
+      <x>726</x>
+      <y>534</y>
+      <w>12</w>
+      <h>12</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes/>
@@ -422,10 +422,10 @@ this.time=duration</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1080</x>
-      <y>909</y>
-      <w>153</w>
-      <h>45</h>
+      <x>726</x>
+      <y>738</y>
+      <w>102</w>
+      <h>30</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;&gt;
 this.cook=cook</panel_attributes>
@@ -434,10 +434,10 @@ this.cook=cook</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>1080</x>
-      <y>927</y>
-      <w>18</w>
-      <h>18</h>
+      <x>726</x>
+      <y>750</y>
+      <w>12</w>
+      <h>12</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes/>
@@ -445,10 +445,10 @@ this.cook=cook</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>1215</x>
-      <y>18</y>
-      <w>153</w>
-      <h>45</h>
+      <x>816</x>
+      <y>72</y>
+      <w>102</w>
+      <h>30</h>
     </coordinates>
     <panel_attributes>task.turnList:
 Arraylist&lt;Turn&gt;</panel_attributes>
@@ -457,21 +457,21 @@ Arraylist&lt;Turn&gt;</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1287</x>
-      <y>54</y>
-      <w>27</w>
-      <h>1071</h>
+      <x>864</x>
+      <y>96</y>
+      <w>18</w>
+      <h>828</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;1170.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;1360.0</additional_attributes>
   </element>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>252</x>
-      <y>1062</y>
-      <w>1242</w>
-      <h>45</h>
+      <x>174</x>
+      <y>840</y>
+      <w>828</w>
+      <h>30</h>
     </coordinates>
     <panel_attributes>for each
 er in recivers
@@ -482,10 +482,10 @@ bg=#8CB4FF</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>369</x>
-      <y>1062</y>
-      <w>1116</w>
-      <h>36</h>
+      <x>252</x>
+      <y>840</y>
+      <w>744</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;&gt;
 updateTaskModified(task)</panel_attributes>
@@ -494,10 +494,10 @@ updateTaskModified(task)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>369</x>
-      <y>990</y>
-      <w>207</w>
-      <h>63</h>
+      <x>252</x>
+      <y>792</y>
+      <w>138</w>
+      <h>42</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;&gt;
 notifyTaskModified(task)</panel_attributes>
@@ -506,10 +506,10 @@ notifyTaskModified(task)</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>369</x>
-      <y>1035</y>
-      <w>18</w>
-      <h>81</h>
+      <x>252</x>
+      <y>822</y>
+      <w>12</w>
+      <h>54</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes/>
@@ -517,21 +517,21 @@ notifyTaskModified(task)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1467</x>
-      <y>54</y>
-      <w>27</w>
-      <h>1071</h>
+      <x>984</x>
+      <y>96</y>
+      <w>18</w>
+      <h>828</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;1170.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;1360.0</additional_attributes>
   </element>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>1395</x>
-      <y>18</y>
-      <w>153</w>
-      <h>45</h>
+      <x>936</x>
+      <y>72</y>
+      <w>102</w>
+      <h>30</h>
     </coordinates>
     <panel_attributes>eventReceivers
 KitchenTaskRecievers</panel_attributes>
@@ -540,10 +540,10 @@ KitchenTaskRecievers</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>927</x>
-      <y>477</y>
-      <w>342</w>
-      <h>72</h>
+      <x>624</x>
+      <y>450</y>
+      <w>228</w>
+      <h>48</h>
     </coordinates>
     <panel_attributes>[ portions!=null ]
 fg=#761C8C
@@ -560,10 +560,10 @@ layer=-1
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>927</x>
-      <y>558</y>
-      <w>342</w>
-      <h>72</h>
+      <x>624</x>
+      <y>504</y>
+      <w>228</w>
+      <h>48</h>
     </coordinates>
     <panel_attributes>[ duration !=null ]
 fg=#761C8C
@@ -580,10 +580,10 @@ layer=-1
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>927</x>
-      <y>846</y>
-      <w>738</w>
-      <h>153</h>
+      <x>624</x>
+      <y>696</y>
+      <w>492</w>
+      <h>102</h>
     </coordinates>
     <panel_attributes>[ cook!=null ]
 fg=#761C8C
@@ -600,10 +600,10 @@ layer=-1
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>936</x>
-      <y>900</y>
-      <w>333</w>
-      <h>90</h>
+      <x>630</x>
+      <y>732</y>
+      <w>222</w>
+      <h>60</h>
     </coordinates>
     <panel_attributes>[ cookAvailable ]
 fg=#761C8C
@@ -619,10 +619,10 @@ layer=-1
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1080</x>
-      <y>846</y>
-      <w>576</w>
-      <h>36</h>
+      <x>726</x>
+      <y>696</y>
+      <w>384</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;&gt;
 isAvailable(task.turnList)</panel_attributes>
@@ -631,21 +631,21 @@ isAvailable(task.turnList)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1638</x>
-      <y>54</y>
-      <w>27</w>
-      <h>1071</h>
+      <x>1098</x>
+      <y>96</y>
+      <w>18</w>
+      <h>816</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;1170.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;1340.0</additional_attributes>
   </element>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>1566</x>
-      <y>18</y>
-      <w>153</w>
-      <h>45</h>
+      <x>1050</x>
+      <y>72</y>
+      <w>102</w>
+      <h>30</h>
     </coordinates>
     <panel_attributes>cook:
 Cook</panel_attributes>
@@ -654,10 +654,10 @@ Cook</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>1638</x>
-      <y>864</y>
-      <w>18</w>
-      <h>27</h>
+      <x>1098</x>
+      <y>708</y>
+      <w>12</w>
+      <h>18</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes/>
@@ -665,10 +665,10 @@ Cook</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1080</x>
-      <y>873</y>
-      <w>576</w>
-      <h>36</h>
+      <x>726</x>
+      <y>714</y>
+      <w>384</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 cookAvailable</panel_attributes>
@@ -677,10 +677,10 @@ cookAvailable</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>540</x>
-      <y>117</y>
-      <w>18</w>
-      <h>27</h>
+      <x>366</x>
+      <y>138</y>
+      <w>12</w>
+      <h>18</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes/>
@@ -688,10 +688,10 @@ cookAvailable</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>144</x>
-      <y>954</y>
-      <w>954</w>
-      <h>36</h>
+      <x>102</x>
+      <y>768</y>
+      <w>636</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 throw SummarySheetException</panel_attributes>
@@ -700,10 +700,10 @@ throw SummarySheetException</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1071</x>
-      <y>720</y>
-      <w>234</w>
-      <h>36</h>
+      <x>720</x>
+      <y>612</y>
+      <w>156</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;&gt;
 clear()</panel_attributes>
@@ -712,10 +712,10 @@ clear()</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>1287</x>
-      <y>729</y>
-      <w>18</w>
-      <h>18</h>
+      <x>864</x>
+      <y>618</y>
+      <w>12</w>
+      <h>12</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes/>
@@ -723,10 +723,10 @@ clear()</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>1071</x>
-      <y>684</y>
-      <w>18</w>
-      <h>18</h>
+      <x>720</x>
+      <y>588</y>
+      <w>12</w>
+      <h>12</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes/>
@@ -734,10 +734,10 @@ clear()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1071</x>
-      <y>639</y>
-      <w>126</w>
-      <h>63</h>
+      <x>720</x>
+      <y>558</y>
+      <w>84</w>
+      <h>42</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;&gt;
 this.job=job</panel_attributes>
@@ -746,10 +746,10 @@ this.job=job</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>927</x>
-      <y>639</y>
-      <w>342</w>
-      <h>72</h>
+      <x>624</x>
+      <y>558</y>
+      <w>228</w>
+      <h>48</h>
     </coordinates>
     <panel_attributes>[ job!=null ]
 fg=#761C8C
@@ -766,10 +766,10 @@ layer=-1
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>936</x>
-      <y>774</y>
-      <w>387</w>
-      <h>54</h>
+      <x>630</x>
+      <y>648</y>
+      <w>258</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>for each
 t in tl
@@ -779,10 +779,10 @@ fg=blue</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1071</x>
-      <y>783</y>
-      <w>234</w>
-      <h>36</h>
+      <x>720</x>
+      <y>654</y>
+      <w>156</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;&gt;
 add(t)</panel_attributes>
@@ -791,10 +791,10 @@ add(t)</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>927</x>
-      <y>720</y>
-      <w>423</w>
-      <h>117</h>
+      <x>624</x>
+      <y>612</y>
+      <w>282</w>
+      <h>78</h>
     </coordinates>
     <panel_attributes>[ tl!=null ]
 fg=#761C8C
@@ -811,10 +811,10 @@ layer=-1
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>1287</x>
-      <y>792</y>
-      <w>18</w>
-      <h>18</h>
+      <x>864</x>
+      <y>660</y>
+      <w>12</w>
+      <h>12</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes/>
@@ -822,10 +822,10 @@ layer=-1
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>1467</x>
-      <y>1071</y>
-      <w>18</w>
-      <h>18</h>
+      <x>984</x>
+      <y>846</y>
+      <w>12</w>
+      <h>12</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes/>
@@ -833,10 +833,10 @@ layer=-1
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>729</x>
-      <y>441</y>
-      <w>360</w>
-      <h>45</h>
+      <x>492</x>
+      <y>426</y>
+      <w>240</w>
+      <h>30</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;&gt;
 modifyTask(tl?, portions?,
@@ -846,12 +846,109 @@ duration?, cook?, job?)</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>720</x>
-      <y>441</y>
-      <w>18</w>
-      <h>585</h>
+      <x>486</x>
+      <y>432</y>
+      <w>12</w>
+      <h>390</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>156</x>
+      <y>348</y>
+      <w>1074</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>for each
+t in tl
+fg=blue
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>1164</x>
+      <y>72</y>
+      <w>102</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>t:
+kitchenTurn</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1212</x>
+      <y>96</y>
+      <w>18</w>
+      <h>714</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;1170.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>252</x>
+      <y>348</y>
+      <w>978</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+isSaturated()</panel_attributes>
+    <additional_attributes>10.0;20.0;1610.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>252</x>
+      <y>360</y>
+      <w>972</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+saturated</panel_attributes>
+    <additional_attributes>10.0;20.0;1600.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>1212</x>
+      <y>360</y>
+      <w>12</w>
+      <h>12</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>156</x>
+      <y>384</y>
+      <w>132</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>saturated == true
+fg=#761C8C
+lw=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>102</x>
+      <y>402</y>
+      <w>156</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+throw SummarySheetException</panel_attributes>
+    <additional_attributes>10.0;20.0;240.0;20.0</additional_attributes>
   </element>
 </diagram>
