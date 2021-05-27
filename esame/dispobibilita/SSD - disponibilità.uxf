@@ -4,8 +4,8 @@
   <element>
     <id>UMLActor</id>
     <coordinates>
-      <x>44</x>
-      <y>0</y>
+      <x>286</x>
+      <y>33</y>
       <w>110</w>
       <h>121</h>
     </coordinates>
@@ -15,8 +15,8 @@
   <element>
     <id>UMLDeployment</id>
     <coordinates>
-      <x>616</x>
-      <y>22</y>
+      <x>858</x>
+      <y>55</y>
       <w>121</w>
       <h>55</h>
     </coordinates>
@@ -26,8 +26,8 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>88</x>
-      <y>143</y>
+      <x>330</x>
+      <y>176</y>
       <w>605</w>
       <h>55</h>
     </coordinates>
@@ -39,8 +39,8 @@ Disponibilità registrate
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>88</x>
-      <y>110</y>
+      <x>330</x>
+      <y>143</y>
       <w>605</w>
       <h>44</h>
     </coordinates>
@@ -51,8 +51,8 @@ Disponibilità registrate
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>88</x>
-      <y>99</y>
+      <x>330</x>
+      <y>132</y>
       <w>33</w>
       <h>121</h>
     </coordinates>
@@ -62,8 +62,8 @@ Disponibilità registrate
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>660</x>
-      <y>88</y>
+      <x>902</x>
+      <y>121</y>
       <w>33</w>
       <h>132</h>
     </coordinates>
@@ -73,8 +73,8 @@ Disponibilità registrate
   <element>
     <id>UMLActor</id>
     <coordinates>
-      <x>44</x>
-      <y>297</y>
+      <x>286</x>
+      <y>330</y>
       <w>110</w>
       <h>121</h>
     </coordinates>
@@ -84,8 +84,8 @@ Disponibilità registrate
   <element>
     <id>UMLDeployment</id>
     <coordinates>
-      <x>605</x>
-      <y>352</y>
+      <x>847</x>
+      <y>385</y>
       <w>121</w>
       <h>55</h>
     </coordinates>
@@ -95,8 +95,8 @@ Disponibilità registrate
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>88</x>
-      <y>396</y>
+      <x>330</x>
+      <y>429</y>
       <w>33</w>
       <h>506</h>
     </coordinates>
@@ -106,8 +106,8 @@ Disponibilità registrate
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>660</x>
-      <y>396</y>
+      <x>902</x>
+      <y>429</y>
       <w>33</w>
       <h>506</h>
     </coordinates>
@@ -117,8 +117,8 @@ Disponibilità registrate
   <element>
     <id>UMLNote</id>
     <coordinates>
-      <x>286</x>
-      <y>253</y>
+      <x>528</x>
+      <y>286</y>
       <w>220</w>
       <h>55</h>
     </coordinates>
@@ -130,8 +130,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>88</x>
-      <y>473</y>
+      <x>330</x>
+      <y>506</y>
       <w>605</w>
       <h>55</h>
     </coordinates>
@@ -143,8 +143,8 @@ Disponibilità registrate
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>88</x>
-      <y>429</y>
+      <x>330</x>
+      <y>462</y>
       <w>605</w>
       <h>44</h>
     </coordinates>
@@ -155,8 +155,8 @@ Disponibilità registrate
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>33</x>
-      <y>418</y>
+      <x>275</x>
+      <y>451</y>
       <w>693</w>
       <h>451</h>
     </coordinates>
@@ -182,8 +182,8 @@ lw=2
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>44</x>
-      <y>462</y>
+      <x>286</x>
+      <y>495</y>
       <w>660</w>
       <h>165</h>
     </coordinates>
@@ -203,8 +203,8 @@ layer=0</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>88</x>
-      <y>528</y>
+      <x>330</x>
+      <y>561</y>
       <w>605</w>
       <h>55</h>
     </coordinates>
@@ -217,8 +217,8 @@ fg=red
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>660</x>
-      <y>539</y>
+      <x>902</x>
+      <y>572</y>
       <w>22</w>
       <h>22</h>
     </coordinates>
@@ -230,33 +230,33 @@ lw=2</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>88</x>
-      <y>704</y>
+      <x>330</x>
+      <y>737</y>
       <w>605</w>
       <h>55</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
-Eliminazione disponibilità registrate
+Eliminazione disponibilità
 </panel_attributes>
     <additional_attributes>10.0;20.0;530.0;20.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>88</x>
-      <y>660</y>
+      <x>330</x>
+      <y>693</y>
       <w>605</w>
       <h>44</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;&gt;
-1a.1 Elimina le disponibilità (insieme di turni, periodo?, ricorrenza?)</panel_attributes>
+1a.1 Elimina le disponibilità (insieme di turni, periodo?)</panel_attributes>
     <additional_attributes>10.0;20.0;530.0;20.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>88</x>
-      <y>759</y>
+      <x>330</x>
+      <y>792</y>
       <w>605</w>
       <h>55</h>
     </coordinates>
@@ -269,8 +269,8 @@ fg=red
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>44</x>
-      <y>693</y>
+      <x>286</x>
+      <y>726</y>
       <w>660</w>
       <h>165</h>
     </coordinates>
@@ -290,8 +290,8 @@ layer=0</panel_attributes>
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>660</x>
-      <y>770</y>
+      <x>902</x>
+      <y>803</y>
       <w>22</w>
       <h>22</h>
     </coordinates>
@@ -303,8 +303,8 @@ lw=2</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>88</x>
-      <y>583</y>
+      <x>330</x>
+      <y>616</y>
       <w>605</w>
       <h>55</h>
     </coordinates>
@@ -317,8 +317,8 @@ fg=red
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>660</x>
-      <y>594</y>
+      <x>902</x>
+      <y>627</y>
       <w>22</w>
       <h>22</h>
     </coordinates>
@@ -330,8 +330,8 @@ lw=2</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>88</x>
-      <y>814</y>
+      <x>330</x>
+      <y>847</y>
       <w>605</w>
       <h>55</h>
     </coordinates>
@@ -344,8 +344,8 @@ fg=red
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>660</x>
-      <y>825</y>
+      <x>902</x>
+      <y>858</y>
       <w>22</w>
       <h>22</h>
     </coordinates>
