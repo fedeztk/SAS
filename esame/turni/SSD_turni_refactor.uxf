@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <diagram program="umlet" version="14.3.0">
-  <zoom_level>9</zoom_level>
+  <zoom_level>11</zoom_level>
   <element>
     <id>UMLActor</id>
     <coordinates>
-      <x>18</x>
-      <y>72</y>
-      <w>108</w>
-      <h>99</h>
+      <x>22</x>
+      <y>176</y>
+      <w>132</w>
+      <h>121</h>
     </coordinates>
     <panel_attributes>Organizzatore</panel_attributes>
     <additional_attributes/>
@@ -15,10 +15,10 @@
   <element>
     <id>UMLDeployment</id>
     <coordinates>
-      <x>396</x>
-      <y>117</y>
-      <w>99</w>
-      <h>45</h>
+      <x>484</x>
+      <y>231</y>
+      <w>121</w>
+      <h>55</h>
     </coordinates>
     <panel_attributes>Sistema</panel_attributes>
     <additional_attributes/>
@@ -26,10 +26,10 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>63</x>
-      <y>162</y>
-      <w>27</w>
-      <h>351</h>
+      <x>77</x>
+      <y>286</y>
+      <w>33</w>
+      <h>429</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;370.0</additional_attributes>
@@ -37,10 +37,10 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>432</x>
-      <y>162</y>
-      <w>27</w>
-      <h>351</h>
+      <x>528</x>
+      <y>286</y>
+      <w>33</w>
+      <h>429</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;370.0</additional_attributes>
@@ -48,10 +48,10 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>54</x>
-      <y>171</y>
-      <w>414</w>
-      <h>36</h>
+      <x>66</x>
+      <y>297</y>
+      <w>506</w>
+      <h>44</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;&gt;
 1. Crea turni di cucina (lista di date, orario, sede?, scadenza?)</panel_attributes>
@@ -60,10 +60,10 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>63</x>
-      <y>198</y>
-      <w>396</w>
-      <h>36</h>
+      <x>77</x>
+      <y>330</y>
+      <w>484</w>
+      <h>44</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 Turno di cucina creati</panel_attributes>
@@ -72,10 +72,10 @@ Turno di cucina creati</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>63</x>
-      <y>270</y>
-      <w>396</w>
-      <h>36</h>
+      <x>77</x>
+      <y>418</y>
+      <w>484</w>
+      <h>44</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 Turni di cucina raggruppati</panel_attributes>
@@ -84,10 +84,10 @@ Turni di cucina raggruppati</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>36</x>
-      <y>243</y>
-      <w>450</w>
-      <h>36</h>
+      <x>44</x>
+      <y>385</y>
+      <w>550</w>
+      <h>44</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;&gt;
 2. Raggruppa in blocchi (lista di turni di cucina, periodo?, ricorrenza?)</panel_attributes>
@@ -96,10 +96,10 @@ Turni di cucina raggruppati</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>63</x>
-      <y>423</y>
-      <w>396</w>
-      <h>36</h>
+      <x>77</x>
+      <y>605</y>
+      <w>484</w>
+      <h>44</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;&gt;
 4. Imposta un blocco sui turni (lista di turni, scadenza)</panel_attributes>
@@ -108,10 +108,10 @@ Turni di cucina raggruppati</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>63</x>
-      <y>450</y>
-      <w>396</w>
-      <h>36</h>
+      <x>77</x>
+      <y>638</y>
+      <w>484</w>
+      <h>44</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 Blocco impostato</panel_attributes>
@@ -121,9 +121,9 @@ Blocco impostato</panel_attributes>
     <id>UMLFrame</id>
     <coordinates>
       <x>0</x>
-      <y>234</y>
-      <w>504</w>
-      <h>81</h>
+      <y>374</y>
+      <w>616</w>
+      <h>99</h>
     </coordinates>
     <panel_attributes>OPT
 fg=#128C86
@@ -134,115 +134,10 @@ bg=#B8E0E0</panel_attributes>
     <id>UMLFrame</id>
     <coordinates>
       <x>0</x>
-      <y>414</y>
-      <w>504</w>
-      <h>81</h>
-    </coordinates>
-    <panel_attributes>OPT
-fg=#128C86
-bg=#B8E0E0</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLActor</id>
-    <coordinates>
-      <x>1917</x>
-      <y>63</y>
-      <w>108</w>
+      <y>594</y>
+      <w>616</w>
       <h>99</h>
     </coordinates>
-    <panel_attributes>Organizzatore</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLDeployment</id>
-    <coordinates>
-      <x>2295</x>
-      <y>108</y>
-      <w>99</w>
-      <h>45</h>
-    </coordinates>
-    <panel_attributes>Sistema</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>1971</x>
-      <y>153</y>
-      <w>27</w>
-      <h>540</h>
-    </coordinates>
-    <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;580.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>2340</x>
-      <y>153</y>
-      <w>27</w>
-      <h>540</h>
-    </coordinates>
-    <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;580.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>1971</x>
-      <y>414</y>
-      <w>396</w>
-      <h>36</h>
-    </coordinates>
-    <panel_attributes>lt=-&gt;&gt;&gt;
-1a.2 Crea turni di servizio (lista di date, orario, scadenza?)</panel_attributes>
-    <additional_attributes>10.0;20.0;420.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>1971</x>
-      <y>369</y>
-      <w>396</w>
-      <h>36</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;.
-Restituisce gli eventi</panel_attributes>
-    <additional_attributes>10.0;20.0;420.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>1971</x>
-      <y>513</y>
-      <w>396</w>
-      <h>36</h>
-    </coordinates>
-    <panel_attributes>lt=-&gt;&gt;&gt;
-3 Programma turni (lista di turni, periodo, ricorrenza)</panel_attributes>
-    <additional_attributes>10.0;20.0;420.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>1971</x>
-      <y>540</y>
-      <w>396</w>
-      <h>36</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;.
-Turni programmati</panel_attributes>
-    <additional_attributes>10.0;20.0;420.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLFrame</id>
-    <coordinates>
-      <x>1917</x>
-      <y>333</y>
-      <w>504</w>
-      <h>72</h>
-    </coordinates>
     <panel_attributes>OPT
 fg=#128C86
 bg=#B8E0E0</panel_attributes>
@@ -251,58 +146,22 @@ bg=#B8E0E0</panel_attributes>
   <element>
     <id>UMLNote</id>
     <coordinates>
-      <x>2052</x>
-      <y>9</y>
-      <w>216</w>
-      <h>45</h>
-    </coordinates>
-    <panel_attributes>Estensione 1a (turni di servizio)
-bg=yellow</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLNote</id>
-    <coordinates>
-      <x>162</x>
-      <y>9</y>
-      <w>243</w>
-      <h>45</h>
+      <x>198</x>
+      <y>99</y>
+      <w>297</w>
+      <h>55</h>
     </coordinates>
     <panel_attributes>Scenario principale (turni di cucina)
 bg=yellow</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>1971</x>
-      <y>342</y>
-      <w>396</w>
-      <h>36</h>
-    </coordinates>
-    <panel_attributes>lt=-&gt;&gt;&gt;
-1a.1. Consulta gli eventi()</panel_attributes>
-    <additional_attributes>10.0;20.0;420.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>1971</x>
-      <y>441</y>
-      <w>396</w>
-      <h>36</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;.
-Turni di servizio creati</panel_attributes>
-    <additional_attributes>10.0;20.0;420.0;20.0</additional_attributes>
-  </element>
-  <element>
     <id>UMLActor</id>
     <coordinates>
-      <x>585</x>
-      <y>72</y>
-      <w>108</w>
-      <h>99</h>
+      <x>715</x>
+      <y>176</y>
+      <w>132</w>
+      <h>121</h>
     </coordinates>
     <panel_attributes>Organizzatore</panel_attributes>
     <additional_attributes/>
@@ -310,10 +169,10 @@ Turni di servizio creati</panel_attributes>
   <element>
     <id>UMLDeployment</id>
     <coordinates>
-      <x>1026</x>
-      <y>117</y>
-      <w>99</w>
-      <h>45</h>
+      <x>1254</x>
+      <y>231</y>
+      <w>121</w>
+      <h>55</h>
     </coordinates>
     <panel_attributes>Sistema</panel_attributes>
     <additional_attributes/>
@@ -321,32 +180,32 @@ Turni di servizio creati</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>630</x>
-      <y>162</y>
-      <w>27</w>
-      <h>819</h>
+      <x>770</x>
+      <y>286</y>
+      <w>33</w>
+      <h>1232</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;890.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;1100.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1071</x>
-      <y>153</y>
-      <w>27</w>
-      <h>828</h>
+      <x>1309</x>
+      <y>275</y>
+      <w>33</w>
+      <h>1243</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;900.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;1110.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>630</x>
-      <y>189</y>
-      <w>468</w>
-      <h>36</h>
+      <x>770</x>
+      <y>319</y>
+      <w>572</w>
+      <h>44</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;&gt;
 1. Crea turni di cucina (lista di date, durata, sede?, scadenza?)</panel_attributes>
@@ -355,10 +214,10 @@ Turni di servizio creati</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>630</x>
-      <y>225</y>
-      <w>468</w>
-      <h>36</h>
+      <x>770</x>
+      <y>363</y>
+      <w>572</w>
+      <h>44</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 Turni di cucina creati</panel_attributes>
@@ -367,34 +226,10 @@ Turni di cucina creati</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>630</x>
-      <y>738</y>
-      <w>468</w>
-      <h>36</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;.
-Turni di cucina raggruppati</panel_attributes>
-    <additional_attributes>10.0;20.0;500.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>630</x>
-      <y>711</y>
-      <w>468</w>
-      <h>36</h>
-    </coordinates>
-    <panel_attributes>lt=-&gt;&gt;&gt;
-2. Raggruppa in blocchi (lista di turni di cucina, periodo?, ricorrenza?)</panel_attributes>
-    <additional_attributes>10.0;20.0;500.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>630</x>
-      <y>801</y>
-      <w>468</w>
-      <h>36</h>
+      <x>770</x>
+      <y>1298</y>
+      <w>572</w>
+      <h>44</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;&gt;
 3. Programma turni (lista di turni, periodo, ricorrenza)</panel_attributes>
@@ -403,10 +238,10 @@ Turni di cucina raggruppati</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>630</x>
-      <y>828</y>
-      <w>468</w>
-      <h>36</h>
+      <x>770</x>
+      <y>1331</y>
+      <w>572</w>
+      <h>44</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 Turni programmati</panel_attributes>
@@ -415,23 +250,10 @@ Turni programmati</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>549</x>
-      <y>693</y>
-      <w>630</w>
-      <h>81</h>
-    </coordinates>
-    <panel_attributes>OPT
-fg=#128C86
-bg=#B8E0E0</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLFrame</id>
-    <coordinates>
-      <x>549</x>
-      <y>783</y>
-      <w>630</w>
-      <h>81</h>
+      <x>671</x>
+      <y>1276</y>
+      <w>770</w>
+      <h>99</h>
     </coordinates>
     <panel_attributes>OPT
 fg=#128C86
@@ -441,72 +263,73 @@ bg=#B8E0E0</panel_attributes>
   <element>
     <id>UMLNote</id>
     <coordinates>
-      <x>756</x>
-      <y>18</y>
-      <w>234</w>
-      <h>63</h>
+      <x>924</x>
+      <y>110</y>
+      <w>286</w>
+      <h>77</h>
     </coordinates>
-    <panel_attributes>Estensioni 1b, 1c
+    <panel_attributes>Estensione 1a, 1b, 1c
 Eccezione 1a, 1b.1a, 1b.1b, 1c.1a
+Eccezione 1a.2a (da aggiungere in UC)
 bg=yellow</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>630</x>
-      <y>324</y>
-      <w>468</w>
-      <h>45</h>
+      <x>770</x>
+      <y>825</y>
+      <w>572</w>
+      <h>55</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;&gt;
-1b.1 Modifica turni di cucina (lista di turni di cucina,
+1b.1 Modifica turni (lista di turni,
 data?, orario?, sede?, scadenza?, periodo?)</panel_attributes>
     <additional_attributes>10.0;20.0;500.0;20.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>630</x>
-      <y>369</y>
-      <w>468</w>
-      <h>36</h>
+      <x>770</x>
+      <y>880</y>
+      <w>572</w>
+      <h>44</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
-Turni di cucina modificati</panel_attributes>
+Turni modificati</panel_attributes>
     <additional_attributes>10.0;20.0;500.0;20.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>630</x>
-      <y>540</y>
-      <w>468</w>
-      <h>36</h>
+      <x>770</x>
+      <y>1100</y>
+      <w>572</w>
+      <h>44</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;&gt;
-1c.1 Elimina turni di cucina (lista di turni di cucina, periodo?)</panel_attributes>
+1c.1 Elimina turni (lista di turni, periodo?)</panel_attributes>
     <additional_attributes>10.0;20.0;500.0;20.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>630</x>
-      <y>576</y>
-      <w>468</w>
-      <h>36</h>
+      <x>770</x>
+      <y>1144</y>
+      <w>572</w>
+      <h>44</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
-Turni di cucina eliminati</panel_attributes>
+Turni eliminati</panel_attributes>
     <additional_attributes>10.0;20.0;500.0;20.0</additional_attributes>
   </element>
   <element>
     <id>UMLActor</id>
     <coordinates>
-      <x>1269</x>
-      <y>81</y>
-      <w>108</w>
-      <h>99</h>
+      <x>1551</x>
+      <y>187</y>
+      <w>132</w>
+      <h>121</h>
     </coordinates>
     <panel_attributes>Organizzatore</panel_attributes>
     <additional_attributes/>
@@ -514,10 +337,10 @@ Turni di cucina eliminati</panel_attributes>
   <element>
     <id>UMLDeployment</id>
     <coordinates>
-      <x>1683</x>
-      <y>126</y>
-      <w>99</w>
-      <h>45</h>
+      <x>2057</x>
+      <y>242</y>
+      <w>121</w>
+      <h>55</h>
     </coordinates>
     <panel_attributes>Sistema</panel_attributes>
     <additional_attributes/>
@@ -525,10 +348,10 @@ Turni di cucina eliminati</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1350</x>
-      <y>171</y>
-      <w>27</w>
-      <h>594</h>
+      <x>1650</x>
+      <y>297</y>
+      <w>33</w>
+      <h>726</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;640.0</additional_attributes>
@@ -536,10 +359,10 @@ Turni di cucina eliminati</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1719</x>
-      <y>171</y>
-      <w>27</w>
-      <h>594</h>
+      <x>2101</x>
+      <y>297</y>
+      <w>33</w>
+      <h>726</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;640.0</additional_attributes>
@@ -547,10 +370,10 @@ Turni di cucina eliminati</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1341</x>
-      <y>180</y>
-      <w>414</w>
-      <h>36</h>
+      <x>1639</x>
+      <y>308</y>
+      <w>506</w>
+      <h>44</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;&gt;
 1. Crea turni di cucina (lista di date, durata, sede?, scadenza?)</panel_attributes>
@@ -559,10 +382,10 @@ Turni di cucina eliminati</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1350</x>
-      <y>207</y>
-      <w>396</w>
-      <h>36</h>
+      <x>1650</x>
+      <y>341</y>
+      <w>484</w>
+      <h>44</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 Turni di cucina creati</panel_attributes>
@@ -571,10 +394,10 @@ Turni di cucina creati</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1350</x>
-      <y>315</y>
-      <w>396</w>
-      <h>36</h>
+      <x>1650</x>
+      <y>473</y>
+      <w>484</w>
+      <h>44</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 Turni di cucina raggruppati</panel_attributes>
@@ -583,10 +406,10 @@ Turni di cucina raggruppati</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1323</x>
-      <y>279</y>
-      <w>450</w>
-      <h>36</h>
+      <x>1617</x>
+      <y>429</y>
+      <w>550</w>
+      <h>44</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;&gt;
 2. Raggruppa in blocchi (lista di turni di cucina, periodo?, ricorrenza?)</panel_attributes>
@@ -595,10 +418,10 @@ Turni di cucina raggruppati</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1350</x>
-      <y>585</y>
-      <w>396</w>
-      <h>36</h>
+      <x>1650</x>
+      <y>803</y>
+      <w>484</w>
+      <h>44</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;&gt;
 3. Programma turni (lista di turni, periodo, ricorrenza)</panel_attributes>
@@ -607,10 +430,10 @@ Turni di cucina raggruppati</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1350</x>
-      <y>612</y>
-      <w>396</w>
-      <h>36</h>
+      <x>1650</x>
+      <y>836</y>
+      <w>484</w>
+      <h>44</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 Turni di cucina programmati</panel_attributes>
@@ -619,10 +442,10 @@ Turni di cucina programmati</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>1278</x>
-      <y>243</y>
-      <w>531</w>
-      <h>324</h>
+      <x>1562</x>
+      <y>385</y>
+      <w>649</w>
+      <h>396</h>
     </coordinates>
     <panel_attributes>OPT
 fg=#128C86
@@ -632,10 +455,10 @@ bg=#B8E0E0</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>1278</x>
-      <y>576</y>
-      <w>531</w>
-      <h>81</h>
+      <x>1562</x>
+      <y>792</y>
+      <w>649</w>
+      <h>99</h>
     </coordinates>
     <panel_attributes>OPT
 fg=#128C86
@@ -645,10 +468,10 @@ bg=#B8E0E0</panel_attributes>
   <element>
     <id>UMLNote</id>
     <coordinates>
-      <x>1449</x>
-      <y>18</y>
-      <w>243</w>
-      <h>45</h>
+      <x>1771</x>
+      <y>110</y>
+      <w>297</w>
+      <h>55</h>
     </coordinates>
     <panel_attributes>Estensione 2a, 2b
 Eccezione 2a
@@ -658,10 +481,10 @@ bg=yellow</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>1314</x>
-      <y>306</y>
-      <w>459</w>
-      <h>81</h>
+      <x>1606</x>
+      <y>462</y>
+      <w>561</w>
+      <h>99</h>
     </coordinates>
     <panel_attributes>ALT
 bg=#ffaaaa
@@ -675,10 +498,10 @@ layer=1</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1314</x>
-      <y>360</y>
-      <w>468</w>
-      <h>45</h>
+      <x>1606</x>
+      <y>528</y>
+      <w>572</w>
+      <h>55</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 fg=red
@@ -689,10 +512,10 @@ fg=red
   <element>
     <id>UMLActor</id>
     <coordinates>
-      <x>3132</x>
-      <y>90</y>
-      <w>108</w>
-      <h>99</h>
+      <x>2343</x>
+      <y>220</y>
+      <w>132</w>
+      <h>121</h>
     </coordinates>
     <panel_attributes>Organizzatore</panel_attributes>
     <additional_attributes/>
@@ -700,10 +523,10 @@ fg=red
   <element>
     <id>UMLDeployment</id>
     <coordinates>
-      <x>3528</x>
-      <y>135</y>
-      <w>99</w>
-      <h>45</h>
+      <x>2827</x>
+      <y>275</y>
+      <w>121</w>
+      <h>55</h>
     </coordinates>
     <panel_attributes>Sistema</panel_attributes>
     <additional_attributes/>
@@ -711,10 +534,10 @@ fg=red
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>3195</x>
-      <y>180</y>
-      <w>27</w>
-      <h>414</h>
+      <x>2420</x>
+      <y>330</y>
+      <w>33</w>
+      <h>506</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;440.0</additional_attributes>
@@ -722,10 +545,10 @@ fg=red
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>3564</x>
-      <y>180</y>
-      <w>27</w>
-      <h>414</h>
+      <x>2871</x>
+      <y>330</y>
+      <w>33</w>
+      <h>506</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;440.0</additional_attributes>
@@ -733,10 +556,10 @@ fg=red
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>3195</x>
-      <y>189</y>
-      <w>396</w>
-      <h>36</h>
+      <x>2420</x>
+      <y>341</y>
+      <w>484</w>
+      <h>44</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;&gt;
 1. Crea turni di cucina (lista di date, durata, sede?)</panel_attributes>
@@ -745,10 +568,10 @@ fg=red
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>3195</x>
-      <y>216</y>
-      <w>396</w>
-      <h>36</h>
+      <x>2420</x>
+      <y>374</y>
+      <w>484</w>
+      <h>44</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 Turni di cucina creati</panel_attributes>
@@ -757,10 +580,10 @@ Turni di cucina creati</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>3195</x>
-      <y>297</y>
-      <w>396</w>
-      <h>36</h>
+      <x>2420</x>
+      <y>473</y>
+      <w>484</w>
+      <h>44</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 Turni di cucina raggruppati</panel_attributes>
@@ -769,10 +592,10 @@ Turni di cucina raggruppati</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>3168</x>
-      <y>261</y>
-      <w>450</w>
-      <h>36</h>
+      <x>2387</x>
+      <y>429</y>
+      <w>550</w>
+      <h>44</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;&gt;
 2. Raggruppa in blocchi (lista di turni di cucina, periodo?, ricorrenza?)</panel_attributes>
@@ -781,10 +604,10 @@ Turni di cucina raggruppati</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>3195</x>
-      <y>351</y>
-      <w>396</w>
-      <h>36</h>
+      <x>2420</x>
+      <y>539</y>
+      <w>484</w>
+      <h>44</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;&gt;
 3. Programma turni (lista di turni, periodo, ricorrenza)</panel_attributes>
@@ -793,10 +616,10 @@ Turni di cucina raggruppati</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>3195</x>
-      <y>387</y>
-      <w>396</w>
-      <h>36</h>
+      <x>2420</x>
+      <y>583</y>
+      <w>484</w>
+      <h>44</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 Turni programmati</panel_attributes>
@@ -805,10 +628,10 @@ Turni programmati</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>3132</x>
-      <y>252</y>
-      <w>531</w>
-      <h>81</h>
+      <x>2343</x>
+      <y>418</y>
+      <w>649</w>
+      <h>99</h>
     </coordinates>
     <panel_attributes>OPT
 fg=#128C86
@@ -818,10 +641,10 @@ bg=#B8E0E0</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>3132</x>
-      <y>342</y>
-      <w>531</w>
-      <h>135</h>
+      <x>2343</x>
+      <y>528</y>
+      <w>649</w>
+      <h>165</h>
     </coordinates>
     <panel_attributes>OPT
 fg=#128C86
@@ -831,10 +654,10 @@ bg=#B8E0E0</panel_attributes>
   <element>
     <id>UMLNote</id>
     <coordinates>
-      <x>3294</x>
-      <y>27</y>
-      <w>243</w>
-      <h>45</h>
+      <x>2541</x>
+      <y>143</y>
+      <w>297</w>
+      <h>55</h>
     </coordinates>
     <panel_attributes>Eccezione 3a
 bg=yellow</panel_attributes>
@@ -843,10 +666,10 @@ bg=yellow</panel_attributes>
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>1719</x>
-      <y>369</y>
-      <w>18</w>
-      <h>18</h>
+      <x>2101</x>
+      <y>539</y>
+      <w>22</w>
+      <h>22</h>
     </coordinates>
     <panel_attributes>type=termination
 fg=red
@@ -857,10 +680,10 @@ layer=3</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>3141</x>
-      <y>378</y>
-      <w>513</w>
-      <h>90</h>
+      <x>2354</x>
+      <y>572</y>
+      <w>627</w>
+      <h>110</h>
     </coordinates>
     <panel_attributes>ALT
 bg=#ffaaaa
@@ -877,10 +700,10 @@ layer=0</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>3132</x>
-      <y>423</y>
-      <w>522</w>
-      <h>45</h>
+      <x>2343</x>
+      <y>627</y>
+      <w>638</w>
+      <h>55</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 fg=red
@@ -891,24 +714,24 @@ fg=red
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>594</x>
-      <y>414</y>
-      <w>540</w>
-      <h>45</h>
+      <x>770</x>
+      <y>935</y>
+      <w>572</w>
+      <h>55</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 fg=red
-1b.1a.1 Notifica che esiste già un turno di cucina con le caratteristiche specificate
+1b.1a.1 Notifica che esiste già un turno con le caratteristiche specificate
 </panel_attributes>
-    <additional_attributes>50.0;20.0;540.0;20.0</additional_attributes>
+    <additional_attributes>10.0;20.0;500.0;20.0</additional_attributes>
   </element>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>576</x>
-      <y>360</y>
-      <w>540</w>
-      <h>162</h>
+      <x>704</x>
+      <y>869</y>
+      <w>660</w>
+      <h>198</h>
     </coordinates>
     <panel_attributes>ALT
 bg=#ffaaaa
@@ -927,10 +750,10 @@ layer=0</panel_attributes>
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>1071</x>
-      <y>423</y>
-      <w>18</w>
-      <h>18</h>
+      <x>1309</x>
+      <y>946</y>
+      <w>22</w>
+      <h>22</h>
     </coordinates>
     <panel_attributes>type=termination
 fg=red
@@ -940,24 +763,25 @@ lw=2</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>603</x>
-      <y>270</y>
-      <w>522</w>
-      <h>45</h>
+      <x>770</x>
+      <y>407</y>
+      <w>572</w>
+      <h>66</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 fg=red
-1a.1 Notifica che esiste già un turno di cucina con le caratteristiche specificate
+1a.1 Notifica che esiste già un turno
+di cucina con le caratteristiche specificate
 </panel_attributes>
-    <additional_attributes>40.0;20.0;530.0;20.0</additional_attributes>
+    <additional_attributes>10.0;20.0;500.0;20.0</additional_attributes>
   </element>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>576</x>
-      <y>216</y>
-      <w>540</w>
-      <h>81</h>
+      <x>704</x>
+      <y>352</y>
+      <w>660</w>
+      <h>99</h>
     </coordinates>
     <panel_attributes>ALT
 bg=#ffaaaa
@@ -971,10 +795,10 @@ layer=0</panel_attributes>
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>1071</x>
-      <y>279</y>
-      <w>18</w>
-      <h>18</h>
+      <x>1309</x>
+      <y>418</y>
+      <w>22</w>
+      <h>22</h>
     </coordinates>
     <panel_attributes>type=termination
 fg=red
@@ -984,16 +808,36 @@ lw=2</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>549</x>
-      <y>171</y>
-      <w>630</w>
-      <h>513</h>
+      <x>671</x>
+      <y>297</y>
+      <w>770</w>
+      <h>968</h>
     </coordinates>
     <panel_attributes>ALT
 fg=#761C8C
 bg=#e7bfff
 lw=2
 --
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-.
+
+
+
+
+
 
 
 
@@ -1025,9 +869,9 @@ lw=2
     <id>UMLFrame</id>
     <coordinates>
       <x>0</x>
-      <y>324</y>
-      <w>504</w>
-      <h>81</h>
+      <y>484</y>
+      <w>616</w>
+      <h>99</h>
     </coordinates>
     <panel_attributes>OPT
 fg=#128C86
@@ -1037,10 +881,10 @@ bg=#B8E0E0</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>63</x>
-      <y>333</y>
-      <w>396</w>
-      <h>36</h>
+      <x>77</x>
+      <y>495</y>
+      <w>484</w>
+      <h>44</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;&gt;
 3. Programma turni (lista di turni, periodo, ricorrenza)</panel_attributes>
@@ -1049,10 +893,10 @@ bg=#B8E0E0</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>63</x>
-      <y>360</y>
-      <w>396</w>
-      <h>36</h>
+      <x>77</x>
+      <y>528</y>
+      <w>484</w>
+      <h>44</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 Turni programmati</panel_attributes>
@@ -1061,10 +905,10 @@ Turni programmati</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>576</x>
-      <y>576</y>
-      <w>540</w>
-      <h>90</h>
+      <x>704</x>
+      <y>1144</y>
+      <w>660</w>
+      <h>110</h>
     </coordinates>
     <panel_attributes>ALT
 bg=#ffaaaa
@@ -1078,23 +922,121 @@ layer=0</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>630</x>
-      <y>630</y>
-      <w>468</w>
-      <h>36</h>
+      <x>770</x>
+      <y>1210</y>
+      <w>572</w>
+      <h>44</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 fg=red
-1c.1a.1 Notifica che il turno di cucina ha già delle disponibilità</panel_attributes>
+1c.1a.1 Notifica che il turno ha già delle disponibilità</panel_attributes>
+    <additional_attributes>10.0;20.0;500.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>770</x>
+      <y>1408</y>
+      <w>572</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+4. Imposta un blocco sui turni (lista di turni, scadenza)</panel_attributes>
+    <additional_attributes>10.0;20.0;500.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>770</x>
+      <y>1441</y>
+      <w>572</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+Blocco impostato</panel_attributes>
     <additional_attributes>10.0;20.0;500.0;20.0</additional_attributes>
   </element>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>1908</x>
-      <y>495</y>
-      <w>522</w>
-      <h>81</h>
+      <x>671</x>
+      <y>1397</y>
+      <w>770</w>
+      <h>99</h>
+    </coordinates>
+    <panel_attributes>OPT
+fg=#128C86
+bg=#B8E0E0</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1650</x>
+      <y>913</y>
+      <w>484</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+4. Imposta un blocco sui turni (lista di turni, scadenza)</panel_attributes>
+    <additional_attributes>10.0;20.0;420.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1650</x>
+      <y>946</y>
+      <w>484</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+Blocco impostato</panel_attributes>
+    <additional_attributes>10.0;20.0;420.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>1562</x>
+      <y>902</y>
+      <w>649</w>
+      <h>99</h>
+    </coordinates>
+    <panel_attributes>OPT
+fg=#128C86
+bg=#B8E0E0</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2420</x>
+      <y>715</y>
+      <w>484</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+4. Imposta un blocco sui turni (lista di turni, scadenza)</panel_attributes>
+    <additional_attributes>10.0;20.0;420.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2420</x>
+      <y>748</y>
+      <w>484</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+Blocco impostato</panel_attributes>
+    <additional_attributes>10.0;20.0;420.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>2343</x>
+      <y>704</y>
+      <w>649</w>
+      <h>99</h>
     </coordinates>
     <panel_attributes>OPT
 fg=#128C86
@@ -1104,10 +1046,10 @@ bg=#B8E0E0</panel_attributes>
   <element>
     <id>UMLActor</id>
     <coordinates>
-      <x>2529</x>
-      <y>45</y>
-      <w>108</w>
-      <h>99</h>
+      <x>3113</x>
+      <y>220</y>
+      <w>132</w>
+      <h>121</h>
     </coordinates>
     <panel_attributes>Organizzatore</panel_attributes>
     <additional_attributes/>
@@ -1115,10 +1057,10 @@ bg=#B8E0E0</panel_attributes>
   <element>
     <id>UMLDeployment</id>
     <coordinates>
-      <x>2925</x>
-      <y>72</y>
-      <w>99</w>
-      <h>45</h>
+      <x>3608</x>
+      <y>275</y>
+      <w>121</w>
+      <h>55</h>
     </coordinates>
     <panel_attributes>Sistema</panel_attributes>
     <additional_attributes/>
@@ -1126,480 +1068,10 @@ bg=#B8E0E0</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>2574</x>
-      <y>126</y>
-      <w>27</w>
-      <h>792</h>
-    </coordinates>
-    <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;860.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>2970</x>
-      <y>117</y>
-      <w>27</w>
-      <h>801</h>
-    </coordinates>
-    <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;870.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>2574</x>
-      <y>342</y>
-      <w>423</w>
-      <h>36</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;.
-Restituisce gli eventi</panel_attributes>
-    <additional_attributes>10.0;20.0;450.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>2574</x>
-      <y>738</y>
-      <w>423</w>
-      <h>36</h>
-    </coordinates>
-    <panel_attributes>lt=-&gt;&gt;&gt;
-3 Programma turni (lista di turni, periodo, ricorrenza)</panel_attributes>
-    <additional_attributes>10.0;20.0;450.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>2574</x>
-      <y>765</y>
-      <w>423</w>
-      <h>36</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;.
-Turni programmati</panel_attributes>
-    <additional_attributes>10.0;20.0;450.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLFrame</id>
-    <coordinates>
-      <x>2493</x>
-      <y>729</y>
-      <w>576</w>
-      <h>81</h>
-    </coordinates>
-    <panel_attributes>OPT
-fg=#128C86
-bg=#B8E0E0</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>2574</x>
-      <y>315</y>
-      <w>423</w>
-      <h>36</h>
-    </coordinates>
-    <panel_attributes>lt=-&gt;&gt;&gt;
-1a.1. Consulta gli eventi()</panel_attributes>
-    <additional_attributes>10.0;20.0;450.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLNote</id>
-    <coordinates>
-      <x>2664</x>
-      <y>9</y>
-      <w>234</w>
-      <h>45</h>
-    </coordinates>
-    <panel_attributes>Estensione 1a.2a, 1a.2b 
-Eccezione 1a.2a.1a, 1a.2b.1a 
-bg=yellow</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>2583</x>
-      <y>414</y>
-      <w>414</w>
-      <h>36</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;.
-Turni di servizio creati</panel_attributes>
-    <additional_attributes>10.0;20.0;440.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLFrame</id>
-    <coordinates>
-      <x>2511</x>
-      <y>378</y>
-      <w>513</w>
-      <h>333</h>
-    </coordinates>
-    <panel_attributes>ALT
-fg=#761C8C
-bg=#e7bfff
-lw=2
---
-
-
-
--.
-
-
-
-
-
-
-
-
-
--.
-layer=1</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>2574</x>
-      <y>459</y>
-      <w>423</w>
-      <h>45</h>
-    </coordinates>
-    <panel_attributes>lt=-&gt;&gt;&gt;
-1a.2a.1 Modifica turni di servizio (lista di turni di servizio, 
-data?, orario?, scadenza?, periodo?)</panel_attributes>
-    <additional_attributes>10.0;20.0;450.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>2574</x>
-      <y>504</y>
-      <w>423</w>
-      <h>36</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;.
-Turni di servizio modificati</panel_attributes>
-    <additional_attributes>10.0;20.0;450.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>2565</x>
-      <y>594</y>
-      <w>441</w>
-      <h>36</h>
-    </coordinates>
-    <panel_attributes>lt=-&gt;&gt;&gt;
-1a.2b.1 Elimina turni di servizio (lista di turni di servizio, periodo?)</panel_attributes>
-    <additional_attributes>20.0;20.0;460.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>2574</x>
-      <y>387</y>
-      <w>423</w>
-      <h>36</h>
-    </coordinates>
-    <panel_attributes>lt=-&gt;&gt;&gt;
-1a.2 Crea turni di servizio (lista di date, orario, scadenza?)</panel_attributes>
-    <additional_attributes>10.0;20.0;450.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>2574</x>
-      <y>630</y>
-      <w>423</w>
-      <h>36</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;.
-Turni di servizio eliminati</panel_attributes>
-    <additional_attributes>10.0;20.0;450.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLFrame</id>
-    <coordinates>
-      <x>2529</x>
-      <y>495</y>
-      <w>468</w>
-      <h>81</h>
-    </coordinates>
-    <panel_attributes>ALT
-bg=#ffaaaa
---
-
--.
-fg=#D3001B
-layer=0</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>2565</x>
-      <y>540</y>
-      <w>441</w>
-      <h>54</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;.
-fg=red
-1a.2a.1a.1 Notifica che il turno di servizio ha già delle disponibilità
-
-</panel_attributes>
-    <additional_attributes>20.0;20.0;460.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLFrame</id>
-    <coordinates>
-      <x>2538</x>
-      <y>621</y>
-      <w>468</w>
-      <h>81</h>
-    </coordinates>
-    <panel_attributes>ALT
-bg=#ffaaaa
---
-
--.
-fg=#D3001B
-layer=0</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>2565</x>
-      <y>666</y>
-      <w>441</w>
-      <h>54</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;.
-fg=red
-1a.2b.1a.1 Notifica che il turno di servizio ha già delle disponibilità
-
-</panel_attributes>
-    <additional_attributes>20.0;20.0;460.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>630</x>
-      <y>891</y>
-      <w>468</w>
-      <h>36</h>
-    </coordinates>
-    <panel_attributes>lt=-&gt;&gt;&gt;
-4. Imposta un blocco sui turni (lista di turni, scadenza)</panel_attributes>
-    <additional_attributes>10.0;20.0;500.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>630</x>
-      <y>918</y>
-      <w>468</w>
-      <h>36</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;.
-Blocco impostato</panel_attributes>
-    <additional_attributes>10.0;20.0;500.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLFrame</id>
-    <coordinates>
-      <x>549</x>
-      <y>882</y>
-      <w>630</w>
-      <h>81</h>
-    </coordinates>
-    <panel_attributes>OPT
-fg=#128C86
-bg=#B8E0E0</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>1350</x>
-      <y>675</y>
-      <w>396</w>
-      <h>36</h>
-    </coordinates>
-    <panel_attributes>lt=-&gt;&gt;&gt;
-4. Imposta un blocco sui turni (lista di turni, scadenza)</panel_attributes>
-    <additional_attributes>10.0;20.0;420.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>1350</x>
-      <y>702</y>
-      <w>396</w>
-      <h>36</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;.
-Blocco impostato</panel_attributes>
-    <additional_attributes>10.0;20.0;420.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLFrame</id>
-    <coordinates>
-      <x>1278</x>
-      <y>666</y>
-      <w>531</w>
-      <h>81</h>
-    </coordinates>
-    <panel_attributes>OPT
-fg=#128C86
-bg=#B8E0E0</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>3195</x>
-      <y>495</y>
-      <w>396</w>
-      <h>36</h>
-    </coordinates>
-    <panel_attributes>lt=-&gt;&gt;&gt;
-4. Imposta un blocco sui turni (lista di turni, scadenza)</panel_attributes>
-    <additional_attributes>10.0;20.0;420.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>3195</x>
-      <y>522</y>
-      <w>396</w>
-      <h>36</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;.
-Blocco impostato</panel_attributes>
-    <additional_attributes>10.0;20.0;420.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLFrame</id>
-    <coordinates>
-      <x>3132</x>
-      <y>486</y>
-      <w>531</w>
-      <h>81</h>
-    </coordinates>
-    <panel_attributes>OPT
-fg=#128C86
-bg=#B8E0E0</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>1971</x>
-      <y>603</y>
-      <w>396</w>
-      <h>36</h>
-    </coordinates>
-    <panel_attributes>lt=-&gt;&gt;&gt;
-4 Imposta un blocco sui turni (lista di turni, scadenza)</panel_attributes>
-    <additional_attributes>10.0;20.0;420.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>1971</x>
-      <y>630</y>
-      <w>396</w>
-      <h>36</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;.
-Blocco impostato</panel_attributes>
-    <additional_attributes>10.0;20.0;420.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLFrame</id>
-    <coordinates>
-      <x>1908</x>
-      <y>594</y>
-      <w>522</w>
-      <h>81</h>
-    </coordinates>
-    <panel_attributes>OPT
-fg=#128C86
-bg=#B8E0E0</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>2574</x>
-      <y>828</y>
-      <w>423</w>
-      <h>36</h>
-    </coordinates>
-    <panel_attributes>lt=-&gt;&gt;&gt;
-4 Imposta un blocco sui turni (lista di turni, scadenza)</panel_attributes>
-    <additional_attributes>10.0;20.0;450.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>2574</x>
-      <y>855</y>
-      <w>423</w>
-      <h>36</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;.
-Blocco impostato</panel_attributes>
-    <additional_attributes>10.0;20.0;450.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLFrame</id>
-    <coordinates>
-      <x>2493</x>
-      <y>819</y>
-      <w>576</w>
-      <h>81</h>
-    </coordinates>
-    <panel_attributes>OPT
-fg=#128C86
-bg=#B8E0E0</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLActor</id>
-    <coordinates>
-      <x>3762</x>
-      <y>90</y>
-      <w>108</w>
-      <h>99</h>
-    </coordinates>
-    <panel_attributes>Organizzatore</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLDeployment</id>
-    <coordinates>
-      <x>4167</x>
-      <y>135</y>
-      <w>99</w>
-      <h>45</h>
-    </coordinates>
-    <panel_attributes>Sistema</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>3798</x>
-      <y>180</y>
-      <w>27</w>
-      <h>459</h>
+      <x>3201</x>
+      <y>330</y>
+      <w>33</w>
+      <h>561</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;490.0</additional_attributes>
@@ -1607,10 +1079,10 @@ bg=#B8E0E0</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>4167</x>
-      <y>180</y>
-      <w>27</w>
-      <h>459</h>
+      <x>3652</x>
+      <y>330</y>
+      <w>33</w>
+      <h>561</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;490.0</additional_attributes>
@@ -1618,10 +1090,10 @@ bg=#B8E0E0</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>3834</x>
-      <y>189</y>
-      <w>396</w>
-      <h>36</h>
+      <x>3201</x>
+      <y>341</y>
+      <w>484</w>
+      <h>44</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;&gt;
 1. Crea turni di cucina (lista di date, durata, sede?)</panel_attributes>
@@ -1630,10 +1102,10 @@ bg=#B8E0E0</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>3834</x>
-      <y>216</y>
-      <w>396</w>
-      <h>36</h>
+      <x>3201</x>
+      <y>374</y>
+      <w>484</w>
+      <h>44</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 Turni di cucina creati</panel_attributes>
@@ -1642,10 +1114,10 @@ Turni di cucina creati</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>3834</x>
-      <y>297</y>
-      <w>396</w>
-      <h>36</h>
+      <x>3201</x>
+      <y>473</y>
+      <w>484</w>
+      <h>44</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 Turni di cucina raggruppati</panel_attributes>
@@ -1654,10 +1126,10 @@ Turni di cucina raggruppati</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>3834</x>
-      <y>261</y>
-      <w>396</w>
-      <h>36</h>
+      <x>3201</x>
+      <y>429</y>
+      <w>484</w>
+      <h>44</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;&gt;
 2. Raggruppa in blocchi (lista di turni di cucina, ricorrenza?)</panel_attributes>
@@ -1666,10 +1138,10 @@ Turni di cucina raggruppati</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>3834</x>
-      <y>351</y>
-      <w>396</w>
-      <h>36</h>
+      <x>3201</x>
+      <y>539</y>
+      <w>484</w>
+      <h>44</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;&gt;
 3. Programma turni (lista di turni, periodo, ricorrenza)</panel_attributes>
@@ -1678,10 +1150,10 @@ Turni di cucina raggruppati</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>3834</x>
-      <y>387</y>
-      <w>396</w>
-      <h>36</h>
+      <x>3201</x>
+      <y>583</y>
+      <w>484</w>
+      <h>44</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 Turni programmati</panel_attributes>
@@ -1690,10 +1162,10 @@ Turni programmati</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>3771</x>
-      <y>252</y>
-      <w>486</w>
-      <h>81</h>
+      <x>3124</x>
+      <y>418</y>
+      <w>594</w>
+      <h>99</h>
     </coordinates>
     <panel_attributes>OPT
 fg=#128C86
@@ -1703,10 +1175,10 @@ bg=#B8E0E0</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>3771</x>
-      <y>342</y>
-      <w>486</w>
-      <h>81</h>
+      <x>3124</x>
+      <y>528</y>
+      <w>594</w>
+      <h>99</h>
     </coordinates>
     <panel_attributes>OPT
 fg=#128C86
@@ -1716,10 +1188,10 @@ bg=#B8E0E0</panel_attributes>
   <element>
     <id>UMLNote</id>
     <coordinates>
-      <x>3933</x>
-      <y>27</y>
-      <w>243</w>
-      <h>45</h>
+      <x>3322</x>
+      <y>143</y>
+      <w>297</w>
+      <h>55</h>
     </coordinates>
     <panel_attributes>Eccezione 4a
 bg=yellow</panel_attributes>
@@ -1728,10 +1200,10 @@ bg=yellow</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>3834</x>
-      <y>459</y>
-      <w>396</w>
-      <h>36</h>
+      <x>3201</x>
+      <y>671</y>
+      <w>484</w>
+      <h>44</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;&gt;
 4. Imposta un blocco sui turni (lista di turni, scadenza)</panel_attributes>
@@ -1740,10 +1212,10 @@ bg=yellow</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>3834</x>
-      <y>477</y>
-      <w>396</w>
-      <h>36</h>
+      <x>3201</x>
+      <y>693</y>
+      <w>484</w>
+      <h>44</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 Blocco impostato</panel_attributes>
@@ -1752,10 +1224,10 @@ Blocco impostato</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>3771</x>
-      <y>432</y>
-      <w>486</w>
-      <h>162</h>
+      <x>3124</x>
+      <y>638</y>
+      <w>594</w>
+      <h>198</h>
     </coordinates>
     <panel_attributes>OPT
 fg=#128C86
@@ -1765,10 +1237,10 @@ bg=#B8E0E0</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>3834</x>
-      <y>522</y>
-      <w>396</w>
-      <h>36</h>
+      <x>3201</x>
+      <y>748</y>
+      <w>484</w>
+      <h>44</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;&gt;
 4a.1 Elimina un blocco sui turni (lista di turni)</panel_attributes>
@@ -1777,10 +1249,10 @@ bg=#B8E0E0</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>3834</x>
-      <y>549</y>
-      <w>396</w>
-      <h>36</h>
+      <x>3201</x>
+      <y>781</y>
+      <w>484</w>
+      <h>44</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 Blocco eliminato</panel_attributes>
@@ -1789,10 +1261,10 @@ Blocco eliminato</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>3807</x>
-      <y>441</y>
-      <w>432</w>
-      <h>144</h>
+      <x>3168</x>
+      <y>649</y>
+      <w>528</w>
+      <h>176</h>
     </coordinates>
     <panel_attributes>ALT
 fg=#761C8C
@@ -1808,10 +1280,10 @@ lw=2
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>1296</x>
-      <y>270</y>
-      <w>504</w>
-      <h>288</h>
+      <x>1584</x>
+      <y>418</y>
+      <w>616</w>
+      <h>352</h>
     </coordinates>
     <panel_attributes>ALT
 fg=#761C8C
@@ -1838,10 +1310,10 @@ layer=1</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1350</x>
-      <y>405</y>
-      <w>396</w>
-      <h>45</h>
+      <x>1650</x>
+      <y>583</y>
+      <w>484</w>
+      <h>55</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;&gt;
 2a.1 Modifica raggruppamento in blocchi 
@@ -1851,10 +1323,10 @@ layer=1</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1350</x>
-      <y>486</y>
-      <w>396</w>
-      <h>36</h>
+      <x>1650</x>
+      <y>682</y>
+      <w>484</w>
+      <h>44</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;&gt;
 2b.1 Elimina blocco (blocco, periodo?, periodo?)</panel_attributes>
@@ -1863,10 +1335,10 @@ layer=1</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1350</x>
-      <y>441</y>
-      <w>396</w>
-      <h>36</h>
+      <x>1650</x>
+      <y>627</y>
+      <w>484</w>
+      <h>44</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 Blocco modificato</panel_attributes>
@@ -1875,10 +1347,10 @@ Blocco modificato</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1350</x>
-      <y>522</y>
-      <w>396</w>
-      <h>36</h>
+      <x>1650</x>
+      <y>726</y>
+      <w>484</w>
+      <h>44</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 Blocco eliminato</panel_attributes>
@@ -1887,24 +1359,24 @@ Blocco eliminato</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>630</x>
-      <y>477</y>
-      <w>468</w>
-      <h>45</h>
+      <x>770</x>
+      <y>1012</y>
+      <w>572</w>
+      <h>55</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 fg=red
-1b.1b.1 Notifica che il turno di cucina ha già delle disponibilità
+1b.1b.1 Notifica che il turno ha già delle disponibilità
 </panel_attributes>
     <additional_attributes>10.0;20.0;500.0;20.0</additional_attributes>
   </element>
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>1071</x>
-      <y>486</y>
-      <w>18</w>
-      <h>18</h>
+      <x>1309</x>
+      <y>1023</y>
+      <w>22</w>
+      <h>22</h>
     </coordinates>
     <panel_attributes>type=termination
 fg=red
@@ -1914,10 +1386,10 @@ lw=2</panel_attributes>
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>1071</x>
-      <y>639</y>
-      <w>18</w>
-      <h>18</h>
+      <x>1309</x>
+      <y>1221</y>
+      <w>22</w>
+      <h>22</h>
     </coordinates>
     <panel_attributes>type=termination
 fg=red
@@ -1925,98 +1397,60 @@ lw=2</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
-    <id>UMLFrame</id>
-    <coordinates>
-      <x>2511</x>
-      <y>315</y>
-      <w>513</w>
-      <h>54</h>
-    </coordinates>
-    <panel_attributes>OPT
-fg=#128C86
-bg=#B8E0E0</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLFrame</id>
-    <coordinates>
-      <x>1908</x>
-      <y>162</y>
-      <w>522</w>
-      <h>315</h>
-    </coordinates>
-    <panel_attributes>ALT
-fg=#761C8C
-bg=#e7bfff
-lw=2
---
-
-
-
-
-
-
-
-
-
--.</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
     <id>Relation</id>
     <coordinates>
-      <x>1962</x>
-      <y>180</y>
-      <w>414</w>
-      <h>36</h>
-    </coordinates>
-    <panel_attributes>lt=-&gt;&gt;&gt;
-1. Crea turni di cucina (lista di date, orario, sede?, scadenza?)</panel_attributes>
-    <additional_attributes>20.0;20.0;430.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>1971</x>
-      <y>207</y>
-      <w>396</w>
-      <h>36</h>
+      <x>770</x>
+      <y>715</y>
+      <w>572</w>
+      <h>44</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
-Turno di cucina creati</panel_attributes>
-    <additional_attributes>10.0;20.0;420.0;20.0</additional_attributes>
+Turni di servizio creati</panel_attributes>
+    <additional_attributes>10.0;20.0;500.0;20.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1971</x>
-      <y>279</y>
-      <w>396</w>
-      <h>36</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;.
-Turni di cucina raggruppati</panel_attributes>
-    <additional_attributes>10.0;20.0;420.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>1944</x>
-      <y>252</y>
-      <w>450</w>
-      <h>36</h>
+      <x>770</x>
+      <y>671</y>
+      <w>572</w>
+      <h>44</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;&gt;
-2. Raggruppa in blocchi (lista di turni di cucina, periodo?, ricorrenza?)</panel_attributes>
-    <additional_attributes>40.0;20.0;450.0;20.0</additional_attributes>
+1a.2 Crea turni di servizio (lista di date, orario, scadenza?)</panel_attributes>
+    <additional_attributes>10.0;20.0;500.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>770</x>
+      <y>627</y>
+      <w>572</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+Restituisce gli eventi</panel_attributes>
+    <additional_attributes>10.0;20.0;500.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>770</x>
+      <y>594</y>
+      <w>572</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+1a.1. Consulta gli eventi()</panel_attributes>
+    <additional_attributes>10.0;20.0;500.0;20.0</additional_attributes>
   </element>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>1917</x>
-      <y>234</y>
-      <w>504</w>
-      <h>81</h>
+      <x>704</x>
+      <y>594</y>
+      <w>660</w>
+      <h>66</h>
     </coordinates>
     <panel_attributes>OPT
 fg=#128C86
@@ -2025,90 +1459,87 @@ layer=1</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
-    <id>UMLFrame</id>
-    <coordinates>
-      <x>2493</x>
-      <y>144</y>
-      <w>576</w>
-      <h>576</h>
-    </coordinates>
-    <panel_attributes>ALT
-fg=#761C8C
-bg=#e7bfff
-lw=2
---
-
-
-
-
-
-
-
-
-
--.</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
     <id>Relation</id>
     <coordinates>
-      <x>2556</x>
-      <y>162</y>
-      <w>441</w>
-      <h>36</h>
-    </coordinates>
-    <panel_attributes>lt=-&gt;&gt;&gt;
-1. Crea turni di cucina (lista di date, orario, sede?, scadenza?)</panel_attributes>
-    <additional_attributes>10.0;20.0;470.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>2556</x>
-      <y>189</y>
-      <w>441</w>
-      <h>36</h>
+      <x>770</x>
+      <y>517</y>
+      <w>572</w>
+      <h>44</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
-Turno di cucina creati</panel_attributes>
-    <additional_attributes>10.0;20.0;470.0;20.0</additional_attributes>
+Turni di cucina raggruppati
+layer=2</panel_attributes>
+    <additional_attributes>10.0;20.0;500.0;20.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>2556</x>
-      <y>261</y>
-      <w>441</w>
-      <h>36</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;.
-Turni di cucina raggruppati</panel_attributes>
-    <additional_attributes>10.0;20.0;470.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>2547</x>
-      <y>234</y>
-      <w>459</w>
-      <h>36</h>
+      <x>770</x>
+      <y>484</y>
+      <w>572</w>
+      <h>44</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;&gt;
 2. Raggruppa in blocchi (lista di turni di cucina, periodo?, ricorrenza?)</panel_attributes>
-    <additional_attributes>20.0;20.0;480.0;20.0</additional_attributes>
+    <additional_attributes>10.0;20.0;500.0;20.0</additional_attributes>
   </element>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>2511</x>
-      <y>216</y>
-      <w>513</w>
-      <h>81</h>
+      <x>704</x>
+      <y>462</y>
+      <w>660</w>
+      <h>99</h>
     </coordinates>
     <panel_attributes>OPT
 fg=#128C86
 bg=#B8E0E0
 layer=1</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>770</x>
+      <y>759</y>
+      <w>572</w>
+      <h>66</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+fg=red
+1a.2a.1 Notifica che esiste già un turno
+di servizio con le caratteristiche specificate
+</panel_attributes>
+    <additional_attributes>10.0;20.0;500.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>704</x>
+      <y>704</y>
+      <w>660</w>
+      <h>99</h>
+    </coordinates>
+    <panel_attributes>ALT
+bg=#ffaaaa
+--
+
+-.
+fg=#D3001B
+layer=0</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>1309</x>
+      <y>770</y>
+      <w>22</w>
+      <h>22</h>
+    </coordinates>
+    <panel_attributes>type=termination
+fg=red
+lw=2</panel_attributes>
     <additional_attributes/>
   </element>
 </diagram>
