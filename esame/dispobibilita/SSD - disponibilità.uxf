@@ -4,8 +4,8 @@
   <element>
     <id>UMLActor</id>
     <coordinates>
-      <x>286</x>
-      <y>33</y>
+      <x>451</x>
+      <y>44</y>
       <w>110</w>
       <h>121</h>
     </coordinates>
@@ -15,8 +15,8 @@
   <element>
     <id>UMLDeployment</id>
     <coordinates>
-      <x>858</x>
-      <y>55</y>
+      <x>1023</x>
+      <y>66</y>
       <w>121</w>
       <h>55</h>
     </coordinates>
@@ -26,8 +26,8 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>330</x>
-      <y>176</y>
+      <x>495</x>
+      <y>187</y>
       <w>605</w>
       <h>55</h>
     </coordinates>
@@ -39,8 +39,8 @@ Disponibilità registrate
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>330</x>
-      <y>143</y>
+      <x>495</x>
+      <y>154</y>
       <w>605</w>
       <h>44</h>
     </coordinates>
@@ -51,8 +51,8 @@ Disponibilità registrate
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>330</x>
-      <y>132</y>
+      <x>495</x>
+      <y>143</y>
       <w>33</w>
       <h>121</h>
     </coordinates>
@@ -62,8 +62,8 @@ Disponibilità registrate
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>902</x>
-      <y>121</y>
+      <x>1067</x>
+      <y>132</y>
       <w>33</w>
       <h>132</h>
     </coordinates>
@@ -73,8 +73,8 @@ Disponibilità registrate
   <element>
     <id>UMLActor</id>
     <coordinates>
-      <x>286</x>
-      <y>330</y>
+      <x>451</x>
+      <y>341</y>
       <w>110</w>
       <h>121</h>
     </coordinates>
@@ -84,8 +84,8 @@ Disponibilità registrate
   <element>
     <id>UMLDeployment</id>
     <coordinates>
-      <x>847</x>
-      <y>385</y>
+      <x>1012</x>
+      <y>396</y>
       <w>121</w>
       <h>55</h>
     </coordinates>
@@ -95,8 +95,8 @@ Disponibilità registrate
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>330</x>
-      <y>429</y>
+      <x>495</x>
+      <y>440</y>
       <w>33</w>
       <h>506</h>
     </coordinates>
@@ -106,8 +106,8 @@ Disponibilità registrate
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>902</x>
-      <y>429</y>
+      <x>1067</x>
+      <y>440</y>
       <w>33</w>
       <h>506</h>
     </coordinates>
@@ -117,8 +117,8 @@ Disponibilità registrate
   <element>
     <id>UMLNote</id>
     <coordinates>
-      <x>528</x>
-      <y>286</y>
+      <x>693</x>
+      <y>297</y>
       <w>220</w>
       <h>55</h>
     </coordinates>
@@ -130,8 +130,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>330</x>
-      <y>506</y>
+      <x>495</x>
+      <y>517</y>
       <w>605</w>
       <h>55</h>
     </coordinates>
@@ -143,8 +143,8 @@ Disponibilità registrate
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>330</x>
-      <y>462</y>
+      <x>495</x>
+      <y>473</y>
       <w>605</w>
       <h>44</h>
     </coordinates>
@@ -155,8 +155,8 @@ Disponibilità registrate
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>275</x>
-      <y>451</y>
+      <x>440</x>
+      <y>462</y>
       <w>693</w>
       <h>451</h>
     </coordinates>
@@ -182,8 +182,8 @@ lw=2
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>286</x>
-      <y>495</y>
+      <x>451</x>
+      <y>506</y>
       <w>660</w>
       <h>165</h>
     </coordinates>
@@ -203,8 +203,8 @@ layer=0</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>330</x>
-      <y>561</y>
+      <x>495</x>
+      <y>572</y>
       <w>605</w>
       <h>55</h>
     </coordinates>
@@ -217,8 +217,8 @@ fg=red
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>902</x>
-      <y>572</y>
+      <x>1067</x>
+      <y>583</y>
       <w>22</w>
       <h>22</h>
     </coordinates>
@@ -230,8 +230,8 @@ lw=2</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>330</x>
-      <y>737</y>
+      <x>495</x>
+      <y>748</y>
       <w>605</w>
       <h>55</h>
     </coordinates>
@@ -243,8 +243,8 @@ Eliminazione disponibilità
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>330</x>
-      <y>693</y>
+      <x>495</x>
+      <y>704</y>
       <w>605</w>
       <h>44</h>
     </coordinates>
@@ -255,8 +255,8 @@ Eliminazione disponibilità
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>330</x>
-      <y>792</y>
+      <x>495</x>
+      <y>803</y>
       <w>605</w>
       <h>55</h>
     </coordinates>
@@ -269,8 +269,8 @@ fg=red
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>286</x>
-      <y>726</y>
+      <x>451</x>
+      <y>737</y>
       <w>660</w>
       <h>165</h>
     </coordinates>
@@ -290,8 +290,8 @@ layer=0</panel_attributes>
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>902</x>
-      <y>803</y>
+      <x>1067</x>
+      <y>814</y>
       <w>22</w>
       <h>22</h>
     </coordinates>
@@ -303,8 +303,8 @@ lw=2</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>330</x>
-      <y>616</y>
+      <x>495</x>
+      <y>627</y>
       <w>605</w>
       <h>55</h>
     </coordinates>
@@ -317,8 +317,8 @@ fg=red
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>902</x>
-      <y>627</y>
+      <x>1067</x>
+      <y>638</y>
       <w>22</w>
       <h>22</h>
     </coordinates>
@@ -330,8 +330,8 @@ lw=2</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>330</x>
-      <y>847</y>
+      <x>495</x>
+      <y>858</y>
       <w>605</w>
       <h>55</h>
     </coordinates>
@@ -344,8 +344,8 @@ fg=red
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>902</x>
-      <y>858</y>
+      <x>1067</x>
+      <y>869</y>
       <w>22</w>
       <h>22</h>
     </coordinates>
