@@ -1,2 +1,4 @@
-package businesslogic.kitchenTask;public interface KitchenTaskEventReceiver {
+package businesslogic.kitchenTask;
+
+public interface KitchenTaskEventReceiver {
 }

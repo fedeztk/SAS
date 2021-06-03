@@ -1,2 +1,4 @@
-package businesslogic.service;public class ServiceManager {
+package businesslogic.service;
+
+public class ServiceManager {
 }
