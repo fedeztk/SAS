@@ -1397,7 +1397,7 @@ Turni di servizio creati</panel_attributes>
       <h>44</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;&gt;
-1a.2 Crea turni di servizio (servizio, lista di date, orario, scadenza?)</panel_attributes>
+1a.2 Crea turni di servizio (servizio, lista di date, orario?, scadenza?)</panel_attributes>
     <additional_attributes>10.0;20.0;500.0;20.0</additional_attributes>
   </element>
   <element>
