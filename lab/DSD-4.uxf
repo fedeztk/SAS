@@ -176,8 +176,8 @@ shiftBoard</panel_attributes>
       <w>187</w>
       <h>55</h>
     </coordinates>
-    <panel_attributes>sbMgr:
-ShiftBoardManager</panel_attributes>
+    <panel_attributes>turnMgr:
+turnManager</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
