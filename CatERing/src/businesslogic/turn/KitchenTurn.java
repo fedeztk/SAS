@@ -2,7 +2,7 @@ package businesslogic.turn;
 
 import java.util.Date;
 
-public class KitchenTurn implements Turn {
+public class KitchenTurn extends Turn {
     private boolean saturated;
 
     public KitchenTurn(){

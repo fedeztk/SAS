@@ -1,8 +1,8 @@
 package businesslogic.kitchenTask;
 
 import businesslogic.CatERing;
-import businesslogic.job.Job;
-import businesslogic.service.Service;
+import businesslogic.event.ServiceInfo;
+import businesslogic.recipe.Job;
 import businesslogic.turn.KitchenTurn;
 import businesslogic.turn.ShiftBoard;
 import businesslogic.turn.Turn;
@@ -15,8 +15,11 @@ public class KitchenTaskManager {
     private SummarySheet currentSummarySheet;
     private ArrayList<KitchenTaskEventReceiver> eventReceivers;
 
+    public KitchenTaskManager(){
+        eventReceivers=new ArrayList<>();
+    }
 
-    public SummarySheet createSummarySheet(Service s) {
+    public SummarySheet createSummarySheet(ServiceInfo s) {
         return null;
     }
     public SummarySheet loadSummarySheet(SummarySheet ss){
@@ -24,14 +27,17 @@ public class KitchenTaskManager {
     }
 
     public void addEventReceiver(KitchenTaskEventReceiver rec) {
-        this.eventReceivers.add(rec);
+        eventReceivers.add(rec);
     }
 
     public void removeEventReceiver(KitchenTaskEventReceiver rec) {
-        this.eventReceivers.remove(rec);
+        eventReceivers.remove(rec);
     }
 
-    public void setCurrentSummarySheet(SummarySheet ss){}
+    public void setCurrentSummarySheet(SummarySheet ss){
+        currentSummarySheet=ss;
+    }
+
     public void notifySummarySheetCreated(SummarySheet ss){}
     public void notifyTaskAdded(Task t){}
     public void notifyTaskDeleted(Task t){}
@@ -51,6 +57,7 @@ public class KitchenTaskManager {
     public void assignTask(Task t, ArrayList<Turn> tl){
         assignTask(t, tl, null, null, null);
     }
+
     public void assignTask(Task t, ArrayList<Turn> tl, String quantity){
         assignTask(t, tl, quantity, null, null);
     }
@@ -82,7 +89,7 @@ public class KitchenTaskManager {
     public void disassignTask(Task t){}
 
     public ArrayList<Task> sortTasks(ArrayList<Task> newtl){
-        return this.currentSummarySheet.sortTasks(newtl);
+        return currentSummarySheet.sortTasks(newtl);
     }
 
     public ShiftBoard getShiftBoard(){
