@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <diagram program="umlet" version="14.3.0">
-  <zoom_level>9</zoom_level>
+  <zoom_level>16</zoom_level>
   <element>
     <id>UMLPackage</id>
     <coordinates>
-      <x>216</x>
-      <y>90</y>
-      <w>90</w>
-      <h>63</h>
+      <x>432</x>
+      <y>64</y>
+      <w>160</w>
+      <h>112</h>
     </coordinates>
     <panel_attributes>UI</panel_attributes>
     <additional_attributes/>
@@ -15,10 +15,10 @@
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>378</x>
-      <y>108</y>
-      <w>153</w>
-      <h>45</h>
+      <x>720</x>
+      <y>96</y>
+      <w>272</w>
+      <h>80</h>
     </coordinates>
     <panel_attributes>kitchenTaskMgr:
 KitchenTaskManager</panel_attributes>
@@ -27,32 +27,32 @@ KitchenTaskManager</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>252</x>
-      <y>144</y>
-      <w>27</w>
-      <h>774</h>
+      <x>496</x>
+      <y>160</y>
+      <w>48</w>
+      <h>2288</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;840.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;1410.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>441</x>
-      <y>144</y>
-      <w>27</w>
-      <h>1080</h>
+      <x>832</x>
+      <y>160</y>
+      <w>48</w>
+      <h>2288</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;1180.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;1410.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>639</x>
-      <y>27</y>
-      <w>171</w>
-      <h>36</h>
+      <x>1152</x>
+      <y>16</y>
+      <w>304</w>
+      <h>64</h>
     </coordinates>
     <panel_attributes>2 makeBlock</panel_attributes>
     <additional_attributes>10.0;20.0;170.0;20.0</additional_attributes>
@@ -60,10 +60,10 @@ KitchenTaskManager</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>252</x>
-      <y>171</y>
-      <w>216</w>
-      <h>36</h>
+      <x>496</x>
+      <y>208</y>
+      <w>384</w>
+      <h>64</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;&gt;
 makeBlock(ktl, start?. end?)</panel_attributes>
@@ -72,10 +72,10 @@ makeBlock(ktl, start?. end?)</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>441</x>
-      <y>189</y>
-      <w>18</w>
-      <h>585</h>
+      <x>832</x>
+      <y>240</y>
+      <w>32</w>
+      <h>2112</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes/>
@@ -83,10 +83,10 @@ makeBlock(ktl, start?. end?)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>450</x>
-      <y>189</y>
-      <w>180</w>
-      <h>36</h>
+      <x>848</x>
+      <y>240</y>
+      <w>320</w>
+      <h>64</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;&gt;
 getCurrentUser()</panel_attributes>
@@ -95,10 +95,10 @@ getCurrentUser()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>450</x>
-      <y>216</y>
-      <w>180</w>
-      <h>36</h>
+      <x>848</x>
+      <y>288</y>
+      <w>320</w>
+      <h>64</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 user</panel_attributes>
@@ -107,10 +107,10 @@ user</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>0</x>
-      <y>243</y>
-      <w>1395</w>
-      <h>675</h>
+      <x>48</x>
+      <y>336</y>
+      <w>2176</w>
+      <h>2064</h>
     </coordinates>
     <panel_attributes>[ !user.isManager]
 fg=#761C8C
@@ -125,45 +125,22 @@ layer=-1</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>252</x>
-      <y>261</y>
-      <w>216</w>
-      <h>36</h>
+      <x>496</x>
+      <y>368</y>
+      <w>384</w>
+      <h>64</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 throw UseCaseLogicException</panel_attributes>
     <additional_attributes>10.0;20.0;220.0;20.0</additional_attributes>
   </element>
   <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>450</x>
-      <y>819</y>
-      <w>522</w>
-      <h>36</h>
-    </coordinates>
-    <panel_attributes>lt=-&gt;&gt;&gt;
-setBlock(b)</panel_attributes>
-    <additional_attributes>10.0;20.0;560.0;20.0</additional_attributes>
-  </element>
-  <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>1125</x>
-      <y>828</y>
-      <w>153</w>
-      <h>27</h>
-    </coordinates>
-    <panel_attributes>t: Task</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLGeneric</id>
-    <coordinates>
-      <x>540</x>
-      <y>108</y>
-      <w>153</w>
-      <h>45</h>
+      <x>1008</x>
+      <y>96</y>
+      <w>272</w>
+      <h>80</h>
     </coordinates>
     <panel_attributes>userMgr:
 UserManager</panel_attributes>
@@ -172,10 +149,10 @@ UserManager</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>603</x>
-      <y>144</y>
-      <w>27</w>
-      <h>144</h>
+      <x>1120</x>
+      <y>160</y>
+      <w>48</w>
+      <h>256</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;140.0</additional_attributes>
@@ -183,32 +160,10 @@ UserManager</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>603</x>
-      <y>207</y>
-      <w>18</w>
-      <h>27</h>
-    </coordinates>
-    <panel_attributes/>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>1188</x>
-      <y>846</y>
-      <w>27</w>
-      <h>135</h>
-    </coordinates>
-    <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;130.0;10.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLGeneric</id>
-    <coordinates>
-      <x>1188</x>
-      <y>855</y>
-      <w>18</w>
-      <h>99</h>
+      <x>1120</x>
+      <y>272</y>
+      <w>32</w>
+      <h>48</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes/>
@@ -216,10 +171,10 @@ UserManager</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>1080</x>
-      <y>108</y>
-      <w>162</w>
-      <h>45</h>
+      <x>1968</x>
+      <y>96</y>
+      <w>288</w>
+      <h>80</h>
     </coordinates>
     <panel_attributes>er:
 turnEventReceiver</panel_attributes>
@@ -228,69 +183,21 @@ turnEventReceiver</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1152</x>
-      <y>144</y>
-      <w>27</w>
-      <h>882</h>
+      <x>2096</x>
+      <y>160</y>
+      <w>48</w>
+      <h>2288</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;960.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>945</x>
-      <y>936</y>
-      <w>270</w>
-      <h>36</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;.
-t</panel_attributes>
-    <additional_attributes>10.0;20.0;280.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLFrame</id>
-    <coordinates>
-      <x>315</x>
-      <y>1107</y>
-      <w>540</w>
-      <h>90</h>
-    </coordinates>
-    <panel_attributes>foreach er in
-eventReceivers
-fg=blue</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>459</x>
-      <y>1134</y>
-      <w>846</w>
-      <h>36</h>
-    </coordinates>
-    <panel_attributes>lt=-&gt;&gt;&gt;
-updateBlockCreated(b)</panel_attributes>
-    <additional_attributes>10.0;20.0;920.0;20.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;1410.0</additional_attributes>
   </element>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>819</x>
-      <y>1143</y>
-      <w>18</w>
-      <h>18</h>
-    </coordinates>
-    <panel_attributes/>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLGeneric</id>
-    <coordinates>
-      <x>702</x>
-      <y>108</y>
-      <w>180</w>
-      <h>45</h>
+      <x>1296</x>
+      <y>96</y>
+      <w>320</w>
+      <h>80</h>
     </coordinates>
     <panel_attributes>t: 
 Turn
@@ -300,78 +207,21 @@ Turn
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>801</x>
-      <y>144</y>
-      <w>27</w>
-      <h>1071</h>
+      <x>1472</x>
+      <y>160</y>
+      <w>48</w>
+      <h>2288</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;1170.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>1197</x>
-      <y>873</y>
-      <w>189</w>
-      <h>63</h>
-    </coordinates>
-    <panel_attributes>lt=-&gt;&gt;&gt;
-this.consistingJob=job</panel_attributes>
-    <additional_attributes>10.0;10.0;40.0;10.0;40.0;50.0;10.0;50.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLGeneric</id>
-    <coordinates>
-      <x>1197</x>
-      <y>918</y>
-      <w>18</w>
-      <h>18</h>
-    </coordinates>
-    <panel_attributes/>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLGeneric</id>
-    <coordinates>
-      <x>1152</x>
-      <y>990</y>
-      <w>18</w>
-      <h>18</h>
-    </coordinates>
-    <panel_attributes/>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>450</x>
-      <y>1035</y>
-      <w>171</w>
-      <h>63</h>
-    </coordinates>
-    <panel_attributes>lt=-&gt;&gt;&gt;
-notifyTaskAdded(t)</panel_attributes>
-    <additional_attributes>10.0;10.0;40.0;10.0;40.0;50.0;10.0;50.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLGeneric</id>
-    <coordinates>
-      <x>450</x>
-      <y>1080</y>
-      <w>18</w>
-      <h>126</h>
-    </coordinates>
-    <panel_attributes/>
-    <additional_attributes/>
+    <additional_attributes>10.0;10.0;10.0;1410.0</additional_attributes>
   </element>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>27</x>
-      <y>369</y>
-      <w>1359</w>
-      <h>531</h>
+      <x>96</x>
+      <y>560</y>
+      <w>2112</w>
+      <h>1824</h>
     </coordinates>
     <panel_attributes>[ size &lt; 2 ] 
 fg=#761C8C
@@ -384,10 +234,10 @@ lw=2
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>252</x>
-      <y>378</y>
-      <w>216</w>
-      <h>36</h>
+      <x>496</x>
+      <y>576</y>
+      <w>384</w>
+      <h>64</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 throw turnException</panel_attributes>
@@ -396,69 +246,10 @@ throw turnException</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>945</x>
-      <y>972</y>
-      <w>225</w>
-      <h>36</h>
-    </coordinates>
-    <panel_attributes>lt=-&gt;&gt;&gt;
-add(t)</panel_attributes>
-    <additional_attributes>10.0;20.0;230.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>945</x>
-      <y>828</y>
-      <w>198</w>
-      <h>36</h>
-    </coordinates>
-    <panel_attributes>lt=-&gt;&gt;&gt;
-create(job)</panel_attributes>
-    <additional_attributes>10.0;20.0;200.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>450</x>
-      <y>990</y>
-      <w>522</w>
-      <h>36</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;.
-t</panel_attributes>
-    <additional_attributes>10.0;20.0;560.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>252</x>
-      <y>1197</y>
-      <w>216</w>
-      <h>36</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;.
-t</panel_attributes>
-    <additional_attributes>10.0;20.0;220.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLGeneric</id>
-    <coordinates>
-      <x>945</x>
-      <y>837</y>
-      <w>18</w>
-      <h>171</h>
-    </coordinates>
-    <panel_attributes/>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>441</x>
-      <y>306</y>
-      <w>522</w>
-      <h>36</h>
+      <x>832</x>
+      <y>448</y>
+      <w>928</w>
+      <h>64</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;&gt;
 size()</panel_attributes>
@@ -467,10 +258,10 @@ size()</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>945</x>
-      <y>324</y>
-      <w>18</w>
-      <h>27</h>
+      <x>1728</x>
+      <y>480</y>
+      <w>32</w>
+      <h>48</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes/>
@@ -478,10 +269,10 @@ size()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>450</x>
-      <y>333</y>
-      <w>513</w>
-      <h>36</h>
+      <x>848</x>
+      <y>496</y>
+      <w>912</w>
+      <h>64</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 size</panel_attributes>
@@ -490,22 +281,22 @@ size</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>441</x>
-      <y>720</y>
-      <w>126</w>
-      <h>36</h>
+      <x>832</x>
+      <y>672</y>
+      <w>224</w>
+      <h>64</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;&gt;
-create(turns)</panel_attributes>
+create(ktl)</panel_attributes>
     <additional_attributes>10.0;20.0;120.0;20.0</additional_attributes>
   </element>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>549</x>
-      <y>729</y>
-      <w>90</w>
-      <h>27</h>
+      <x>1024</x>
+      <y>688</y>
+      <w>160</w>
+      <h>48</h>
     </coordinates>
     <panel_attributes>b: Block</panel_attributes>
     <additional_attributes/>
@@ -513,10 +304,10 @@ create(turns)</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>288</x>
-      <y>477</y>
-      <w>810</w>
-      <h>90</h>
+      <x>560</x>
+      <y>928</y>
+      <w>1440</w>
+      <h>128</h>
     </coordinates>
     <panel_attributes>foreach t in ktl
 fg=blue</panel_attributes>
@@ -525,22 +316,22 @@ fg=blue</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>612</x>
-      <y>432</y>
-      <w>153</w>
-      <h>36</h>
+      <x>1136</x>
+      <y>1424</y>
+      <w>336</w>
+      <h>64</h>
     </coordinates>
     <panel_attributes>recList:
-ArrayList&lt;Recurrency&gt;</panel_attributes>
+ArrayList&lt;ArrayList&lt;Turn&gt; &gt;</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>450</x>
-      <y>414</y>
-      <w>180</w>
-      <h>36</h>
+      <x>848</x>
+      <y>1408</y>
+      <w>320</w>
+      <h>64</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;&gt;
 create</panel_attributes>
@@ -549,10 +340,10 @@ create</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>450</x>
-      <y>450</y>
-      <w>180</w>
-      <h>36</h>
+      <x>848</x>
+      <y>1456</y>
+      <w>320</w>
+      <h>64</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 recList</panel_attributes>
@@ -561,22 +352,22 @@ recList</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>450</x>
-      <y>477</y>
-      <w>369</w>
-      <h>36</h>
+      <x>848</x>
+      <y>1568</y>
+      <w>656</w>
+      <h>64</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;&gt;
-getRecurrency()</panel_attributes>
+getRecurrency(start, end)</panel_attributes>
     <additional_attributes>10.0;20.0;390.0;20.0</additional_attributes>
   </element>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>801</x>
-      <y>495</y>
-      <w>18</w>
-      <h>27</h>
+      <x>1472</x>
+      <y>1600</y>
+      <w>32</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes/>
@@ -584,10 +375,10 @@ getRecurrency()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>450</x>
-      <y>504</y>
-      <w>369</w>
-      <h>36</h>
+      <x>848</x>
+      <y>1600</y>
+      <w>656</w>
+      <h>64</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 rec</panel_attributes>
@@ -596,21 +387,21 @@ rec</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>684</x>
-      <y>459</y>
-      <w>27</w>
-      <h>495</h>
+      <x>1264</x>
+      <y>1472</y>
+      <w>48</w>
+      <h>976</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;530.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;590.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>450</x>
-      <y>531</y>
-      <w>252</w>
-      <h>36</h>
+      <x>848</x>
+      <y>1648</y>
+      <w>448</w>
+      <h>64</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;&gt;
 add(rec)</panel_attributes>
@@ -619,33 +410,21 @@ add(rec)</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>684</x>
-      <y>540</y>
-      <w>18</w>
-      <h>18</h>
+      <x>1264</x>
+      <y>1664</y>
+      <w>32</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes/>
   </element>
   <element>
-    <id>UMLFrame</id>
-    <coordinates>
-      <x>288</x>
-      <y>576</y>
-      <w>810</w>
-      <h>117</h>
-    </coordinates>
-    <panel_attributes>foreach rec in recList
-fg=blue</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>891</x>
-      <y>108</y>
-      <w>153</w>
-      <h>45</h>
+      <x>1632</x>
+      <y>96</y>
+      <w>272</w>
+      <h>80</h>
     </coordinates>
     <panel_attributes>ktl:
 ArrayList&lt;Turn&gt;</panel_attributes>
@@ -654,12 +433,407 @@ ArrayList&lt;Turn&gt;</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>945</x>
-      <y>144</y>
-      <w>27</w>
-      <h>882</h>
+      <x>1728</x>
+      <y>160</y>
+      <w>48</w>
+      <h>2288</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;960.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;1410.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>128</x>
+      <y>656</y>
+      <w>2064</w>
+      <h>1712</h>
+    </coordinates>
+    <panel_attributes>start == null &amp;&amp; end == null
+fg=#761C8C
+lw=2
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-.</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1088</x>
+      <y>704</y>
+      <w>48</w>
+      <h>240</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;130.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>1088</x>
+      <y>736</y>
+      <w>32</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1104</x>
+      <y>752</y>
+      <w>352</w>
+      <h>112</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+this.blockedTurns=ktl</panel_attributes>
+    <additional_attributes>10.0;10.0;50.0;10.0;50.0;50.0;20.0;50.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>1104</x>
+      <y>816</y>
+      <w>32</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>592</x>
+      <y>1568</y>
+      <w>960</w>
+      <h>144</h>
+    </coordinates>
+    <panel_attributes>foreach t in ktl
+fg=blue</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>832</x>
+      <y>944</y>
+      <w>672</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+setBlock(b)</panel_attributes>
+    <additional_attributes>10.0;20.0;400.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>1472</x>
+      <y>976</y>
+      <w>32</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1488</x>
+      <y>976</y>
+      <w>224</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+this.block=b</panel_attributes>
+    <additional_attributes>10.0;10.0;30.0;10.0;30.0;30.0;10.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>848</x>
+      <y>864</y>
+      <w>272</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+b</panel_attributes>
+    <additional_attributes>10.0;20.0;150.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>864</x>
+      <y>1088</y>
+      <w>336</w>
+      <h>112</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+notifyBlockCreated(b)</panel_attributes>
+    <additional_attributes>10.0;10.0;40.0;10.0;40.0;50.0;10.0;50.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>560</x>
+      <y>1200</y>
+      <w>1584</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>foreach er in
+eventReceivers
+fg=blue
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>864</x>
+      <y>1200</y>
+      <w>1264</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+updateBlockCreated(b)</panel_attributes>
+    <additional_attributes>10.0;20.0;770.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>2096</x>
+      <y>1216</y>
+      <w>32</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>848</x>
+      <y>1088</y>
+      <w>32</w>
+      <h>208</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>544</x>
+      <y>1760</y>
+      <w>1616</w>
+      <h>576</h>
+    </coordinates>
+    <panel_attributes>foreach i in 
+length recList.get(0)
+fg=blue</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>848</x>
+      <y>1776</y>
+      <w>304</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+create()</panel_attributes>
+    <additional_attributes>10.0;20.0;170.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>1120</x>
+      <y>1808</y>
+      <w>144</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>b: Block</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>848</x>
+      <y>1824</y>
+      <w>304</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+b</panel_attributes>
+    <additional_attributes>10.0;20.0;170.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>560</x>
+      <y>1872</y>
+      <w>1136</w>
+      <h>224</h>
+    </coordinates>
+    <panel_attributes>foreach j 
+in length recList
+fg=blue</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1184</x>
+      <y>1840</y>
+      <w>48</w>
+      <h>240</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;130.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>848</x>
+      <y>1904</y>
+      <w>368</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+add(recList.get(j).get(i))</panel_attributes>
+    <additional_attributes>10.0;20.0;210.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>1184</x>
+      <y>1920</y>
+      <w>32</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>848</x>
+      <y>1968</y>
+      <w>656</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+recList.get(j).get(i)setBlock(b)</panel_attributes>
+    <additional_attributes>10.0;20.0;390.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1488</x>
+      <y>2000</y>
+      <w>224</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+this.block=b</panel_attributes>
+    <additional_attributes>10.0;10.0;30.0;10.0;30.0;30.0;10.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>1472</x>
+      <y>2000</y>
+      <w>32</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>864</x>
+      <y>2224</y>
+      <w>1264</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+updateBlockCreated(b)</panel_attributes>
+    <additional_attributes>10.0;20.0;770.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>560</x>
+      <y>2224</y>
+      <w>1584</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>foreach er in
+eventReceivers
+fg=blue
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>864</x>
+      <y>2112</y>
+      <w>336</w>
+      <h>112</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+notifyBlockCreated(b)</panel_attributes>
+    <additional_attributes>10.0;10.0;40.0;10.0;40.0;50.0;10.0;50.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>848</x>
+      <y>2112</y>
+      <w>32</w>
+      <h>208</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>2096</x>
+      <y>2240</y>
+      <w>32</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
   </element>
 </diagram>
