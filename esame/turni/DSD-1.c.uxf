@@ -55,7 +55,7 @@ TurnManager</panel_attributes>
       <h>32</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;&gt;
-deleteKitchenTurn(turnList,start, end)</panel_attributes>
+deleteTurn(turnList,start, end)</panel_attributes>
     <additional_attributes>10.0;20.0;270.0;20.0</additional_attributes>
   </element>
   <element>
@@ -132,7 +132,7 @@ UserManager</panel_attributes>
     <coordinates>
       <x>1000</x>
       <y>16</y>
-      <w>136</w>
+      <w>144</w>
       <h>40</h>
     </coordinates>
     <panel_attributes>turnList.GlobaCalendar:
@@ -157,25 +157,6 @@ layer=-1</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
-    <id>UMLNote</id>
-    <coordinates>
-      <x>0</x>
-      <y>48</y>
-      <w>152</w>
-      <h>168</h>
-    </coordinates>
-    <panel_attributes>DeleteKintchenTurn
-delete
-t.hasAvalability()
-Quale eccezione?
-calendario remove()
-shiftboard remove
-updateTurnDeletede(kitchenTurn)
-notifyTurnDeleted(kitchenTurn)
-bg=yellow</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
     <id>Relation</id>
     <coordinates>
       <x>416</x>
@@ -196,7 +177,7 @@ throw UseCaseLogicException</panel_attributes>
       <h>40</h>
     </coordinates>
     <panel_attributes>t.Recurrencies:
-Recurrencies
+Recurrency
 </panel_attributes>
     <additional_attributes/>
   </element>
