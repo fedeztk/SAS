@@ -18,10 +18,10 @@
       <x>416</x>
       <y>48</y>
       <w>24</w>
-      <h>984</h>
+      <h>1024</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;1210.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;1260.0</additional_attributes>
   </element>
   <element>
     <id>UMLGeneric</id>
@@ -31,7 +31,7 @@
       <w>136</w>
       <h>40</h>
     </coordinates>
-    <panel_attributes>turnManager:
+    <panel_attributes>turnMgr:
 TurnManager</panel_attributes>
     <additional_attributes/>
   </element>
@@ -41,10 +41,10 @@ TurnManager</panel_attributes>
       <x>624</x>
       <y>48</y>
       <w>24</w>
-      <h>1160</h>
+      <h>1024</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;1430.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;1260.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
@@ -122,10 +122,10 @@ UserManager</panel_attributes>
       <x>1056</x>
       <y>48</y>
       <w>24</w>
-      <h>1128</h>
+      <h>1024</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;1390.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;1260.0</additional_attributes>
   </element>
   <element>
     <id>UMLGeneric</id>
@@ -135,7 +135,7 @@ UserManager</panel_attributes>
       <w>144</w>
       <h>40</h>
     </coordinates>
-    <panel_attributes>turnList.GlobaCalendar:
+    <panel_attributes>turnMgr.calendar:
 GlobalCalendar</panel_attributes>
     <additional_attributes/>
   </element>
@@ -187,10 +187,10 @@ Recurrency
       <x>912</x>
       <y>48</y>
       <w>24</w>
-      <h>1128</h>
+      <h>1024</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;1390.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;1260.0</additional_attributes>
   </element>
   <element>
     <id>UMLGeneric</id>
@@ -211,8 +211,8 @@ Recurrency
       <w>136</w>
       <h>40</h>
     </coordinates>
-    <panel_attributes>sb:
-ShiftsBoard</panel_attributes>
+    <panel_attributes>turnMgr.shiftboard:
+ShiftBoard</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -221,10 +221,10 @@ ShiftsBoard</panel_attributes>
       <x>1216</x>
       <y>48</y>
       <w>24</w>
-      <h>1128</h>
+      <h>1024</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;1390.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;1260.0</additional_attributes>
   </element>
   <element>
     <id>UMLGeneric</id>
@@ -244,10 +244,10 @@ TurnEventReceiver</panel_attributes>
       <x>1368</x>
       <y>48</y>
       <w>24</w>
-      <h>1128</h>
+      <h>1024</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;1390.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;1260.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
@@ -544,7 +544,7 @@ throw TurnException</panel_attributes>
       <h>32</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;&gt;
-turnManage.notifyTurnDeleted(r)</panel_attributes>
+turnMgr.notifyTurnDeleted(r)</panel_attributes>
     <additional_attributes>370.0;20.0;10.0;20.0</additional_attributes>
   </element>
   <element>
