@@ -652,7 +652,7 @@ updateBlockCreated(b)</panel_attributes>
       <x>396</x>
       <y>1308</y>
       <w>1212</w>
-      <h>432</h>
+      <h>540</h>
     </coordinates>
     <panel_attributes>foreach i in 
 length recList.get(0)
