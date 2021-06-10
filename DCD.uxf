@@ -128,15 +128,15 @@ m1=1</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1900</x>
+      <x>740</x>
       <y>1230</y>
-      <w>810</w>
-      <h>1500</h>
+      <w>1940</w>
+      <h>1570</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
-Cook
+cook
 m1=0..1</panel_attributes>
-    <additional_attributes>10.0;1470.0;760.0;1470.0;760.0;10.0;510.0;10.0</additional_attributes>
+    <additional_attributes>10.0;1510.0;10.0;1550.0;1920.0;1550.0;1920.0;10.0;1670.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
@@ -671,62 +671,6 @@ fg=gray</panel_attributes>
   <element>
     <id>UMLPackage</id>
     <coordinates>
-      <x>1590</x>
-      <y>2380</y>
-      <w>330</w>
-      <h>440</h>
-    </coordinates>
-    <panel_attributes>CookManagement
-fg=gray</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>1610</x>
-      <y>2640</y>
-      <w>300</w>
-      <h>110</h>
-    </coordinates>
-    <panel_attributes>Cook
---
-+isAvailable(tl:ArrayList&lt;Turn&gt;):Boolean
-
-</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>1600</x>
-      <y>2440</y>
-      <w>310</w>
-      <h>110</h>
-    </coordinates>
-    <panel_attributes>CookManager
---
-+isAvailable(tl:Arraylist&lt;Turn&gt;): Boolean
-
-
-</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>1730</x>
-      <y>2540</y>
-      <w>70</w>
-      <h>120</h>
-    </coordinates>
-    <panel_attributes>lt=-&gt;&gt;&gt;
-cooks
-m2=0..n</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;100.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLPackage</id>
-    <coordinates>
       <x>0</x>
       <y>890</y>
       <w>1410</w>
@@ -1103,7 +1047,7 @@ _+getRecurrentTurns(start: Date, end:Date, recurrency:int, jump:int, t):ArrayLis
 --
 +setAvailable(tl:ArrayList&lt;Turn&gt;)
 +unsetAvailable(tl:ArrayList&lt;Turn&gt;)
-</panel_attributes>
++isAvailable(tl:ArrayList&lt;Turn&gt;):boolean</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
