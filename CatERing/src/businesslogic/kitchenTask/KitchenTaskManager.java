@@ -8,6 +8,7 @@ import businesslogic.turn.ShiftBoard;
 import businesslogic.turn.Turn;
 import businesslogic.user.User;
 
+
 import java.sql.Time;
 import java.util.ArrayList;
 
@@ -20,7 +21,9 @@ public class KitchenTaskManager {
     }
 
     public SummarySheet createSummarySheet(ServiceInfo s) {
-        return null;
+        User u = CatERing.getInstance().getUserManager().getCurrentUser();
+        currentSummarySheet = SummarySheet.create(s, u);
+        return currentSummarySheet;
     }
     public SummarySheet loadSummarySheet(SummarySheet ss){
         return null;
@@ -86,7 +89,9 @@ public class KitchenTaskManager {
         //TODO
     }
 
-    public void disassignTask(Task t){}
+    public void disassignTask(Task t){
+        // ??giusto o passare da summarysheet?? t.disassignTask();
+    }
 
     public ArrayList<Task> sortTasks(ArrayList<Task> newtl){
         return currentSummarySheet.sortTasks(newtl);
