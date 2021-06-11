@@ -299,6 +299,16 @@ public class Menu {
         else sec.removeItem(mi);
     }
 
+
+    public ArrayList<MenuItem> getAllRecipes(){
+        //c'è modo di farlo meglio??
+        ArrayList<MenuItem> array = new ArrayList<>(freeItems);
+        for(Section s:sections){
+            array.addAll(s.getItems());
+        }
+        return array;
+    }
+
     // STATIC METHODS FOR PERSISTENCE
 
     public static void saveNewMenu(Menu m) {
@@ -525,4 +535,6 @@ public class Menu {
             }
         });
     }
+
+
 }

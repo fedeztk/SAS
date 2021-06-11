@@ -1,8 +1,11 @@
 package businesslogic.kitchenTask;
 
+import businesslogic.UseCaseLogicException;
 import businesslogic.event.ServiceInfo;
+import businesslogic.menu.Menu;
+import businesslogic.menu.MenuItem;
 import businesslogic.recipe.Job;
-import businesslogic.turn.Turn;
+import businesslogic.turn.KitchenTurn;
 import businesslogic.user.User;
 
 import java.util.ArrayList;
@@ -14,14 +17,17 @@ public class SummarySheet {
     private User owner;
     private ArrayList<Task> taskList;
 
-    private SummarySheet(ServiceInfo s, User u){
+    public SummarySheet(ServiceInfo s, User u){
+        Menu m = s.getMenu();
+
         serviceUsed = s;
         owner = u;
-    }
-
-
-    public static SummarySheet create(ServiceInfo s, User u){ //le create devono essere static?
-        return new SummarySheet(s,u);
+        taskList = new ArrayList<>();
+        ArrayList<MenuItem> recipes = m.getAllRecipes();
+        for(MenuItem r : recipes){
+            Task t = new Task(r.getItemRecipe());
+            taskList.add(t);
+        }
     }
 
     public ArrayList<Task> sortTasks(ArrayList<Task> newtl){
@@ -43,7 +49,7 @@ public class SummarySheet {
         taskList.add(t);
     }
 
-    public void assignTask(Task t, ArrayList<Turn> tl, int portions, int duration, User cook, Job job){
+    public void assignTask(Task t, ArrayList<KitchenTurn> tl, int portions, int duration, User cook, Job job){
         t.assignTask(tl,portions,duration,cook);
     }
 
@@ -51,7 +57,7 @@ public class SummarySheet {
         taskList.remove(t);
     }
 
-    public void modifyTask(Task t, ArrayList<Turn> tl, int portions, int duration, User cook, Job job){
+    public void modifyTask(Task t, ArrayList<KitchenTurn> tl, int portions, int duration, User cook, Job job){
         t.modifyTask(tl,portions,duration,cook,job);
     }
 

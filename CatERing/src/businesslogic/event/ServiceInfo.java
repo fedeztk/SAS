@@ -29,6 +29,10 @@ public class ServiceInfo implements EventItemInfo {
         return name + ": " + date + " (" + timeStart + "-" + timeEnd + "), " + participants + " pp.";
     }
 
+    public Menu getMenu(){
+        return m;
+    }
+
     // STATIC METHODS FOR PERSISTENCE
 
     public static ObservableList<ServiceInfo> loadServiceInfoForEvent(int event_id) {

@@ -6,10 +6,7 @@ import persistence.ResultHandler;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
 public class User {
 
@@ -20,6 +17,7 @@ public class User {
     private int id;
     private String username;
     private Set<Role> roles;
+    private HashMap<Role, Behaviour> currentBehaviours;
 
     public User() {
         id = 0;
@@ -126,4 +124,18 @@ public class User {
         }
         return u;
     }
+}
+
+interface Behaviour{
+
+}
+
+class Cook implements Behaviour{
+    private boolean available;
+
+    public boolean isAvailable(){
+        return available;
+    }
+
+
 }
