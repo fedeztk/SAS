@@ -2,14 +2,15 @@ package businesslogic.kitchenTask;
 
 import businesslogic.recipe.Job;
 import businesslogic.turn.KitchenTurn;
-import businesslogic.turn.Turn;
+import businesslogic.user.Cook;
 import businesslogic.user.User;
 
+import java.sql.Time;
 import java.util.ArrayList;
 
 public class Task {
     private int quantity;
-    private String time; // time string or calendar??
+    private Time time; // time string or calendar??
     private boolean done;
     private User cook;
     private Job consistingJob;
@@ -20,10 +21,12 @@ public class Task {
         turnList = new ArrayList<>();
     }
 
-    public void assignTask(ArrayList<KitchenTurn> tl, int portions, int duration, User cook){
+    public void assignTask(ArrayList<KitchenTurn> tl, int portions, Time duration, User cook){
         if(quantity!=-1)quantity=portions;
-        //time=duration;
-        if(cook!=null && cook.isAvailable(turnList))this.cook=cook;
+        if(duration!=null)time=duration;
+        if(cook!=null && ((Cook)cook.useBehaviour(User.Role.CUOCO)).isAvailable(turnList)){
+            this.cook=cook;
+        }
         if(tl!=null){
             turnList=tl;
         }
@@ -36,15 +39,15 @@ public class Task {
         cook = null;
         turnList = new ArrayList<>();
     }
-    public void modifyTask(ArrayList<KitchenTurn> tl, int portions, int duration, User cook, Job job){
+    public void modifyTask(ArrayList<KitchenTurn> tl, int portions, Time duration, User cook, Job job){
         if(portions!=-1)
         if(tl!=null){
             turnList = tl;
         }
-        if(duration!=-1){
+        if(duration!=null){
             //this.time=duration;
         }
-        if(cook!=null && cook.isAvailable(turnList)){
+        if(cook!=null && ((Cook)cook.useBehaviour(User.Role.CUOCO)).isAvailable(turnList)){
             this.cook=cook;
         }
         if(job!=null){

@@ -8,6 +8,7 @@ import businesslogic.recipe.Job;
 import businesslogic.turn.KitchenTurn;
 import businesslogic.user.User;
 
+import java.sql.Time;
 import java.util.ArrayList;
 
 
@@ -17,8 +18,7 @@ public class SummarySheet {
     private User owner;
     private ArrayList<Task> taskList;
 
-    public SummarySheet(ServiceInfo s, User u){
-        Menu m = s.getMenu();
+    public SummarySheet(ServiceInfo s, User u, Menu m){
 
         serviceUsed = s;
         owner = u;
@@ -45,11 +45,13 @@ public class SummarySheet {
         return taskList.contains(t);
     }
 
-    public void addTask(Task t){
+    public Task addTask(Job j) {
+        Task t = new Task(j);
         taskList.add(t);
+        return t;
     }
 
-    public void assignTask(Task t, ArrayList<KitchenTurn> tl, int portions, int duration, User cook, Job job){
+    public void assignTask(Task t, ArrayList<KitchenTurn> tl, int portions, Time duration, User cook){
         t.assignTask(tl,portions,duration,cook);
     }
 
@@ -57,7 +59,7 @@ public class SummarySheet {
         taskList.remove(t);
     }
 
-    public void modifyTask(Task t, ArrayList<KitchenTurn> tl, int portions, int duration, User cook, Job job){
+    public void modifyTask(Task t, ArrayList<KitchenTurn> tl, int portions, Time duration, User cook, Job job){
         t.modifyTask(tl,portions,duration,cook,job);
     }
 

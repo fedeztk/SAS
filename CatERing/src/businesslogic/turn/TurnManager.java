@@ -1,6 +1,6 @@
 package businesslogic.turn;
 
-public class KitchenTurnManager {
+public class TurnManager {
     private ShiftBoard shiftBoard;
 
     public ShiftBoard getShiftBoard(){

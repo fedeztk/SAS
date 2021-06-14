@@ -17,13 +17,20 @@ public class User {
     private int id;
     private String username;
     private Set<Role> roles;
-    private HashMap<Role, Behaviour> currentBehaviours;
+    private HashMap<Role, Behaviour > currentBehaviours;
 
     public User() {
         id = 0;
         username = "";
         this.roles = new HashSet<>();
+        currentBehaviours = new HashMap<>();
     }
+
+    public Behaviour useBehaviour(Role r){
+        return currentBehaviours.get(r);
+    }
+
+
 
     public boolean isChef() {
         return roles.contains(Role.CHEF);
@@ -86,6 +93,24 @@ public class User {
                 }
             });
         }
+        //
+        for(Role r : load.roles){
+            Behaviour b = null;
+            switch (r) {
+                case CUOCO:
+                    b=new Cook();
+                    break;
+                case CHEF:
+                    b= new Chef();
+                    break;
+                case ORGANIZZATORE:
+                    b = new Organizer();
+                    break;
+                case SERVIZIO:
+                    b = new Service();
+            }
+            load.currentBehaviours.put(r,b);
+        }
         return load;
     }
 
@@ -122,20 +147,40 @@ public class User {
                 }
             });
         }
+        for(Role r : u.roles){
+            Behaviour b = null;
+            switch (r) {
+                case CUOCO:
+                    b=new Cook();
+                    break;
+                case CHEF:
+                    b= new Chef();
+                    break;
+                case ORGANIZZATORE:
+                    b = new Organizer();
+                    break;
+                case SERVIZIO:
+                    b = new Service();
+            }
+            u.currentBehaviours.put(r,b);
+        }
         return u;
     }
 }
 
 interface Behaviour{
+}
+
+
+class Organizer implements Behaviour{
 
 }
 
-class Cook implements Behaviour{
-    private boolean available;
+class Service implements Behaviour{
 
-    public boolean isAvailable(){
-        return available;
-    }
+}
+
+class Chef implements Behaviour{
 
 
 }
