@@ -144,8 +144,16 @@ public class KitchenTaskManager {
         if(currentSummarySheet==null || !currentSummarySheet.contains(t)){
             throw new SummarySheetException();
         }
-
+        if(tl!=null){
+            for(KitchenTurn kt: tl){
+                if(kt.isSaturated()){
+                    throw new SummarySheetException();
+                }
+            }
+        }
         currentSummarySheet.modifyTask(t,tl,portions,duration,cook,job);
+
+        //TODO:notify
     }
     public void modifyTask(Task t, ArrayList<KitchenTurn> tl){}
     public void modifyTask(Task t, int portions){}
@@ -183,8 +191,16 @@ public class KitchenTaskManager {
 
 
 
-    public void disassignTask(Task t){
+    public void disassignTask(Task t) throws UseCaseLogicException, SummarySheetException {
+        User currentUser = CatERing.getInstance().getUserManager().getCurrentUser();
+        if(currentUser.isChef()){
+            throw new UseCaseLogicException();
+        }
+        if(currentSummarySheet==null || !currentSummarySheet.contains(t)){
+            throw new SummarySheetException();
+        }
         currentSummarySheet.disassignTask(t);
+        //TODO: notify
     }
 
     public ArrayList<Task> sortTasks(ArrayList<Task> newtl) throws UseCaseLogicException, SummarySheetException {
@@ -208,9 +224,27 @@ public class KitchenTaskManager {
         return CatERing.getInstance().getTurnManager().getShiftBoard();
     }
 //    public void modifyTask(Task t, ArrayList<Task>? tl, portions?, duration? Time, cook? User, job? Job);
-    public void taskDone(Task t){
+    public void taskDone(Task t) throws UseCaseLogicException, SummarySheetException {
+        User u = CatERing.getInstance().getUserManager().getCurrentUser();
+        if(!u.isChef()){
+            throw new UseCaseLogicException();
+        }
+        if(currentSummarySheet==null){
+            throw new SummarySheetException();
+        }
         currentSummarySheet.taskDone(t);
+        //TODO: notify
     }
-    public void setSaturation(KitchenTurn kt,  boolean v){}
+    public void setSaturation(KitchenTurn kt,  boolean v) throws UseCaseLogicException, SummarySheetException {
+        User u = CatERing.getInstance().getUserManager().getCurrentUser();
+        if(!u.isChef()){
+            throw new UseCaseLogicException();
+        }
+        if(currentSummarySheet==null){
+            throw new SummarySheetException();
+        }
+        kt.setSaturated(true);
+        //TODO: notify
+    }
 
 }

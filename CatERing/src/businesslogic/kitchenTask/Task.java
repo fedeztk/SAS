@@ -38,17 +38,24 @@ public class Task {
         done=false;
         cook = null;
         turnList = new ArrayList<>();
+        done=false;
     }
-    public void modifyTask(ArrayList<KitchenTurn> tl, int portions, Time duration, User cook, Job job){
-        if(portions!=-1)
+    public void modifyTask(ArrayList<KitchenTurn> tl, int portions, Time duration, User cook, Job job) throws SummarySheetException {
+        if(portions!=-1){
+            this.quantity=portions;
+        }
         if(tl!=null){
-            turnList = tl;
+            this.turnList = tl;
         }
         if(duration!=null){
-            //this.time=duration;
+            this.time=duration;
         }
-        if(cook!=null && ((Cook)cook.useBehaviour(User.Role.CUOCO)).isAvailable(turnList)){
-            this.cook=cook;
+        if(cook!=null){
+            if(((Cook)cook.useBehaviour(User.Role.CUOCO)).isAvailable(turnList)){
+                this.cook=cook;
+            }else{
+                throw new SummarySheetException();
+            }
         }
         if(job!=null){
             this.consistingJob=job;

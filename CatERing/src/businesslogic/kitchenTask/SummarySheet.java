@@ -59,7 +59,7 @@ public class SummarySheet {
         taskList.remove(t);
     }
 
-    public void modifyTask(Task t, ArrayList<KitchenTurn> tl, int portions, Time duration, User cook, Job job){
+    public void modifyTask(Task t, ArrayList<KitchenTurn> tl, int portions, Time duration, User cook, Job job) throws SummarySheetException {
         t.modifyTask(tl,portions,duration,cook,job);
     }
 

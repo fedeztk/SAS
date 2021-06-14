@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <diagram program="umlet" version="14.3.0">
-  <zoom_level>13</zoom_level>
+  <zoom_level>8</zoom_level>
   <element>
     <id>UMLPackage</id>
     <coordinates>
-      <x>286</x>
-      <y>39</y>
-      <w>130</w>
-      <h>91</h>
+      <x>96</x>
+      <y>272</y>
+      <w>80</w>
+      <h>56</h>
     </coordinates>
     <panel_attributes>UI</panel_attributes>
     <additional_attributes/>
@@ -15,10 +15,10 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>338</x>
-      <y>117</y>
-      <w>39</w>
-      <h>715</h>
+      <x>128</x>
+      <y>320</y>
+      <w>24</w>
+      <h>440</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;530.0</additional_attributes>
@@ -26,10 +26,10 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>338</x>
-      <y>143</y>
-      <w>325</w>
-      <h>52</h>
+      <x>128</x>
+      <y>336</y>
+      <w>200</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;&gt;
 setSaturation(kitchenTurn, value)</panel_attributes>
@@ -38,10 +38,10 @@ setSaturation(kitchenTurn, value)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>637</x>
-      <y>117</y>
-      <w>39</w>
-      <h>715</h>
+      <x>312</x>
+      <y>320</y>
+      <w>24</w>
+      <h>440</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;530.0</additional_attributes>
@@ -49,10 +49,10 @@ setSaturation(kitchenTurn, value)</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>637</x>
-      <y>169</y>
-      <w>26</w>
-      <h>598</h>
+      <x>312</x>
+      <y>352</y>
+      <w>16</w>
+      <h>368</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes/>
@@ -60,10 +60,10 @@ setSaturation(kitchenTurn, value)</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>546</x>
-      <y>65</y>
-      <w>221</w>
-      <h>65</h>
+      <x>256</x>
+      <y>288</y>
+      <w>136</w>
+      <h>40</h>
     </coordinates>
     <panel_attributes>kitchenTaskMgr:
 KitchenTaskManager</panel_attributes>
@@ -72,10 +72,10 @@ KitchenTaskManager</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>650</x>
-      <y>182</y>
-      <w>286</w>
-      <h>52</h>
+      <x>320</x>
+      <y>360</y>
+      <w>176</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;&gt;
 getCurrentUser()</panel_attributes>
@@ -84,10 +84,10 @@ getCurrentUser()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>650</x>
-      <y>221</y>
-      <w>286</w>
-      <h>52</h>
+      <x>320</x>
+      <y>384</y>
+      <w>176</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 user</panel_attributes>
@@ -96,10 +96,10 @@ user</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>897</x>
-      <y>117</y>
-      <w>39</w>
-      <h>208</h>
+      <x>472</x>
+      <y>320</y>
+      <w>24</w>
+      <h>128</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;140.0</additional_attributes>
@@ -107,10 +107,10 @@ user</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>806</x>
-      <y>65</y>
-      <w>221</w>
-      <h>65</h>
+      <x>416</x>
+      <y>288</y>
+      <w>136</w>
+      <h>40</h>
     </coordinates>
     <panel_attributes>userMgr:
 UserManager</panel_attributes>
@@ -119,10 +119,10 @@ UserManager</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>338</x>
-      <y>286</y>
-      <w>338</w>
-      <h>52</h>
+      <x>128</x>
+      <y>424</y>
+      <w>208</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 throw UseCaseLogicException</panel_attributes>
@@ -131,10 +131,10 @@ throw UseCaseLogicException</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>130</x>
-      <y>273</y>
-      <w>1404</w>
-      <h>520</h>
+      <x>0</x>
+      <y>416</y>
+      <w>864</w>
+      <h>320</h>
     </coordinates>
     <panel_attributes>[ !user.isChef ]
 fg=#761C8C
@@ -148,10 +148,10 @@ layer=-10</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>338</x>
-      <y>390</y>
-      <w>338</w>
-      <h>52</h>
+      <x>128</x>
+      <y>488</y>
+      <w>208</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 throw SummarySheetException</panel_attributes>
@@ -160,10 +160,10 @@ throw SummarySheetException</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>195</x>
-      <y>351</y>
-      <w>1313</w>
-      <h>429</h>
+      <x>40</x>
+      <y>464</y>
+      <w>808</w>
+      <h>264</h>
     </coordinates>
     <panel_attributes>[ currentSummarySheet == null ]
 fg=#761C8C
@@ -180,10 +180,10 @@ layer=-2
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>637</x>
-      <y>481</y>
-      <w>546</w>
-      <h>52</h>
+      <x>312</x>
+      <y>544</y>
+      <w>336</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;&gt;
 setSaturation(value)</panel_attributes>
@@ -192,10 +192,10 @@ setSaturation(value)</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>1053</x>
-      <y>65</y>
-      <w>221</w>
-      <h>65</h>
+      <x>568</x>
+      <y>288</y>
+      <w>136</w>
+      <h>40</h>
     </coordinates>
     <panel_attributes>kitchenTurn:
 KitchenTurn</panel_attributes>
@@ -204,10 +204,10 @@ KitchenTurn</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1157</x>
-      <y>117</y>
-      <w>39</w>
-      <h>715</h>
+      <x>632</x>
+      <y>320</y>
+      <w>24</w>
+      <h>440</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;530.0</additional_attributes>
@@ -215,10 +215,10 @@ KitchenTurn</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>481</x>
-      <y>663</y>
-      <w>1014</w>
-      <h>65</h>
+      <x>216</x>
+      <y>656</y>
+      <w>624</w>
+      <h>40</h>
     </coordinates>
     <panel_attributes>for each
 er in recivers
@@ -228,10 +228,10 @@ fg=blue</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>650</x>
-      <y>676</y>
-      <w>767</w>
-      <h>52</h>
+      <x>320</x>
+      <y>664</y>
+      <w>472</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;&gt;
 updateKitchenTurnSat(kitchenTurn)</panel_attributes>
@@ -240,10 +240,10 @@ updateKitchenTurnSat(kitchenTurn)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>650</x>
-      <y>559</y>
-      <w>390</w>
-      <h>91</h>
+      <x>320</x>
+      <y>592</y>
+      <w>240</w>
+      <h>56</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;&gt;
 notifyKitchenTurnSat(kitchenTurn)</panel_attributes>
@@ -252,10 +252,10 @@ notifyKitchenTurnSat(kitchenTurn)</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>650</x>
-      <y>624</y>
-      <w>26</w>
-      <h>117</h>
+      <x>320</x>
+      <y>632</y>
+      <w>16</w>
+      <h>72</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes/>
@@ -263,10 +263,10 @@ notifyKitchenTurnSat(kitchenTurn)</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>1300</x>
-      <y>65</y>
-      <w>221</w>
-      <h>65</h>
+      <x>720</x>
+      <y>288</y>
+      <w>136</w>
+      <h>40</h>
     </coordinates>
     <panel_attributes>eventReceivers
 KitchenTaskRecievers</panel_attributes>
@@ -275,10 +275,10 @@ KitchenTaskRecievers</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1391</x>
-      <y>117</y>
-      <w>39</w>
-      <h>715</h>
+      <x>776</x>
+      <y>320</y>
+      <w>24</w>
+      <h>440</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;530.0</additional_attributes>
@@ -286,10 +286,10 @@ KitchenTaskRecievers</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>1391</x>
-      <y>689</y>
-      <w>26</w>
-      <h>26</h>
+      <x>776</x>
+      <y>672</y>
+      <w>16</w>
+      <h>16</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes/>
@@ -297,10 +297,10 @@ KitchenTaskRecievers</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>1157</x>
-      <y>507</y>
-      <w>26</w>
-      <h>26</h>
+      <x>632</x>
+      <y>560</y>
+      <w>16</w>
+      <h>16</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes/>
