@@ -135,7 +135,6 @@ public class KitchenTaskManager {
         //TODO: notify
     }
 
-    //TODO: qualcosa non torna del DSD-5a.1 -> come mai il senso del foreach di t in tl? -> tl non dovrebbe essere opzionale?
     public void modifyTask(Task t, ArrayList<KitchenTurn> tl, int portions, Time duration, User cook, Job job) throws SummarySheetException, UseCaseLogicException {
         User currentUser = CatERing.getInstance().getUserManager().getCurrentUser();
         if(currentUser.isChef()){
@@ -155,33 +154,40 @@ public class KitchenTaskManager {
 
         //TODO:notify
     }
-    public void modifyTask(Task t, ArrayList<KitchenTurn> tl){}
-    public void modifyTask(Task t, int portions){}
-    public void modifyTask(Task t, Time duration){}
-    public void modifyTask(Task t, User cook){}
-    public void modifyTask(Task t, Job job){}
+    public void modifyTask(Task t, ArrayList<KitchenTurn> tl) throws UseCaseLogicException, SummarySheetException { modifyTask(t,tl,-1, null, null,null);}
+    public void modifyTask(Task t, int portions) throws UseCaseLogicException, SummarySheetException {modifyTask(t, null, portions, null, null, null);}
+    public void modifyTask(Task t, Time duration) throws UseCaseLogicException, SummarySheetException {modifyTask(t, null, -1, duration, null, null);}
+    public void modifyTask(Task t, User cook) throws UseCaseLogicException, SummarySheetException { modifyTask(t, null, -1, null, cook, null);}
+    public void modifyTask(Task t, Job job) throws UseCaseLogicException, SummarySheetException {modifyTask(t, null, -1, null, null, job);}
 
-    public void modifyTask(Task t, ArrayList<KitchenTurn> tl, int portions){}
-    public void modifyTask(Task t, ArrayList<KitchenTurn> tl, Time Duration){}
-    public void modifyTask(Task t, ArrayList<KitchenTurn> tl, Job job){}
-    public void modifyTask(Task t, ArrayList<KitchenTurn> tl, User cook){}
-    public void modifyTask(Task t, int portions, Time duration){}
-    public void modifyTask(Task t, int portions, User cook){}
-    public void modifyTask(Task t, int portions, Job job){}
-    public void modifyTask(Task t, Time duration, User cook){}
-    public void modifyTask(Task t, Time duration, Job j){}
-    public void modifyTask(Task t, Job job, User cook){}
+    public void modifyTask(Task t, ArrayList<KitchenTurn> tl, int portions) throws UseCaseLogicException, SummarySheetException {modifyTask(t,tl,portions,null,null,null);}
+    public void modifyTask(Task t, ArrayList<KitchenTurn> tl, Time duration) throws UseCaseLogicException, SummarySheetException {modifyTask(t,tl,-1,duration, null,null);}
+    public void modifyTask(Task t, ArrayList<KitchenTurn> tl, Job job) throws UseCaseLogicException, SummarySheetException {modifyTask(t,tl,-1,null,null,job);}
+    public void modifyTask(Task t, ArrayList<KitchenTurn> tl, User cook) throws UseCaseLogicException, SummarySheetException {modifyTask(t,tl,-1,null,cook,null);}
+    public void modifyTask(Task t, int portions, Time duration) throws UseCaseLogicException, SummarySheetException {modifyTask(t,null, portions,duration,null,null);}
+    public void modifyTask(Task t, int portions, User cook) throws UseCaseLogicException, SummarySheetException {modifyTask(t,null,portions,null, cook, null);}
+    public void modifyTask(Task t, int portions, Job job) throws UseCaseLogicException, SummarySheetException {modifyTask(t,null,portions,null,null,job);}
+    public void modifyTask(Task t, Time duration, User cook) throws UseCaseLogicException, SummarySheetException {modifyTask(t,null,-1,duration,cook,null);}
+    public void modifyTask(Task t, Time duration, Job j) throws UseCaseLogicException, SummarySheetException {modifyTask(t,null,-1,duration,null,j);}
+    public void modifyTask(Task t, Job job, User cook) throws UseCaseLogicException, SummarySheetException {modifyTask(t,null,-1,null, cook,job);}
 
-    //TODO: ne mancano
-    public void modifyTask(Task t, ArrayList<KitchenTurn> tl, int portions, Time duration){}
-    public void modifyTask(Task t, ArrayList<KitchenTurn> tl, int portions, Job job){}
-    public void modifyTask(Task t, ArrayList<KitchenTurn> tl, Time duration, Job job, User cook){}
-    public void modifyTask(Task t, ArrayList<KitchenTurn> tl, int portions, Job job, User cook){}
-    public void modifyTask(Task t, ArrayList<KitchenTurn> tl, Time duration, int portions, User cook){}
-    public void modifyTask(Task t, ArrayList<KitchenTurn> tl, Time duration, Job job){}
+    public void modifyTask(Task t, ArrayList<KitchenTurn> tl, int portions, Time duration) throws UseCaseLogicException, SummarySheetException {modifyTask(t, tl, portions,duration,null,null);}
+    public void modifyTask(Task t, ArrayList<KitchenTurn> tl, int portions, Job job) throws UseCaseLogicException, SummarySheetException {modifyTask(t,tl,portions,null,null,job);}
+    public void modifyTask(Task t, ArrayList<KitchenTurn> tl, int portions, User cook) throws UseCaseLogicException, SummarySheetException {modifyTask(t,tl,portions,null,cook,null);}
+    public void modifyTask(Task t, ArrayList<KitchenTurn> tl, Time duration, Job job) throws UseCaseLogicException, SummarySheetException {modifyTask(t,tl,-1,duration,null,job);}
+    public void modifyTask(Task t, ArrayList<KitchenTurn> tl, Time duration, User cook) throws UseCaseLogicException, SummarySheetException {modifyTask(t,tl,-1,duration,cook,null);}
+    public void modifyTask(Task t, ArrayList<KitchenTurn> tl, Job job, User cook) throws UseCaseLogicException, SummarySheetException {modifyTask(t,tl,-1,null,cook,job);}
+    public void modifyTask(Task t, int portions, Time duration, Job job) throws UseCaseLogicException, SummarySheetException {modifyTask(t, null, portions, duration, null, job);}
+    public void modifyTask(Task t, int portions, Time duration, User cook) throws UseCaseLogicException, SummarySheetException {modifyTask(t,null,portions,duration,cook,null);}
+    public void modifyTask(Task t, int portions, Job job, User cook) throws UseCaseLogicException, SummarySheetException {modifyTask(t, null, portions,null, cook, job);}
+    public void modifyTask(Task t, Time duration, Job job, User cook) throws UseCaseLogicException, SummarySheetException {modifyTask(t,null, -1,duration,cook,job);}
+//25 -> 7
 
-    //ne mancano
-    public void modifyTask(Task t, Time duration, User cook, Job job){}
+    public void modifyTask(Task t, ArrayList<KitchenTurn> tl, int portions, Time duration, Job job) throws UseCaseLogicException, SummarySheetException {modifyTask(t,tl,portions,duration,null,job);}
+    public void modifyTask(Task t, ArrayList<KitchenTurn> tl, int portions, Time duration, User cook) throws UseCaseLogicException, SummarySheetException {modifyTask(t,tl,portions,duration,cook,null);}
+    public void modifyTask(Task t, ArrayList<KitchenTurn> tl, int portions, Job job, User cook) throws UseCaseLogicException, SummarySheetException {modifyTask(t,tl,portions,null,cook,job);}
+    public void modifyTask(Task t, ArrayList<KitchenTurn> tl, Time duration, Job job, User cook) throws UseCaseLogicException, SummarySheetException {modifyTask(t,tl,-1,duration,cook,job);}
+    public void modifyTask(Task t, int portions, Time duration, User cook, Job job) throws UseCaseLogicException, SummarySheetException {modifyTask(t,null,portions,duration,cook,job);}
 
 
 
