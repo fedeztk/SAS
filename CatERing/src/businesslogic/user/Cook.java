@@ -1,7 +1,5 @@
 package businesslogic.user;
-
 import businesslogic.turn.KitchenTurn;
-
 import java.util.ArrayList;
 
 public class Cook implements Behaviour{
