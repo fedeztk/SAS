@@ -16,24 +16,21 @@ public class User {
 
     private int id;
     private String username;
-    private Set<Role> roles;
-    private HashMap<Role, Behaviour > currentBehaviours;
+    private HashMap<Role, Behaviour> currentBehaviours;
 
     public User() {
         id = 0;
         username = "";
-        this.roles = new HashSet<>();
         currentBehaviours = new HashMap<>();
     }
 
-    public Behaviour useBehaviour(Role r){
+    public Behaviour useBehaviour(Role r) {
         return currentBehaviours.get(r);
     }
 
 
-
     public boolean isChef() {
-        return roles.contains(Role.CHEF);
+        return currentBehaviours.containsKey(Role.CHEF);
     }
 
     public String getUserName() {
@@ -46,10 +43,10 @@ public class User {
 
     public String toString() {
         String result = username;
-        if (roles.size() > 0) {
+        if (currentBehaviours.size() > 0) {
             result += ": ";
 
-            for (User.Role r : roles) {
+            for (User.Role r : currentBehaviours.keySet()) {
                 result += r.toString() + " ";
             }
         }
@@ -62,7 +59,7 @@ public class User {
         if (loadedUsers.containsKey(uid)) return loadedUsers.get(uid);
 
         User load = new User();
-        String userQuery = "SELECT * FROM Users WHERE id='"+uid+"'";
+        String userQuery = "SELECT * FROM Users WHERE id='" + uid + "'";
         PersistenceManager.executeQuery(userQuery, new ResultHandler() {
             @Override
             public void handle(ResultSet rs) throws SQLException {
@@ -79,44 +76,26 @@ public class User {
                     String role = rs.getString("role_id");
                     switch (role.charAt(0)) {
                         case 'c':
-                            load.roles.add(User.Role.CUOCO);
+                            load.currentBehaviours.put(User.Role.CUOCO, new Cook());
                             break;
                         case 'h':
-                            load.roles.add(User.Role.CHEF);
+                            load.currentBehaviours.put(User.Role.CHEF, new Chef());
                             break;
                         case 'o':
-                            load.roles.add(User.Role.ORGANIZZATORE);
+                            load.currentBehaviours.put(User.Role.ORGANIZZATORE, new Organizer());
                             break;
                         case 's':
-                            load.roles.add(User.Role.SERVIZIO);
+                            load.currentBehaviours.put(User.Role.SERVIZIO, new Service());
                     }
                 }
             });
-        }
-        //
-        for(Role r : load.roles){
-            Behaviour b = null;
-            switch (r) {
-                case CUOCO:
-                    b=new Cook();
-                    break;
-                case CHEF:
-                    b= new Chef();
-                    break;
-                case ORGANIZZATORE:
-                    b = new Organizer();
-                    break;
-                case SERVIZIO:
-                    b = new Service();
-            }
-            load.currentBehaviours.put(r,b);
         }
         return load;
     }
 
     public static User loadUser(String username) {
         User u = new User();
-        String userQuery = "SELECT * FROM Users WHERE username='"+username+"'";
+        String userQuery = "SELECT * FROM Users WHERE username='" + username + "'";
         PersistenceManager.executeQuery(userQuery, new ResultHandler() {
             @Override
             public void handle(ResultSet rs) throws SQLException {
@@ -133,54 +112,39 @@ public class User {
                     String role = rs.getString("role_id");
                     switch (role.charAt(0)) {
                         case 'c':
-                            u.roles.add(User.Role.CUOCO);
+                            u.currentBehaviours.put(User.Role.CUOCO, new Cook());
                             break;
                         case 'h':
-                            u.roles.add(User.Role.CHEF);
+                            u.currentBehaviours.put(User.Role.CHEF, new Chef());
                             break;
                         case 'o':
-                            u.roles.add(User.Role.ORGANIZZATORE);
+                            u.currentBehaviours.put(User.Role.ORGANIZZATORE, new Organizer());
                             break;
                         case 's':
-                            u.roles.add(User.Role.SERVIZIO);
+                            u.currentBehaviours.put(User.Role.SERVIZIO, new Service());
                     }
                 }
             });
-        }
-        for(Role r : u.roles){
-            Behaviour b = null;
-            switch (r) {
-                case CUOCO:
-                    b=new Cook();
-                    break;
-                case CHEF:
-                    b= new Chef();
-                    break;
-                case ORGANIZZATORE:
-                    b = new Organizer();
-                    break;
-                case SERVIZIO:
-                    b = new Service();
-            }
-            u.currentBehaviours.put(r,b);
         }
         return u;
     }
 }
 
-interface Behaviour{
+interface Behaviour {
 }
 
 
-class Organizer implements Behaviour{
+class Organizer implements Behaviour {
 
 }
 
-class Service implements Behaviour{
+class Service implements Behaviour {
 
 }
 
-class Chef implements Behaviour{
+class Chef implements Behaviour {
 
 
 }
+
+
