@@ -1,19 +1,17 @@
 package businesslogic.kitchenTask;
-
-import businesslogic.UseCaseLogicException;
 import businesslogic.event.ServiceInfo;
 import businesslogic.menu.Menu;
 import businesslogic.menu.MenuItem;
 import businesslogic.recipe.Job;
 import businesslogic.turn.KitchenTurn;
 import businesslogic.user.User;
-
 import java.sql.Time;
 import java.util.ArrayList;
 
 
 //abbastanza fatto tutto
 public class SummarySheet {
+    private int id;
     private ServiceInfo serviceUsed;
     private User owner;
     private ArrayList<Task> taskList;
@@ -71,4 +69,12 @@ public class SummarySheet {
         t.done();
     }
 
+    public ArrayList<Task> getTaskList() {
+        return this.taskList;
+    }
+
+    //METODI STATICI PERSISTENCE
+    public static void saveTaskSorted(SummarySheet ss, Task t){
+
+    }
 }

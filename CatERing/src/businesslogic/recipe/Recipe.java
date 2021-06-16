@@ -7,33 +7,23 @@ import persistence.ResultHandler;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.util.*;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.HashMap;
+import java.util.Map;
 
 public class Recipe extends Job {
     private static Map<Integer, Recipe> all = new HashMap<>();
 
-    private int id;
-    private String name;
-
-    private Recipe() {
-
-    }
+    private Recipe() { }
 
     public Recipe(String name) {
-        id = 0;
-        this.name = name;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public int getId() {
-        return id;
+        this.setId(0);
+        this.setName(name);
     }
 
     public String toString() {
-        return name;
+        return this.getName();
     }
 
     // STATIC METHODS FOR PERSISTENCE
@@ -46,11 +36,11 @@ public class Recipe extends Job {
                 int id = rs.getInt("id");
                 if (all.containsKey(id)) {
                     Recipe rec = all.get(id);
-                    rec.name = rs.getString("name");
+                    rec.setName(rs.getString("name"));
                 } else {
                     Recipe rec = new Recipe(rs.getString("name"));
-                    rec.id = id;
-                    all.put(rec.id, rec);
+                    rec.setId(id);
+                    all.put(rec.getId(), rec);
                 }
             }
         });
@@ -75,13 +65,11 @@ public class Recipe extends Job {
         PersistenceManager.executeQuery(query, new ResultHandler() {
             @Override
             public void handle(ResultSet rs) throws SQLException {
-                    rec.name = rs.getString("name");
-                    rec.id = id;
-                    all.put(rec.id, rec);
+                    rec.setName(rs.getString("name"));
+                    rec.setId(id);
+                    all.put(rec.getId(), rec);
             }
         });
         return rec;
     }
-
-
 }

@@ -1,5 +1,4 @@
 package businesslogic.kitchenTask;
-
 import businesslogic.turn.KitchenTurn;
 
 import java.util.ArrayList;
@@ -10,7 +9,7 @@ public interface KitchenTaskEventReceiver {
     void updateTaskDeleted(Task t);
     void updateTaskAssigned(Task t);
     void updateTaskDisassigned(Task t);
-    void updateTaskSorted(ArrayList<Task> tl);
+    void updateTaskSorted(SummarySheet ss);
     void updateTaskModified(Task t);
     void updateTaskDone(Task t);
     void updateKitchenTurnSat(KitchenTurn kt);
