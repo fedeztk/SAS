@@ -13,6 +13,18 @@ WHERE true;
 DELETE
 FROM Services
 WHERE true;
+DELETE
+FROM Tasks
+WHERE true;
+DELETE
+FROM SummarySheets
+WHERE true;
+DELETE
+FROM Job
+WHERE true;
+DELETE
+FROM Turns
+WHERE true;
 
 /* FILL Menus */
 LOCK TABLES `Menus` WRITE;

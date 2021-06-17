@@ -26,7 +26,7 @@ public class KitchenTaskPersistence implements KitchenTaskEventReceiver {
 
     @Override
     public void updateTaskAssigned(Task t) {
-
+        Task.saveTaskAssigned(t);
     }
 
     @Override
@@ -39,7 +39,7 @@ public class KitchenTaskPersistence implements KitchenTaskEventReceiver {
         ArrayList<Task> newtl = ss.getTaskList();
         for (int i=0; i< newtl.size(); i++){
             Task t = newtl.get(i);
-            SummarySheet.saveTaskSorted(ss, t);
+            SummarySheet.saveTaskSorted(t, i);
         }
     }
 

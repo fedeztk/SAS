@@ -4,10 +4,13 @@ import java.util.Date;
 
 public class KitchenTurn extends Turn {
     private boolean saturated;
+    private Date startDate;
+    private Date endDate;
 
     public KitchenTurn(){
         saturated=false;
     }
+
 
     public boolean isSaturated (){
         return saturated;
@@ -17,7 +20,17 @@ public class KitchenTurn extends Turn {
         this.saturated = saturated;
     }
 
-    public Date getDate(){
-        return this.date;
+    public void setStartDate(Date st){
+        startDate = st;
     }
+
+    public void setEndDate(Date endDate) {
+        this.endDate = endDate;
+    }
+
+    public Date getStartDate(){
+        return startDate;
+    }
+    public Date getEndDate(){return endDate;}
+
 }

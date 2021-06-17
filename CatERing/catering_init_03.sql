@@ -328,7 +328,29 @@ CREATE TABLE `Tasks` (
                                  `done` boolean DEFAULT NULL,
                                  `cook_id` int(11) DEFAULT NULL,
                                  `consisting_job` int(11) DEFAULT NULL,
+                                 `position` int(11) DEFAULT NULL,
                                  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=utf8;
+
+--
+-- Table structure for table `Turns`
+--
+
+DROP TABLE IF EXISTS `Turns`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `Turns` (
+                         `id` int(11) NOT NULL AUTO_INCREMENT,
+                         `type` char(1) NOT NULL default 'k',
+                         `start_date` datetime NOT NULL,
+                         `end_date` datetime NOT NULL,
+                         PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=utf8;
+
+
+CREATE TABLE `TurnList` (
+                         `turn_id` int(11) NOT NULL,
+                         `task_id`  int(11) NOT NULL
 ) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=utf8;
 
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;

@@ -1,4 +1,4 @@
-package businesslogic.testKitchenTask;
+package test.testKitchenTask;
 
 import businesslogic.CatERing;
 import businesslogic.UseCaseLogicException;
@@ -8,7 +8,6 @@ import businesslogic.menu.Menu;
 import businesslogic.menu.Section;
 import businesslogic.recipe.Recipe;
 import javafx.collections.ObservableList;
-import persistence.PersistenceManager;
 
 
 public class Test1 {
@@ -35,10 +34,11 @@ public class Test1 {
 
             CatERing.getInstance().getMenuManager().publish();
 
-            ServiceInfo si = new ServiceInfo("pranzo");
+//            ServiceInfo si = new ServiceInfo("pranzo");
             //si mette un id fasullo, bisognerebbe recuperare il service dal db, quindi con l'id settato
-            si.setId(10);
-            si.setMenu(m);
+            ServiceInfo si = ServiceInfo.loadServiceInfoById(2);
+//            si.setId(10);
+//            si.setMenu(m);
             KitchenTaskManager ktm = CatERing.getInstance().getKitchenTaskMgr();
 
             System.out.println(ktm.createSummarySheet(si));

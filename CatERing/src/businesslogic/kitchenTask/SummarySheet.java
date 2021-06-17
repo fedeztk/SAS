@@ -3,12 +3,15 @@ package businesslogic.kitchenTask;
 import businesslogic.event.ServiceInfo;
 import businesslogic.menu.Menu;
 import businesslogic.menu.MenuItem;
+import businesslogic.menu.Section;
 import businesslogic.recipe.Job;
 import businesslogic.turn.KitchenTurn;
 import businesslogic.user.User;
+import persistence.BatchUpdateHandler;
 import persistence.PersistenceManager;
 import persistence.ResultHandler;
 
+import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Time;
@@ -23,7 +26,6 @@ public class SummarySheet {
     private ArrayList<Task> taskList;
 
     public SummarySheet(ServiceInfo s, User u, Menu m) {
-
         serviceUsed = s;
         owner = u;
         taskList = new ArrayList<>();
@@ -32,6 +34,10 @@ public class SummarySheet {
             Task t = new Task(r.getItemRecipe());
             taskList.add(t);
         }
+    }
+
+    public SummarySheet() {
+        taskList = new ArrayList<>();
     }
 
     public int getId() {
@@ -45,9 +51,7 @@ public class SummarySheet {
     }
 
     public boolean isOwner(User u) {
-        return u == owner;
-        // implementare user.equals(u)?
-        // return owner.equals(u);
+        return u.equals(owner);
     }
 
     public boolean contains(Task t) {
@@ -96,21 +100,44 @@ public class SummarySheet {
         this.id = id;
     }
 
+    @Override
+    public String toString() {
+        return "SummarySheet{" +
+                "id=" + id +
+                ", serviceUsed=" + serviceUsed +
+                ", owner=" + owner +
+                ", taskList=" + taskList +
+                '}';
+    }
+
+
     //METODI STATICI PERSISTENCE
 
-    public static void saveTaskSorted(SummarySheet ss, Task t) {
-
+    public static void saveTaskSorted(Task t, int i) {
+        String upd = "UPDATE Tasks SET position =" + i + " WHERE id =" + t.getId() + ";";
+        PersistenceManager.executeUpdate(upd);
     }
 
     public static void saveSummarySheetCreated(SummarySheet ss) {
         String upd = "INSERT INTO catering.SummarySheets (owner_id, service_info_id) values (" +
                 ss.getOwner().getId() + "," + ss.getServiceInfo().getId() + ");";
-        ss.setId(PersistenceManager.executeUpdate(upd));//,new ResultHandler() {
-//            @Override
-//            public void handle(ResultSet rs) throws SQLException {
-//                System.out.println(rs.toString());
-//                ss.setId(rs.getInt("id"));
-//            }
-//        });
-        }
+        if (PersistenceManager.executeUpdate(upd) == 1)
+            ss.setId(PersistenceManager.getLastId());
     }
+
+
+    public static SummarySheet loadSummarySheetById(int id) {
+        String query = "SELECT * FROM SummarySheets WHERE id =" + id + ";";
+
+        SummarySheet ss = new SummarySheet();
+        PersistenceManager.executeQuery(query, new ResultHandler() {
+            @Override
+            public void handle(ResultSet rs) throws SQLException {
+                ss.id = rs.getInt("id");
+                ss.owner = User.loadUserById(rs.getInt("owner_id"));
+                ss.serviceUsed = ServiceInfo.loadServiceInfoById(rs.getInt("service_info_id"));
+            }
+        });
+        return ss;
+    }
+}

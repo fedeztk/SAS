@@ -42,6 +42,7 @@ public class KitchenTaskManager {
         }
         if (!ss.isOwner(u)) {
             throw new SummarySheetException();
+            //TODO
         }
         setCurrentSummarySheet(ss);
         return currentSummarySheet;

@@ -1,4 +1,4 @@
-package businesslogic.testMenu;
+package test.testMenu;
 
 import businesslogic.CatERing;
 import businesslogic.UseCaseLogicException;

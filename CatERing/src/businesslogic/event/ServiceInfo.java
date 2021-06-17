@@ -1,6 +1,8 @@
 package businesslogic.event;
 
+import businesslogic.kitchenTask.SummarySheet;
 import businesslogic.menu.Menu;
+import businesslogic.user.User;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import persistence.PersistenceManager;
@@ -24,12 +26,14 @@ public class ServiceInfo implements EventItemInfo {
         this.name = name;
     }
 
+    public ServiceInfo() {
+    }
 
     public String toString() {
         return name + ": " + date + " (" + timeStart + "-" + timeEnd + "), " + participants + " pp.";
     }
 
-    public Menu getMenu(){
+    public Menu getMenu() {
         return m;
     }
 
@@ -57,6 +61,7 @@ public class ServiceInfo implements EventItemInfo {
                 serv.timeStart = rs.getTime("time_start");
                 serv.timeEnd = rs.getTime("time_end");
                 serv.participants = rs.getInt("expected_participants");
+                serv.m = Menu.loadMenuById(rs.getInt("approved_menu_id"));
                 result.add(serv);
             }
         });
@@ -66,5 +71,24 @@ public class ServiceInfo implements EventItemInfo {
 
     public void setMenu(Menu m) {
         this.m = m;
+    }
+
+
+    public static ServiceInfo loadServiceInfoById(int id) {
+        String query = "SELECT * FROM Services WHERE id =" + id + ";";
+        ServiceInfo si = new ServiceInfo();
+        PersistenceManager.executeQuery(query, new ResultHandler() {
+            @Override
+            public void handle(ResultSet rs) throws SQLException {
+                si.id = id;
+                si.name = rs.getString("name");
+                si.date = rs.getDate("service_date");
+                si.timeStart = rs.getTime("time_start");
+                si.timeEnd = rs.getTime("time_end");
+                si.participants = rs.getInt("expected_participants");
+                si.m = Menu.loadMenuById(rs.getInt("approved_menu_id"));
+            }
+        });
+        return si;
     }
 }
