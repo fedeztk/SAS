@@ -331,6 +331,16 @@ CREATE TABLE `Tasks` (
                                  `position` int(11) DEFAULT NULL,
                                  PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=utf8;
+--
+-- Dumping data for table `Turns`
+--
+
+LOCK TABLES `Tasks` WRITE;
+/*!40000 ALTER TABLE `Tasks` DISABLE KEYS */;
+INSERT INTO `Tasks` VALUES (11,11,NULL,NULL,NULL,NULL,1,NULL),(12,11,NULL,NULL,NULL,NULL,2,NULL),(13,11,NULL,NULL,NULL,NULL,3,NULL);
+/*!40000 ALTER TABLE `Tasks` ENABLE KEYS */;
+UNLOCK TABLES;
+/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 --
 -- Table structure for table `Turns`
@@ -344,14 +354,43 @@ CREATE TABLE `Turns` (
                          `type` char(1) NOT NULL default 'k',
                          `start_date` datetime NOT NULL,
                          `end_date` datetime NOT NULL,
+                         `saturation` boolean NOT NULL,
                          PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=utf8;
+--
+-- Dumping data for table `Turns`
+--
+
+LOCK TABLES `Turns` WRITE;
+/*!40000 ALTER TABLE `Turns` DISABLE KEYS */;
+INSERT INTO `Turns` VALUES (1, 'k', '2021-12-25 14:00', '2021-12-25 16:00', false);
+INSERT INTO `Turns` VALUES (2, 'k', '2021-10-15 18:00', '2021-10-15 20:00', false);
+INSERT INTO `Turns` VALUES (3, 'k', '2021-01-20 13:00', '2021-12-25 17:00', true);
+/*!40000 ALTER TABLE `Turns` ENABLE KEYS */;
+UNLOCK TABLES;
 
 
+--
+-- Table structure for table `TurnList`
+--
+DROP TABLE IF EXISTS `TurnList`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `TurnList` (
                          `turn_id` int(11) NOT NULL,
                          `task_id`  int(11) NOT NULL
 ) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=utf8;
+--
+-- Dumping data for table `TurnList`
+--
+
+LOCK TABLES `TurnList` WRITE;
+/*!40000 ALTER TABLE `TurnList` DISABLE KEYS */;
+INSERT INTO `TurnList` VALUES (1, 11);
+INSERT INTO `TurnList` VALUES (2, 12);
+INSERT INTO `TurnList` VALUES (3, 13);
+/*!40000 ALTER TABLE `TurnList` ENABLE KEYS */;
+UNLOCK TABLES;
 
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;

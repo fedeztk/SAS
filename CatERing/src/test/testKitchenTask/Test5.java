@@ -21,19 +21,17 @@ public class Test5 {
 
             User u = CatERing.getInstance().getUserManager().getCurrentUser();
 
-            Task t1 = ;
-            Task t2 = new Task(new Recipe("Ragu"));
-            Task t3 = new Task(new Recipe("Pizza"));
+            Task t1 = Task.loadTaskById(11);
+            Task t2 = Task.loadTaskById(12);
+            Task t3 = Task.loadTaskById(13);
 
-            KitchenTurn kt1 = new KitchenTurn();
-            KitchenTurn kt2 = new KitchenTurn();
-            KitchenTurn kt3 = new KitchenTurn();
-            KitchenTurn kt4 = new KitchenTurn();
-            KitchenTurn kt5 = new KitchenTurn();
 
-            ArrayList<KitchenTurn> akt1 = new ArrayList<>();
-            ArrayList<KitchenTurn> akt2 = null;
-            ArrayList<KitchenTurn> akt3 = null;
+
+            ArrayList<KitchenTurn> akt1 =  new ArrayList<>();
+//            akt1.add(KitchenTurn.loadKitchenTurnById());
+//            akt1.add(KitchenTurn.loadKitchenTurnById());
+//            akt1.add(KitchenTurn.loadKitchenTurnById());
+
 
             int q3 = 7;
             long millis = 3600000;
@@ -41,8 +39,8 @@ public class Test5 {
             try {
                 KitchenTaskManager ktm = CatERing.getInstance().getKitchenTaskMgr();
                 ktm.assignTask(t1, akt1);
-                ktm.assignTask(t2, akt2, User.loadUser("Marinella"));
-                ktm.assignTask(t3, akt3, q3, time3, User.loadUser("Paola"));
+                ktm.assignTask(t2, akt1, User.loadUser("Marinella"));
+                ktm.assignTask(t3, akt1, q3, time3, User.loadUser("Paola"));
             }catch (Exception e ){
 
             }

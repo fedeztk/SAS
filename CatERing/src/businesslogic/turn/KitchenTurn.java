@@ -1,11 +1,14 @@
 package businesslogic.turn;
 
+import persistence.PersistenceManager;
+import persistence.ResultHandler;
+
+import java.sql.ResultSet;
+import java.sql.SQLException;
 import java.util.Date;
 
 public class KitchenTurn extends Turn {
     private boolean saturated;
-    private Date startDate;
-    private Date endDate;
 
     public KitchenTurn(){
         saturated=false;
@@ -20,17 +23,21 @@ public class KitchenTurn extends Turn {
         this.saturated = saturated;
     }
 
-    public void setStartDate(Date st){
-        startDate = st;
-    }
+    public static KitchenTurn loadKitchenTurnById(int id) {
+        String query = "SELECT * FROM Turns WHERE id=" + id + ";";
+        KitchenTurn kt = new KitchenTurn();
 
-    public void setEndDate(Date endDate) {
-        this.endDate = endDate;
-    }
+        PersistenceManager.executeQuery(query, new ResultHandler() {
+            @Override
+            public void handle(ResultSet rs) throws SQLException {
+                if (rs.getString("type").charAt(0)=='k'){
+                    kt.setStartDate(rs.getDate("start_date"));
+                    kt.setEndDate(rs.getDate("end_date"));
+                    kt.setSaturated(rs.getBoolean("saturation"));
+                }
 
-    public Date getStartDate(){
-        return startDate;
+            }
+        });
+        return kt;
     }
-    public Date getEndDate(){return endDate;}
-
 }

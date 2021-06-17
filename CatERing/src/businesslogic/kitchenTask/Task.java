@@ -129,7 +129,10 @@ public class Task {
                 t.cook = User.loadUserById(rs.getInt("cook_id"));
 
 //                t.consistingJob = rs.getInt("consisting_job");
-                String query = "SELECT * from catering.TurnList WHERE id=" + t.id + ";";
+                String query = "SELECT *\n" +
+                        "FROM (SELECT turn_id from catering.TurnList WHERE task_id="+t.id+") as tl\n" +
+                        "    join Turns as t\n" +
+                        "        on tl.turn_id = t.id;";
                 PersistenceManager.executeQuery(query, new ResultHandler() {
                     @Override
                     public void handle(ResultSet rs) throws SQLException {
