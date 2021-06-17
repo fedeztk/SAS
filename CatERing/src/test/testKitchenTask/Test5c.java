@@ -29,6 +29,5 @@ public class Test5c {
         } catch (UseCaseLogicException | SummarySheetException e) {
             e.printStackTrace();
         }
-
     }
 }

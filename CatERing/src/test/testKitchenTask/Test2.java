@@ -23,8 +23,5 @@ public class Test2 {
         ktm.addTask(Recipe.loadRecipeById(1));
         ktm.addTask(Recipe.loadRecipeById(2));
         ktm.addTask(Recipe.loadRecipeById(3));
-//        ktm.addTask(new Recipe("Lasagna"));
-//        ktm.addTask(new Recipe("Ragu"));
-//        ktm.addTask(new Recipe("Pizza"));
     }
 }
