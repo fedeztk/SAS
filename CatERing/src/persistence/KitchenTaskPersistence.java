@@ -11,12 +11,12 @@ import java.util.ArrayList;
 public class KitchenTaskPersistence implements KitchenTaskEventReceiver {
     @Override
     public void updateSummarySheetCreated(SummarySheet ss) {
-
+        SummarySheet.saveSummarySheetCreated(ss);
     }
 
     @Override
     public void updateTaskAdded(Task t) {
-
+        Task.saveTaskAdded(t);
     }
 
     @Override

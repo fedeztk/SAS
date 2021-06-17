@@ -17,8 +17,7 @@ public class Recipe extends Job {
 
     private Recipe() { }
 
-    public Recipe(String name) {
-        this.setId(0);
+    public Recipe(String name){
         this.setName(name);
     }
 

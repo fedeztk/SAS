@@ -61,17 +61,17 @@ public class Menu {
         this.inUse = false;
         this.owner = owner;
         this.featuresMap = FXCollections.observableHashMap();
-        for (String feat: m.featuresMap.keySet()) {
+        for (String feat : m.featuresMap.keySet()) {
             this.featuresMap.put(feat, m.featuresMap.get(feat));
         }
 
         this.sections = FXCollections.observableArrayList();
-        for (Section original: m.sections) {
+        for (Section original : m.sections) {
             this.sections.add(new Section(original));
         }
 
         this.freeItems = FXCollections.observableArrayList();
-        for (MenuItem original: m.freeItems) {
+        for (MenuItem original : m.freeItems) {
             this.freeItems.add(new MenuItem(original));
         }
 
@@ -300,10 +300,10 @@ public class Menu {
     }
 
 
-    public ArrayList<MenuItem> getAllRecipes(){
+    public ArrayList<MenuItem> getAllRecipes() {
         //c'è modo di farlo meglio??
         ArrayList<MenuItem> array = new ArrayList<>(freeItems);
-        for(Section s:sections){
+        for (Section s : sections) {
             array.addAll(s.getItems());
         }
         return array;
@@ -407,6 +407,47 @@ public class Menu {
         loadedMenus.remove(m);
     }
 
+    public static Menu loadMenuById(int id) {
+        String query = "SELECT * FROM Menus WHERE id =" + id + ";";
+
+        Menu m = new Menu();
+        PersistenceManager.executeQuery(query, new ResultHandler() {
+            @Override
+            public void handle(ResultSet rs) throws SQLException {
+                int id = rs.getInt("id");
+                m.id = id;
+                m.title = rs.getString("title");
+                m.published = rs.getBoolean("published");
+                m.owner = User.loadUserById(rs.getInt("owner_id"));
+
+            }
+        });
+        String featQ = "SELECT * FROM MenuFeatures WHERE menu_id = " + m.id + ";";
+        PersistenceManager.executeQuery(featQ, new ResultHandler() {
+            @Override
+            public void handle(ResultSet rs) throws SQLException {
+                m.featuresMap.put(rs.getString("name"), rs.getBoolean("value"));
+            }
+        });
+
+        // load sections
+        m.sections = Section.loadSectionsFor(m.id);
+
+        // load free items
+        m.freeItems = MenuItem.loadItemsFor(m.id, 0);
+
+        // find if "in use"
+        String inuseQ = "SELECT * FROM Services WHERE approved_menu_id = " + m.id;
+        PersistenceManager.executeQuery(inuseQ, new ResultHandler() {
+            @Override
+            public void handle(ResultSet rs) throws SQLException {
+                // se c'è anche un solo risultato vuol dire che il menù è in uso
+                m.inUse = true;
+            }
+        });
+        return m;
+    }
+
     public static ObservableList<Menu> loadAllMenus() {
         String query = "SELECT * FROM Menus WHERE " + true;
         ArrayList<Menu> newMenus = new ArrayList<>();
@@ -488,7 +529,7 @@ public class Menu {
             // find if "in use"
             String inuseQ = "SELECT * FROM Services WHERE approved_menu_id = " + m.id +
                     " OR " +
-                    "proposed_menu_id = "+ m.id;
+                    "proposed_menu_id = " + m.id;
             PersistenceManager.executeQuery(inuseQ, new ResultHandler() {
                 @Override
                 public void handle(ResultSet rs) throws SQLException {
@@ -497,7 +538,7 @@ public class Menu {
                 }
             });
         }
-        for (Menu m: newMenus) {
+        for (Menu m : newMenus) {
             loadedMenus.put(m.id, m);
         }
         return FXCollections.observableArrayList(loadedMenus.values());

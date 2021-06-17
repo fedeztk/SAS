@@ -33,6 +33,14 @@ public class ServiceInfo implements EventItemInfo {
         return m;
     }
 
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int i) {
+        this.id = i;
+    }
+
     // STATIC METHODS FOR PERSISTENCE
 
     public static ObservableList<ServiceInfo> loadServiceInfoForEvent(int event_id) {
@@ -54,5 +62,9 @@ public class ServiceInfo implements EventItemInfo {
         });
 
         return result;
+    }
+
+    public void setMenu(Menu m) {
+        this.m = m;
     }
 }

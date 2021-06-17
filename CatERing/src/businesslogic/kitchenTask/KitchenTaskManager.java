@@ -19,6 +19,10 @@ public class KitchenTaskManager {
         eventReceivers = new ArrayList<>();
     }
 
+    public SummarySheet getCurrentSummarySheet() {
+        return currentSummarySheet;
+    }
+
     public SummarySheet createSummarySheet(ServiceInfo s) throws UseCaseLogicException {
         User u = CatERing.getInstance().getUserManager().getCurrentUser();
         Menu m = s.getMenu();
