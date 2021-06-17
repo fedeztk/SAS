@@ -14,6 +14,13 @@ public class KitchenTurn extends Turn {
         saturated=false;
     }
 
+    @Override
+    public String toString() {
+        String s = super.toString();
+        return s.substring(0, s.length()-1)+", " +
+                "saturated=" + saturated +
+                '}';
+    }
 
     public boolean isSaturated (){
         return saturated;
@@ -34,10 +41,18 @@ public class KitchenTurn extends Turn {
                     kt.setStartDate(rs.getDate("start_date"));
                     kt.setEndDate(rs.getDate("end_date"));
                     kt.setSaturated(rs.getBoolean("saturation"));
+                    kt.setId(id);
                 }
 
             }
         });
         return kt;
+    }
+
+
+    public static void saveKitchenTurnSat(KitchenTurn kt) {
+        String query = "UPDATE catering.Turns SET saturation = "+ ( kt.saturated ? 1 : 0 ) + " WHERE id="+kt.getId()+";";
+
+        if (PersistenceManager.executeUpdate(query) == 0) System.out.println("Errore inserimento saturazione");
     }
 }

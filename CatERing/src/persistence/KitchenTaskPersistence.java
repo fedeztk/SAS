@@ -50,11 +50,11 @@ public class KitchenTaskPersistence implements KitchenTaskEventReceiver {
 
     @Override
     public void updateTaskDone(Task t) {
-
+        Task.saveTaskDone(t);
     }
 
     @Override
     public void updateKitchenTurnSat(KitchenTurn kt) {
-
+            KitchenTurn.saveKitchenTurnSat(kt);
     }
 }

@@ -2,9 +2,11 @@ package businesslogic.kitchenTask;
 
 import businesslogic.CatERing;
 import businesslogic.recipe.Job;
+import businesslogic.recipe.Recipe;
 import businesslogic.turn.KitchenTurn;
 import businesslogic.user.Cook;
 import businesslogic.user.User;
+import com.sun.javafx.collections.ArrayListenerHelper;
 import persistence.PersistenceManager;
 import persistence.ResultHandler;
 
@@ -30,6 +32,9 @@ public class Task {
         this.consistingJob = j;
         turnList = new ArrayList<>();
     }
+
+
+
 
     @Override
     public String toString() {
@@ -110,8 +115,14 @@ public class Task {
 
 
     public static void saveTaskAssigned(Task t) {
-        String query = "UPDATE catering.Tasks (quantity, time,done,cook_id,consisting_job) VALUES (" +
-                +CatERing.getInstance().getKitchenTaskMgr().getCurrentSummarySheet().getId() + "," + t.quantity + "," + t.time + "," + t.done + ") WHERE id=" + t.getId() + ";";
+        String time = t.time==null ? null : "'"+t.time+"'";
+        String query = "UPDATE catering.Tasks SET quantity=" + t.quantity +
+                ", time = "+ time +
+                ", done ="+( t.done ? 1 : 0 ) +
+                ",cook_id= " + t.cook.getId() +
+                ",consisting_job = " + t.consistingJob.getId() +
+                " WHERE id="+t.getId()+";";
+
         if (PersistenceManager.executeUpdate(query) == 0) System.out.println("Errore inserimento");
 
     }
@@ -127,8 +138,8 @@ public class Task {
                 t.time = rs.getTime("time");
                 t.done = rs.getBoolean("done");
                 t.cook = User.loadUserById(rs.getInt("cook_id"));
+                t.consistingJob = Recipe.loadRecipeById(rs.getInt("consisting_job"));
 
-//                t.consistingJob = rs.getInt("consisting_job");
                 String query = "SELECT *\n" +
                         "FROM (SELECT turn_id from catering.TurnList WHERE task_id="+t.id+") as tl\n" +
                         "    join Turns as t\n" +
@@ -148,6 +159,26 @@ public class Task {
         });
         return t;
     }
+
+    public static ArrayList<Task> loadTaskBySummarySheetId(int id) {
+        String query = "SELECT * from catering.Tasks WHERE summarysheet_id=" + id + ";";
+        ArrayList<Task> t = new ArrayList<>();
+        PersistenceManager.executeQuery(query, new ResultHandler() {
+            @Override
+            public void handle(ResultSet rs) throws SQLException {
+                t.add(Task.loadTaskById(rs.getInt("id")));
+            }
+        });
+
+        return t;
+    }
+
+    public static void saveTaskDone(Task t) {
+        String query = "UPDATE catering.Tasks SET done = "+ ( t.done ? 1 : 0 ) + " WHERE id="+t.getId()+";";
+
+        if (PersistenceManager.executeUpdate(query) == 0) System.out.println("Errore inserimento");
+    }
+
 
     public int getId() {
         return this.id;

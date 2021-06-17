@@ -73,7 +73,7 @@ public class KitchenTaskManager {
         if (!u.isChef()) {
             throw new UseCaseLogicException();
         }
-        if (currentSummarySheet == null || !currentSummarySheet.contains(t)) {
+        if (currentSummarySheet == null || currentSummarySheet.contains(t)) {
             throw new SummarySheetException();
         }
         currentSummarySheet.deleteTask(t);
@@ -110,7 +110,7 @@ public class KitchenTaskManager {
 
     public void assignTask(Task t, ArrayList<KitchenTurn> tl, int quantity, Time time, User u) throws UseCaseLogicException, SummarySheetException {
         User currentUser = CatERing.getInstance().getUserManager().getCurrentUser();
-        if (currentUser.isChef()) {
+        if (!currentUser.isChef()) {
             throw new UseCaseLogicException();
         }
         if (currentSummarySheet == null) {
@@ -121,7 +121,10 @@ public class KitchenTaskManager {
                 throw new SummarySheetException();
             }
         }
-        if (!currentSummarySheet.contains(t)) {
+   //     System.out.println(t);
+ //       System.out.println(currentSummarySheet);
+//        System.out.println(currentSummarySheet.contains(t));
+        if (currentSummarySheet.contains(t)) {
             throw new SummarySheetException();
         }
         currentSummarySheet.assignTask(t, tl, quantity, time, u);
@@ -134,7 +137,7 @@ public class KitchenTaskManager {
         if (currentUser.isChef()) {
             throw new UseCaseLogicException();
         }
-        if (currentSummarySheet == null || !currentSummarySheet.contains(t)) {
+        if (currentSummarySheet == null || currentSummarySheet.contains(t)) {
             throw new SummarySheetException();
         }
         if (tl != null) {
@@ -276,7 +279,7 @@ public class KitchenTaskManager {
         if (currentUser.isChef()) {
             throw new UseCaseLogicException();
         }
-        if (currentSummarySheet == null || !currentSummarySheet.contains(t)) {
+        if (currentSummarySheet == null || currentSummarySheet.contains(t)) {
             throw new SummarySheetException();
         }
         currentSummarySheet.disassignTask(t);

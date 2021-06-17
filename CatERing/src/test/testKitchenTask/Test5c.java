@@ -2,29 +2,33 @@ package test.testKitchenTask;
 
 import businesslogic.CatERing;
 import businesslogic.kitchenTask.*;
+import businesslogic.user.User;
 
-import java.util.ArrayList;
-import java.util.Collections;
-
-public class Test3 {
+public class Test5c {
     public static void main(String[] args) {
         System.out.println("TEST FAKE LOGIN");
         CatERing.getInstance().getUserManager().fakeLogin("Lidia");
-        System.out.println(CatERing.getInstance().getUserManager().getCurrentUser());
+        User u = CatERing.getInstance().getUserManager().getCurrentUser();
+        System.out.println(u);
 
-        SummarySheet ss = SummarySheet.loadSummarySheetById(11);
-        try {
-            CatERing.getInstance().getKitchenTaskMgr().loadSummarySheet(ss);
-        } catch (UseCaseLogicException | SummarySheetException e) {
-            e.printStackTrace();
-        }
         KitchenTaskManager ktm = CatERing.getInstance().getKitchenTaskMgr();
-        ArrayList<Task> newtl = (ArrayList<Task>) ktm.getCurrentSummarySheet().getTaskList().clone();
-        Collections.shuffle(newtl);
+        SummarySheet ss = SummarySheet.loadSummarySheetById(11);
+
         try {
-            System.out.println(ktm.sortTasks(newtl));
+            ktm.loadSummarySheet(ss);
+            System.out.println(ktm.getCurrentSummarySheet());
         } catch (UseCaseLogicException | SummarySheetException e) {
             e.printStackTrace();
         }
+
+        Task t1 = Task.loadTaskById(11);
+        try {
+            System.out.println(t1);
+            ktm.taskDone(t1);
+            System.out.println(t1);
+        } catch (UseCaseLogicException | SummarySheetException e) {
+            e.printStackTrace();
+        }
+
     }
 }

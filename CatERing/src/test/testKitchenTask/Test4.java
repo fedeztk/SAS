@@ -20,7 +20,5 @@ public class Test4 {
         } catch (UseCaseLogicException e) {
             e.printStackTrace();
         }
-        //TODO
-        //aggiungere lo shiftboard al database? o è solo un insieme di turni?
     }
 }

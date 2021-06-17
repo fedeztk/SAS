@@ -15,7 +15,9 @@ import java.util.Map;
 public class Recipe extends Job {
     private static Map<Integer, Recipe> all = new HashMap<>();
 
+
     private Recipe() { }
+
 
     public Recipe(String name){
         this.setName(name);

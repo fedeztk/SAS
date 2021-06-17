@@ -3,19 +3,17 @@ package businesslogic.kitchenTask;
 import businesslogic.event.ServiceInfo;
 import businesslogic.menu.Menu;
 import businesslogic.menu.MenuItem;
-import businesslogic.menu.Section;
 import businesslogic.recipe.Job;
 import businesslogic.turn.KitchenTurn;
 import businesslogic.user.User;
-import persistence.BatchUpdateHandler;
 import persistence.PersistenceManager;
 import persistence.ResultHandler;
 
-import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Time;
 import java.util.ArrayList;
+import java.util.Objects;
 
 
 //abbastanza fatto tutto
@@ -56,6 +54,19 @@ public class SummarySheet {
 
     public boolean contains(Task t) {
         return taskList.contains(t);
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        SummarySheet that = (SummarySheet) o;
+        return id == that.id;
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(id);
     }
 
     public Task addTask(Job j) {
@@ -136,6 +147,7 @@ public class SummarySheet {
                 ss.id = rs.getInt("id");
                 ss.owner = User.loadUserById(rs.getInt("owner_id"));
                 ss.serviceUsed = ServiceInfo.loadServiceInfoById(rs.getInt("service_info_id"));
+                ss.taskList = Task.loadTaskBySummarySheetId(ss.id);
             }
         });
         return ss;

@@ -298,21 +298,31 @@ CREATE TABLE `SummarySheets` (
                          PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
+--
+-- Dumping data for table `SummarySheets`
+--
+
+LOCK TABLES `SummarySheets` WRITE;
+/*!40000 ALTER TABLE `SummarySheets` DISABLE KEYS */;
+INSERT INTO `SummarySheets` VALUES (11,2,2);
+/*!40000 ALTER TABLE `SummarySheets` ENABLE KEYS */;
+UNLOCK TABLES;
+/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 --
 -- Table structure for table `Job`
 --
 
-DROP TABLE IF EXISTS `Job`;
-/*!40101 SET @saved_cs_client     = @@character_set_client */;
-/*!40101 SET character_set_client = utf8 */;
-CREATE TABLE `Job` (
-                         `id` int(11) NOT NULL AUTO_INCREMENT,
-                         `type_id` char(1) NOT NULL DEFAULT 'r',
-                         `name` varchar(128) DEFAULT NULL,
-                         PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=utf8;
-
+# DROP TABLE IF EXISTS `Job`;
+# /*!40101 SET @saved_cs_client     = @@character_set_client */;
+# /*!40101 SET character_set_client = utf8 */;
+# CREATE TABLE `Job` (
+#                          `id` int(11) NOT NULL AUTO_INCREMENT,
+#                          `type_id` char(1) NOT NULL DEFAULT 'r',
+#                          `name` varchar(128) DEFAULT NULL,
+#                          PRIMARY KEY (`id`)
+# ) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=utf8;
+#
 --
 -- Table structure for table `Tasks`
 --
@@ -324,7 +334,7 @@ CREATE TABLE `Tasks` (
                                  `id` int(11) NOT NULL AUTO_INCREMENT,
                                  `summarysheet_id` int(11) DEFAULT NULL,
                                  `quantity` int(11) DEFAULT NULL,
-                                 `time` time DEFAULT NULL,
+                                 `time` time,
                                  `done` boolean DEFAULT NULL,
                                  `cook_id` int(11) DEFAULT NULL,
                                  `consisting_job` int(11) DEFAULT NULL,
@@ -365,7 +375,7 @@ LOCK TABLES `Turns` WRITE;
 /*!40000 ALTER TABLE `Turns` DISABLE KEYS */;
 INSERT INTO `Turns` VALUES (1, 'k', '2021-12-25 14:00', '2021-12-25 16:00', false);
 INSERT INTO `Turns` VALUES (2, 'k', '2021-10-15 18:00', '2021-10-15 20:00', false);
-INSERT INTO `Turns` VALUES (3, 'k', '2021-01-20 13:00', '2021-12-25 17:00', true);
+INSERT INTO `Turns` VALUES (3, 'k', '2021-01-20 13:00', '2021-12-25 17:00', false);
 /*!40000 ALTER TABLE `Turns` ENABLE KEYS */;
 UNLOCK TABLES;
 
