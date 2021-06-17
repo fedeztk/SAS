@@ -31,6 +31,8 @@ public class KitchenTurn extends Turn {
     }
 
     public static KitchenTurn loadKitchenTurnById(int id) {
+        //TODO
+        //perchè non prenderlo direttamente da shiftboard?
         String query = "SELECT * FROM Turns WHERE id=" + id + ";";
         KitchenTurn kt = new KitchenTurn();
 
