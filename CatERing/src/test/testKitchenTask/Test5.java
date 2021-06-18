@@ -11,6 +11,7 @@ import java.util.ArrayList;
 
 
 public class Test5 {
+    //assign
         public static void main(String[] args) {
             System.out.println("TEST FAKE LOGIN");
             CatERing.getInstance().getUserManager().fakeLogin("Lidia");

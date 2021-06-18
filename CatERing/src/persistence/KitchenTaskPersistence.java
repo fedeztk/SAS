@@ -31,7 +31,7 @@ public class KitchenTaskPersistence implements KitchenTaskEventReceiver {
 
     @Override
     public void updateTaskDisassigned(Task t) {
-
+        Task.saveTaskDisassigned(t);
     }
 
     @Override
@@ -45,7 +45,7 @@ public class KitchenTaskPersistence implements KitchenTaskEventReceiver {
 
     @Override
     public void updateTaskModified(Task t) {
-
+        Task.saveTaskModified(t);
     }
 
     @Override

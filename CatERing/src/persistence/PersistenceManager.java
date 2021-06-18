@@ -1,7 +1,5 @@
 package persistence;
 
-import com.sun.javafx.binding.StringFormatter;
-
 import java.sql.*;
 
 public class PersistenceManager {

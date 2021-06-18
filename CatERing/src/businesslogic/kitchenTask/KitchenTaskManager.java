@@ -133,10 +133,15 @@ public class KitchenTaskManager {
 
     public void modifyTask(Task t, ArrayList<KitchenTurn> tl, int portions, Time duration, User cook, Job job) throws SummarySheetException, UseCaseLogicException {
         User currentUser = CatERing.getInstance().getUserManager().getCurrentUser();
-        if (currentUser.isChef()) {
+        if (!currentUser.isChef()) {
             throw new UseCaseLogicException();
         }
         if (currentSummarySheet == null || currentSummarySheet.contains(t)) {
+            if(currentSummarySheet!=null) {
+                System.out.println("SummarySheet contains task? "+currentSummarySheet.contains(t));
+            }else{
+                System.out.println("SummarySheet is null");
+            }
             throw new SummarySheetException();
         }
         if (tl != null) {
@@ -275,7 +280,7 @@ public class KitchenTaskManager {
 
     public void disassignTask(Task t) throws UseCaseLogicException, SummarySheetException {
         User currentUser = CatERing.getInstance().getUserManager().getCurrentUser();
-        if (currentUser.isChef()) {
+        if (!currentUser.isChef()) {
             throw new UseCaseLogicException();
         }
         if (currentSummarySheet == null || currentSummarySheet.contains(t)) {

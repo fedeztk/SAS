@@ -4,12 +4,14 @@ import businesslogic.CatERing;
 import businesslogic.recipe.Job;
 import businesslogic.recipe.Recipe;
 import businesslogic.turn.KitchenTurn;
+import businesslogic.turn.Turn;
 import businesslogic.user.Cook;
 import businesslogic.user.User;
-import com.sun.javafx.collections.ArrayListenerHelper;
+import persistence.BatchUpdateHandler;
 import persistence.PersistenceManager;
 import persistence.ResultHandler;
 
+import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Time;
@@ -105,12 +107,7 @@ public class Task {
                 "," + CatERing.getInstance().getKitchenTaskMgr().getCurrentSummarySheet().getId() + ")";
         if (PersistenceManager.executeUpdate(query) == 1) t.setId(PersistenceManager.getLastId());
         System.out.println(t);
-//        {
-//            @Override
-//            public void handle(ResultSet rs) throws SQLException {
-//                t.setId(rs.getInt("id"));
-//            }
-//        });
+
     }
 
 
@@ -122,9 +119,51 @@ public class Task {
                 ",cook_id= " + t.cook.getId() +
                 ",consisting_job = " + t.consistingJob.getId() +
                 " WHERE id="+t.getId()+";";
-
+        System.out.println("Query: "+query);
         if (PersistenceManager.executeUpdate(query) == 0) System.out.println("Errore inserimento");
+        Task.saveTurnListUpdate(t,t.turnList);
+    }
 
+    public static void saveTaskModified(Task t){
+        String time = t.time==null ? null : "'"+t.time+"'";
+        String query="Update Tasks set quantity="+t.quantity
+                +", time="+time
+                +", cook_id="+t.cook.getId()
+                +", consisting_job="+t.consistingJob.getId() +
+                " WHERE id="+t.getId()+"; ";
+        System.out.println("Query: "+query);
+        if (PersistenceManager.executeUpdate(query) == 0) System.out.println("Errore modifica task");
+        Task.saveTurnListUpdate(t,t.turnList);
+    }
+
+    private static void saveTurnListUpdate(Task t,ArrayList<KitchenTurn> tl){
+        Task.saveTurnListRemoveTask(t);
+
+        String paramQuery = "Insert into TurnList (turn_id, task_id) values (?, ?)";
+        PersistenceManager.executeBatchUpdate(paramQuery, tl.size(), new BatchUpdateHandler() {
+            @Override
+            public void handleBatchItem(PreparedStatement ps, int batchCount) throws SQLException {
+                ps.setInt(1, tl.get(batchCount).getId());
+                ps.setInt(2,t.getId());
+            }
+
+            @Override
+            public void handleGeneratedIds(ResultSet rs, int count) throws SQLException {
+
+            }
+        });
+    }
+
+    private static void saveTurnListRemoveTask(Task t){
+        String query= "DELETE FROM TurnList WHERE task_id="+t.getId()+";";
+        if (PersistenceManager.executeUpdate(query) == 0) System.out.println("Errore eliminazione turnList del task");
+    }
+
+    public static void saveTaskDisassigned(Task t){
+        String query="Update Tasks set quantity=-1, done=0, time=null, cook_id=null WHERE id="+t.getId()+"; ";
+        System.out.println("Query: "+query);
+        if (PersistenceManager.executeUpdate(query) == 0) System.out.println("Errore disassegnamento");
+        Task.saveTurnListRemoveTask(t);
     }
 
     public static Task loadTaskById(int id) {
@@ -151,6 +190,7 @@ public class Task {
                             KitchenTurn kt = new KitchenTurn();
                             kt.setStartDate(rs.getDate("start_date"));
                             kt.setEndDate(rs.getDate("end_date"));
+                            kt.setId(rs.getInt("id"));
                             t.turnList.add(kt);
                         }
                     }
