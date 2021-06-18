@@ -36,8 +36,6 @@ public class Task {
     }
 
 
-
-
     @Override
     public String toString() {
         return "Task{" +
@@ -112,31 +110,31 @@ public class Task {
 
 
     public static void saveTaskAssigned(Task t) {
-        String time = t.time==null ? null : "'"+t.time+"'";
+        String time = t.time == null ? null : "'" + t.time + "'";
         String query = "UPDATE catering.Tasks SET quantity=" + t.quantity +
-                ", time = "+ time +
-                ", done ="+( t.done ? 1 : 0 ) +
+                ", time = " + time +
+                ", done =" + (t.done ? 1 : 0) +
                 ",cook_id= " + t.cook.getId() +
                 ",consisting_job = " + t.consistingJob.getId() +
-                " WHERE id="+t.getId()+";";
-        System.out.println("Query: "+query);
+                " WHERE id=" + t.getId() + ";";
+        System.out.println("Query: " + query);
         if (PersistenceManager.executeUpdate(query) == 0) System.out.println("Errore inserimento");
-        Task.saveTurnListUpdate(t,t.turnList);
+        Task.saveTurnListUpdate(t, t.turnList);
     }
 
-    public static void saveTaskModified(Task t){
-        String time = t.time==null ? null : "'"+t.time+"'";
-        String query="Update Tasks set quantity="+t.quantity
-                +", time="+time
-                +", cook_id="+t.cook.getId()
-                +", consisting_job="+t.consistingJob.getId() +
-                " WHERE id="+t.getId()+"; ";
-        System.out.println("Query: "+query);
+    public static void saveTaskModified(Task t) {
+        String time = t.time == null ? null : "'" + t.time + "'";
+        String query = "Update Tasks set quantity=" + t.quantity
+                + ", time=" + time
+                + ", cook_id=" + t.cook.getId()
+                + ", consisting_job=" + t.consistingJob.getId() +
+                " WHERE id=" + t.getId() + "; ";
+        System.out.println("Query: " + query);
         if (PersistenceManager.executeUpdate(query) == 0) System.out.println("Errore modifica task");
-        Task.saveTurnListUpdate(t,t.turnList);
+        Task.saveTurnListUpdate(t, t.turnList);
     }
 
-    private static void saveTurnListUpdate(Task t,ArrayList<KitchenTurn> tl){
+    private static void saveTurnListUpdate(Task t, ArrayList<KitchenTurn> tl) {
         Task.saveTurnListRemoveTask(t);
 
         String paramQuery = "Insert into TurnList (turn_id, task_id) values (?, ?)";
@@ -144,7 +142,7 @@ public class Task {
             @Override
             public void handleBatchItem(PreparedStatement ps, int batchCount) throws SQLException {
                 ps.setInt(1, tl.get(batchCount).getId());
-                ps.setInt(2,t.getId());
+                ps.setInt(2, t.getId());
             }
 
             @Override
@@ -154,14 +152,14 @@ public class Task {
         });
     }
 
-    private static void saveTurnListRemoveTask(Task t){
-        String query= "DELETE FROM TurnList WHERE task_id="+t.getId()+";";
+    private static void saveTurnListRemoveTask(Task t) {
+        String query = "DELETE FROM TurnList WHERE task_id=" + t.getId() + ";";
         if (PersistenceManager.executeUpdate(query) == 0) System.out.println("Errore eliminazione turnList del task");
     }
 
-    public static void saveTaskDisassigned(Task t){
-        String query="Update Tasks set quantity=-1, done=0, time=null, cook_id=null WHERE id="+t.getId()+"; ";
-        System.out.println("Query: "+query);
+    public static void saveTaskDisassigned(Task t) {
+        String query = "Update Tasks set quantity=-1, done=0, time=null, cook_id=null WHERE id=" + t.getId() + "; ";
+        System.out.println("Query: " + query);
         if (PersistenceManager.executeUpdate(query) == 0) System.out.println("Errore disassegnamento");
         Task.saveTurnListRemoveTask(t);
     }
@@ -180,7 +178,7 @@ public class Task {
                 t.consistingJob = Recipe.loadRecipeById(rs.getInt("consisting_job"));
 
                 String query = "SELECT *\n" +
-                        "FROM (SELECT turn_id from catering.TurnList WHERE task_id="+t.id+") as tl\n" +
+                        "FROM (SELECT turn_id from catering.TurnList WHERE task_id=" + t.id + ") as tl\n" +
                         "    join Turns as t\n" +
                         "        on tl.turn_id = t.id;";
                 PersistenceManager.executeQuery(query, new ResultHandler() {
@@ -214,9 +212,16 @@ public class Task {
     }
 
     public static void saveTaskDone(Task t) {
-        String query = "UPDATE catering.Tasks SET done = "+ ( t.done ? 1 : 0 ) + " WHERE id="+t.getId()+";";
+        String query = "UPDATE catering.Tasks SET done = " + (t.done ? 1 : 0) + " WHERE id=" + t.getId() + ";";
 
         if (PersistenceManager.executeUpdate(query) == 0) System.out.println("Errore inserimento");
+    }
+
+    public static void saveTaskDeleted(Task t) {
+        String query = "DELETE FROM Tasks WHERE id=" + t.id + ";";
+        if (PersistenceManager.executeUpdate(query) == 0)
+            System.out.println("Errore eliminazione");
+        Task.saveTurnListRemoveTask(t);
     }
 
 

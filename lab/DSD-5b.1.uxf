@@ -5,7 +5,7 @@
     <id>UMLPackage</id>
     <coordinates>
       <x>132</x>
-      <y>0</y>
+      <y>176</y>
       <w>110</w>
       <h>77</h>
     </coordinates>
@@ -16,7 +16,7 @@
     <id>Relation</id>
     <coordinates>
       <x>176</x>
-      <y>66</y>
+      <y>242</y>
       <w>33</w>
       <h>1155</h>
     </coordinates>
@@ -27,7 +27,7 @@
     <id>Relation</id>
     <coordinates>
       <x>176</x>
-      <y>88</y>
+      <y>264</y>
       <w>275</w>
       <h>44</h>
     </coordinates>
@@ -39,7 +39,7 @@ disassignTask(task)</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>429</x>
-      <y>66</y>
+      <y>242</y>
       <w>33</w>
       <h>1155</h>
     </coordinates>
@@ -50,7 +50,7 @@ disassignTask(task)</panel_attributes>
     <id>UMLGeneric</id>
     <coordinates>
       <x>429</x>
-      <y>110</y>
+      <y>286</y>
       <w>22</w>
       <h>1100</h>
     </coordinates>
@@ -61,7 +61,7 @@ disassignTask(task)</panel_attributes>
     <id>UMLGeneric</id>
     <coordinates>
       <x>352</x>
-      <y>22</y>
+      <y>198</y>
       <w>187</w>
       <h>55</h>
     </coordinates>
@@ -73,7 +73,7 @@ KitchenTaskManager</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>440</x>
-      <y>121</y>
+      <y>297</y>
       <w>242</w>
       <h>44</h>
     </coordinates>
@@ -85,7 +85,7 @@ getCurrentUser()</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>440</x>
-      <y>154</y>
+      <y>330</y>
       <w>242</w>
       <h>44</h>
     </coordinates>
@@ -97,7 +97,7 @@ user</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>649</x>
-      <y>66</y>
+      <y>242</y>
       <w>33</w>
       <h>176</h>
     </coordinates>
@@ -108,7 +108,7 @@ user</panel_attributes>
     <id>UMLGeneric</id>
     <coordinates>
       <x>572</x>
-      <y>22</y>
+      <y>198</y>
       <w>187</w>
       <h>55</h>
     </coordinates>
@@ -120,7 +120,7 @@ UserManager</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>176</x>
-      <y>209</y>
+      <y>385</y>
       <w>286</w>
       <h>44</h>
     </coordinates>
@@ -132,7 +132,7 @@ throw UseCaseLogicException</panel_attributes>
     <id>UMLFrame</id>
     <coordinates>
       <x>0</x>
-      <y>198</y>
+      <y>374</y>
       <w>1837</w>
       <h>1089</h>
     </coordinates>
@@ -149,7 +149,7 @@ layer=-10</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>176</x>
-      <y>297</y>
+      <y>473</y>
       <w>286</w>
       <h>44</h>
     </coordinates>
@@ -161,7 +161,7 @@ throw SummarySheetException</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>440</x>
-      <y>352</y>
+      <y>528</y>
       <w>451</w>
       <h>44</h>
     </coordinates>
@@ -173,7 +173,7 @@ contains(task)</panel_attributes>
     <id>UMLFrame</id>
     <coordinates>
       <x>88</x>
-      <y>264</y>
+      <y>440</y>
       <w>1584</w>
       <h>1012</h>
     </coordinates>
@@ -193,7 +193,7 @@ layer=-2
     <id>UMLGeneric</id>
     <coordinates>
       <x>869</x>
-      <y>374</y>
+      <y>550</y>
       <w>22</w>
       <h>55</h>
     </coordinates>
@@ -204,7 +204,7 @@ layer=-2
     <id>Relation</id>
     <coordinates>
       <x>869</x>
-      <y>66</y>
+      <y>242</y>
       <w>33</w>
       <h>1166</h>
     </coordinates>
@@ -215,7 +215,7 @@ layer=-2
     <id>Relation</id>
     <coordinates>
       <x>880</x>
-      <y>363</y>
+      <y>539</y>
       <w>220</w>
       <h>44</h>
     </coordinates>
@@ -227,7 +227,7 @@ contains(task)</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>880</x>
-      <y>396</y>
+      <y>572</y>
       <w>209</w>
       <h>44</h>
     </coordinates>
@@ -239,7 +239,7 @@ isIn</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1067</x>
-      <y>66</y>
+      <y>242</y>
       <w>33</w>
       <h>440</h>
     </coordinates>
@@ -250,7 +250,7 @@ isIn</panel_attributes>
     <id>UMLGeneric</id>
     <coordinates>
       <x>1067</x>
-      <y>385</y>
+      <y>561</y>
       <w>22</w>
       <h>33</h>
     </coordinates>
@@ -261,7 +261,7 @@ isIn</panel_attributes>
     <id>UMLGeneric</id>
     <coordinates>
       <x>990</x>
-      <y>22</y>
+      <y>198</y>
       <w>187</w>
       <h>55</h>
     </coordinates>
@@ -273,7 +273,7 @@ Arraylist&lt;Task&gt;</panel_attributes>
     <id>UMLGeneric</id>
     <coordinates>
       <x>781</x>
-      <y>22</y>
+      <y>198</y>
       <w>198</w>
       <h>55</h>
     </coordinates>
@@ -285,7 +285,7 @@ SummarySheet</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>440</x>
-      <y>407</y>
+      <y>583</y>
       <w>451</w>
       <h>44</h>
     </coordinates>
@@ -297,7 +297,7 @@ isIn</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>176</x>
-      <y>462</y>
+      <y>638</y>
       <w>286</w>
       <h>44</h>
     </coordinates>
@@ -309,7 +309,7 @@ throw SummarySheetException</panel_attributes>
     <id>UMLFrame</id>
     <coordinates>
       <x>121</x>
-      <y>440</y>
+      <y>616</y>
       <w>1485</w>
       <h>825</h>
     </coordinates>
@@ -329,7 +329,7 @@ layer=-1
     <id>Relation</id>
     <coordinates>
       <x>440</x>
-      <y>517</y>
+      <y>693</y>
       <w>451</w>
       <h>44</h>
     </coordinates>
@@ -341,7 +341,7 @@ disassignTask(task)</panel_attributes>
     <id>UMLGeneric</id>
     <coordinates>
       <x>1210</x>
-      <y>22</y>
+      <y>198</y>
       <w>187</w>
       <h>55</h>
     </coordinates>
@@ -353,7 +353,7 @@ Task</panel_attributes>
     <id>UMLGeneric</id>
     <coordinates>
       <x>1298</x>
-      <y>539</y>
+      <y>715</y>
       <w>22</w>
       <h>473</h>
     </coordinates>
@@ -364,7 +364,7 @@ Task</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1298</x>
-      <y>66</y>
+      <y>242</y>
       <w>33</w>
       <h>1166</h>
     </coordinates>
@@ -375,7 +375,7 @@ Task</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1309</x>
-      <y>572</y>
+      <y>748</y>
       <w>198</w>
       <h>77</h>
     </coordinates>
@@ -387,7 +387,7 @@ this.quantity=null</panel_attributes>
     <id>UMLGeneric</id>
     <coordinates>
       <x>1309</x>
-      <y>627</y>
+      <y>803</y>
       <w>22</w>
       <h>22</h>
     </coordinates>
@@ -398,7 +398,7 @@ this.quantity=null</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1309</x>
-      <y>671</y>
+      <y>847</y>
       <w>176</w>
       <h>77</h>
     </coordinates>
@@ -410,7 +410,7 @@ this.time=null</panel_attributes>
     <id>UMLGeneric</id>
     <coordinates>
       <x>1309</x>
-      <y>726</y>
+      <y>902</y>
       <w>22</w>
       <h>22</h>
     </coordinates>
@@ -421,7 +421,7 @@ this.time=null</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1309</x>
-      <y>770</y>
+      <y>946</y>
       <w>176</w>
       <h>77</h>
     </coordinates>
@@ -433,7 +433,7 @@ this.cook=null</panel_attributes>
     <id>UMLGeneric</id>
     <coordinates>
       <x>1309</x>
-      <y>825</y>
+      <y>1001</y>
       <w>22</w>
       <h>22</h>
     </coordinates>
@@ -444,7 +444,7 @@ this.cook=null</panel_attributes>
     <id>UMLGeneric</id>
     <coordinates>
       <x>1474</x>
-      <y>22</y>
+      <y>198</y>
       <w>187</w>
       <h>55</h>
     </coordinates>
@@ -456,7 +456,7 @@ Arraylist&lt;Turn&gt;</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1309</x>
-      <y>869</y>
+      <y>1045</y>
       <w>286</w>
       <h>44</h>
     </coordinates>
@@ -468,7 +468,7 @@ clear()</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1562</x>
-      <y>66</y>
+      <y>242</y>
       <w>33</w>
       <h>1155</h>
     </coordinates>
@@ -479,7 +479,7 @@ clear()</panel_attributes>
     <id>UMLGeneric</id>
     <coordinates>
       <x>1562</x>
-      <y>891</y>
+      <y>1067</y>
       <w>22</w>
       <h>22</h>
     </coordinates>
@@ -490,7 +490,7 @@ clear()</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1309</x>
-      <y>924</y>
+      <y>1100</y>
       <w>187</w>
       <h>77</h>
     </coordinates>
@@ -502,7 +502,7 @@ this.done=false</panel_attributes>
     <id>UMLGeneric</id>
     <coordinates>
       <x>1309</x>
-      <y>979</y>
+      <y>1155</y>
       <w>22</w>
       <h>22</h>
     </coordinates>
@@ -513,7 +513,7 @@ this.done=false</panel_attributes>
     <id>UMLFrame</id>
     <coordinates>
       <x>297</x>
-      <y>1122</y>
+      <y>1298</y>
       <w>1518</w>
       <h>55</h>
     </coordinates>
@@ -526,7 +526,7 @@ fg=blue</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>440</x>
-      <y>1133</y>
+      <y>1309</y>
       <w>1364</w>
       <h>44</h>
     </coordinates>
@@ -538,7 +538,7 @@ updateTaskDisassigned(task)</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>440</x>
-      <y>1034</y>
+      <y>1210</y>
       <w>286</w>
       <h>77</h>
     </coordinates>
@@ -550,7 +550,7 @@ notifyTaskDisassigned(task)</panel_attributes>
     <id>UMLGeneric</id>
     <coordinates>
       <x>440</x>
-      <y>1089</y>
+      <y>1265</y>
       <w>22</w>
       <h>99</h>
     </coordinates>
@@ -561,7 +561,7 @@ notifyTaskDisassigned(task)</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1782</x>
-      <y>66</y>
+      <y>242</y>
       <w>33</w>
       <h>1166</h>
     </coordinates>
@@ -572,7 +572,7 @@ notifyTaskDisassigned(task)</panel_attributes>
     <id>UMLGeneric</id>
     <coordinates>
       <x>1694</x>
-      <y>22</y>
+      <y>198</y>
       <w>187</w>
       <h>55</h>
     </coordinates>
@@ -584,7 +584,7 @@ KitchenTaskRecievers</panel_attributes>
     <id>UMLGeneric</id>
     <coordinates>
       <x>1782</x>
-      <y>1144</y>
+      <y>1320</y>
       <w>22</w>
       <h>22</h>
     </coordinates>
@@ -595,7 +595,7 @@ KitchenTaskRecievers</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>880</x>
-      <y>539</y>
+      <y>715</y>
       <w>440</w>
       <h>44</h>
     </coordinates>
@@ -607,11 +607,22 @@ disassignTask()</panel_attributes>
     <id>UMLGeneric</id>
     <coordinates>
       <x>869</x>
-      <y>539</y>
+      <y>715</y>
       <w>22</w>
       <h>484</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>814</x>
+      <y>143</y>
+      <w>209</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>5b disassignTask</panel_attributes>
+    <additional_attributes>10.0;20.0;170.0;20.0</additional_attributes>
   </element>
 </diagram>

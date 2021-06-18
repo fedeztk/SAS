@@ -226,4 +226,15 @@ getShiftBoard()</panel_attributes>
 shiftBoard</panel_attributes>
     <additional_attributes>10.0;20.0;380.0;20.0</additional_attributes>
   </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>528</x>
+      <y>154</y>
+      <w>209</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>4 getShiftBoard</panel_attributes>
+    <additional_attributes>10.0;20.0;170.0;20.0</additional_attributes>
+  </element>
 </diagram>

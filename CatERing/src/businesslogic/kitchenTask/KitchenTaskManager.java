@@ -72,7 +72,7 @@ public class KitchenTaskManager {
         if (!u.isChef()) {
             throw new UseCaseLogicException();
         }
-        if (currentSummarySheet == null || currentSummarySheet.contains(t)) {
+        if (currentSummarySheet == null || !currentSummarySheet.contains(t)) {
             throw new SummarySheetException();
         }
         currentSummarySheet.deleteTask(t);

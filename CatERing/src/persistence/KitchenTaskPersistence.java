@@ -21,7 +21,7 @@ public class KitchenTaskPersistence implements KitchenTaskEventReceiver {
 
     @Override
     public void updateTaskDeleted(Task t) {
-
+        Task.saveTaskDeleted(t);
     }
 
     @Override
