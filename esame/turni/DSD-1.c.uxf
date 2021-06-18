@@ -4,8 +4,8 @@
   <element>
     <id>UMLPackage</id>
     <coordinates>
-      <x>384</x>
-      <y>0</y>
+      <x>296</x>
+      <y>144</y>
       <w>80</w>
       <h>56</h>
     </coordinates>
@@ -15,8 +15,8 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>416</x>
-      <y>48</y>
+      <x>328</x>
+      <y>192</y>
       <w>24</w>
       <h>1024</h>
     </coordinates>
@@ -26,8 +26,8 @@
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>568</x>
-      <y>16</y>
+      <x>480</x>
+      <y>160</y>
       <w>136</w>
       <h>40</h>
     </coordinates>
@@ -38,8 +38,8 @@ TurnManager</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>624</x>
-      <y>48</y>
+      <x>536</x>
+      <y>192</y>
       <w>24</w>
       <h>1024</h>
     </coordinates>
@@ -49,8 +49,8 @@ TurnManager</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>416</x>
-      <y>64</y>
+      <x>328</x>
+      <y>208</y>
       <w>232</w>
       <h>32</h>
     </coordinates>
@@ -61,8 +61,8 @@ deleteTurn(turnList,start, end)</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>624</x>
-      <y>80</y>
+      <x>536</x>
+      <y>224</y>
       <w>16</w>
       <h>912</h>
     </coordinates>
@@ -72,8 +72,8 @@ deleteTurn(turnList,start, end)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>632</x>
-      <y>80</y>
+      <x>544</x>
+      <y>224</y>
       <w>152</w>
       <h>32</h>
     </coordinates>
@@ -84,8 +84,8 @@ getCurrentUser()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>632</x>
-      <y>104</y>
+      <x>544</x>
+      <y>248</y>
       <w>160</w>
       <h>32</h>
     </coordinates>
@@ -96,8 +96,8 @@ user</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>768</x>
-      <y>48</y>
+      <x>680</x>
+      <y>192</y>
       <w>24</w>
       <h>128</h>
     </coordinates>
@@ -107,8 +107,8 @@ user</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>712</x>
-      <y>16</y>
+      <x>624</x>
+      <y>160</y>
       <w>136</w>
       <h>40</h>
     </coordinates>
@@ -119,8 +119,8 @@ UserManager</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1056</x>
-      <y>48</y>
+      <x>968</x>
+      <y>192</y>
       <w>24</w>
       <h>1024</h>
     </coordinates>
@@ -130,8 +130,8 @@ UserManager</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>1000</x>
-      <y>16</y>
+      <x>912</x>
+      <y>160</y>
       <w>144</w>
       <h>40</h>
     </coordinates>
@@ -142,8 +142,8 @@ GlobalCalendar</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>288</x>
-      <y>136</y>
+      <x>200</x>
+      <y>280</y>
       <w>1264</w>
       <h>912</h>
     </coordinates>
@@ -159,8 +159,8 @@ layer=-1</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>416</x>
-      <y>144</y>
+      <x>328</x>
+      <y>288</y>
       <w>232</w>
       <h>32</h>
     </coordinates>
@@ -171,8 +171,8 @@ throw UseCaseLogicException</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>856</x>
-      <y>16</y>
+      <x>768</x>
+      <y>160</y>
       <w>136</w>
       <h>40</h>
     </coordinates>
@@ -184,8 +184,8 @@ Recurrency
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>912</x>
-      <y>48</y>
+      <x>824</x>
+      <y>192</y>
       <w>24</w>
       <h>1024</h>
     </coordinates>
@@ -195,8 +195,8 @@ Recurrency
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>768</x>
-      <y>88</y>
+      <x>680</x>
+      <y>232</y>
       <w>16</w>
       <h>40</h>
     </coordinates>
@@ -206,8 +206,8 @@ Recurrency
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>1152</x>
-      <y>16</y>
+      <x>1064</x>
+      <y>160</y>
       <w>136</w>
       <h>40</h>
     </coordinates>
@@ -218,8 +218,8 @@ ShiftBoard</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1216</x>
-      <y>48</y>
+      <x>1128</x>
+      <y>192</y>
       <w>24</w>
       <h>1024</h>
     </coordinates>
@@ -229,8 +229,8 @@ ShiftBoard</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>1296</x>
-      <y>16</y>
+      <x>1208</x>
+      <y>160</y>
       <w>160</w>
       <h>40</h>
     </coordinates>
@@ -241,8 +241,8 @@ TurnEventReceiver</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1368</x>
-      <y>48</y>
+      <x>1280</x>
+      <y>192</y>
       <w>24</w>
       <h>1024</h>
     </coordinates>
@@ -252,8 +252,8 @@ TurnEventReceiver</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>632</x>
-      <y>800</y>
+      <x>544</x>
+      <y>944</y>
       <w>448</w>
       <h>32</h>
     </coordinates>
@@ -264,8 +264,8 @@ remove(t)</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>1056</x>
-      <y>816</y>
+      <x>968</x>
+      <y>960</y>
       <w>16</w>
       <h>16</h>
     </coordinates>
@@ -275,8 +275,8 @@ remove(t)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>632</x>
-      <y>824</y>
+      <x>544</x>
+      <y>968</y>
       <w>608</w>
       <h>32</h>
     </coordinates>
@@ -287,8 +287,8 @@ remove(t)</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>1216</x>
-      <y>840</y>
+      <x>1128</x>
+      <y>984</y>
       <w>16</w>
       <h>16</h>
     </coordinates>
@@ -298,8 +298,8 @@ remove(t)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>632</x>
-      <y>296</y>
+      <x>544</x>
+      <y>440</y>
       <w>304</w>
       <h>32</h>
     </coordinates>
@@ -310,8 +310,8 @@ deleteRecurrencies(start, end)</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>912</x>
-      <y>312</y>
+      <x>824</x>
+      <y>456</y>
       <w>16</w>
       <h>448</h>
     </coordinates>
@@ -321,8 +321,8 @@ deleteRecurrencies(start, end)</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>296</x>
-      <y>184</y>
+      <x>208</x>
+      <y>328</y>
       <w>1240</w>
       <h>840</h>
     </coordinates>
@@ -334,8 +334,8 @@ fg=blue</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>632</x>
-      <y>936</y>
+      <x>544</x>
+      <y>1080</y>
       <w>80</w>
       <h>56</h>
     </coordinates>
@@ -346,8 +346,8 @@ t=null</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>632</x>
-      <y>976</y>
+      <x>544</x>
+      <y>1120</y>
       <w>16</w>
       <h>16</h>
     </coordinates>
@@ -357,8 +357,8 @@ t=null</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>656</x>
-      <y>328</y>
+      <x>568</x>
+      <y>472</y>
       <w>848</w>
       <h>464</h>
     </coordinates>
@@ -370,8 +370,8 @@ fg=blue</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>664</x>
-      <y>368</y>
+      <x>576</x>
+      <y>512</y>
       <w>832</w>
       <h>416</h>
     </coordinates>
@@ -386,8 +386,8 @@ lw=2
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>920</x>
-      <y>456</y>
+      <x>832</x>
+      <y>600</y>
       <w>160</w>
       <h>32</h>
     </coordinates>
@@ -398,8 +398,8 @@ remove(t)</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>1056</x>
-      <y>472</y>
+      <x>968</x>
+      <y>616</y>
       <w>16</w>
       <h>16</h>
     </coordinates>
@@ -409,8 +409,8 @@ remove(t)</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>312</x>
-      <y>272</y>
+      <x>224</x>
+      <y>416</y>
       <w>1208</w>
       <h>728</h>
     </coordinates>
@@ -463,8 +463,8 @@ lw=2
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>920</x>
-      <y>488</y>
+      <x>832</x>
+      <y>632</y>
       <w>320</w>
       <h>32</h>
     </coordinates>
@@ -475,8 +475,8 @@ remove(t)</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>1216</x>
-      <y>496</y>
+      <x>1128</x>
+      <y>640</y>
       <w>16</w>
       <h>16</h>
     </coordinates>
@@ -486,8 +486,8 @@ remove(t)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>920</x>
-      <y>520</y>
+      <x>832</x>
+      <y>664</y>
       <w>128</w>
       <h>56</h>
     </coordinates>
@@ -498,8 +498,8 @@ this.remove(r)</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>920</x>
-      <y>560</y>
+      <x>832</x>
+      <y>704</y>
       <w>16</w>
       <h>16</h>
     </coordinates>
@@ -509,8 +509,8 @@ this.remove(r)</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>680</x>
-      <y>392</y>
+      <x>592</x>
+      <y>536</y>
       <w>800</w>
       <h>384</h>
     </coordinates>
@@ -526,8 +526,8 @@ lw=2
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>416</x>
-      <y>416</y>
+      <x>328</x>
+      <y>560</y>
       <w>512</w>
       <h>32</h>
     </coordinates>
@@ -538,8 +538,8 @@ throw TurnException</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>632</x>
-      <y>568</y>
+      <x>544</x>
+      <y>712</y>
       <w>312</w>
       <h>32</h>
     </coordinates>
@@ -550,8 +550,8 @@ turnMgr.notifyTurnDeleted(r)</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>632</x>
-      <y>584</y>
+      <x>544</x>
+      <y>728</y>
       <w>16</w>
       <h>104</h>
     </coordinates>
@@ -561,8 +561,8 @@ turnMgr.notifyTurnDeleted(r)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>640</x>
-      <y>616</y>
+      <x>552</x>
+      <y>760</y>
       <w>752</w>
       <h>32</h>
     </coordinates>
@@ -573,8 +573,8 @@ updateTurnDeleted(r)</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>480</x>
-      <y>600</y>
+      <x>392</x>
+      <y>744</y>
       <w>928</w>
       <h>56</h>
     </coordinates>
@@ -587,8 +587,8 @@ fg=blue
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>920</x>
-      <y>728</y>
+      <x>832</x>
+      <y>872</y>
       <w>16</w>
       <h>16</h>
     </coordinates>
@@ -598,8 +598,8 @@ fg=blue
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>920</x>
-      <y>688</y>
+      <x>832</x>
+      <y>832</y>
       <w>80</w>
       <h>56</h>
     </coordinates>
@@ -610,8 +610,8 @@ r=null</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>1368</x>
-      <y>632</y>
+      <x>1280</x>
+      <y>776</y>
       <w>16</w>
       <h>16</h>
     </coordinates>
@@ -621,8 +621,8 @@ r=null</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>632</x>
-      <y>880</y>
+      <x>544</x>
+      <y>1024</y>
       <w>16</w>
       <h>56</h>
     </coordinates>
@@ -632,8 +632,8 @@ r=null</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>632</x>
-      <y>896</y>
+      <x>544</x>
+      <y>1040</y>
       <w>760</w>
       <h>32</h>
     </coordinates>
@@ -644,8 +644,8 @@ updateTurnDeleted(t)</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>504</x>
-      <y>896</y>
+      <x>416</x>
+      <y>1040</y>
       <w>888</w>
       <h>40</h>
     </coordinates>
@@ -658,8 +658,8 @@ fg=blue
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>1368</x>
-      <y>912</y>
+      <x>1280</x>
+      <y>1056</y>
       <w>16</w>
       <h>16</h>
     </coordinates>
@@ -669,8 +669,8 @@ fg=blue
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>632</x>
-      <y>840</y>
+      <x>544</x>
+      <y>984</y>
       <w>160</w>
       <h>56</h>
     </coordinates>
@@ -681,8 +681,8 @@ notifyTurnDeleted(t)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>416</x>
-      <y>232</y>
+      <x>328</x>
+      <y>376</y>
       <w>232</w>
       <h>32</h>
     </coordinates>
@@ -693,8 +693,8 @@ throw TurnException</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>304</x>
-      <y>224</y>
+      <x>216</x>
+      <y>368</y>
       <w>1224</w>
       <h>784</h>
     </coordinates>
@@ -705,5 +705,16 @@ lw=2
 
 -.</panel_attributes>
     <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>760</x>
+      <y>120</y>
+      <w>152</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>1c deleteTurn</panel_attributes>
+    <additional_attributes>10.0;20.0;170.0;20.0</additional_attributes>
   </element>
 </diagram>

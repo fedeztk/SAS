@@ -5,7 +5,7 @@
     <id>UMLPackage</id>
     <coordinates>
       <x>108</x>
-      <y>0</y>
+      <y>144</y>
       <w>90</w>
       <h>63</h>
     </coordinates>
@@ -16,7 +16,7 @@
     <id>Relation</id>
     <coordinates>
       <x>144</x>
-      <y>54</y>
+      <y>198</y>
       <w>27</w>
       <h>1494</h>
     </coordinates>
@@ -27,7 +27,7 @@
     <id>UMLGeneric</id>
     <coordinates>
       <x>315</x>
-      <y>18</y>
+      <y>162</y>
       <w>153</w>
       <h>45</h>
     </coordinates>
@@ -39,7 +39,7 @@ TurnManager</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>378</x>
-      <y>54</y>
+      <y>198</y>
       <w>27</w>
       <h>1494</h>
     </coordinates>
@@ -50,7 +50,7 @@ TurnManager</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>135</x>
-      <y>72</y>
+      <y>216</y>
       <w>279</w>
       <h>45</h>
     </coordinates>
@@ -63,7 +63,7 @@ location?, deadline?, startRec?, endRec?)</panel_attributes>
     <id>UMLGeneric</id>
     <coordinates>
       <x>378</x>
-      <y>90</y>
+      <y>234</y>
       <w>18</w>
       <h>1422</h>
     </coordinates>
@@ -74,7 +74,7 @@ location?, deadline?, startRec?, endRec?)</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>387</x>
-      <y>90</y>
+      <y>234</y>
       <w>171</w>
       <h>36</h>
     </coordinates>
@@ -86,7 +86,7 @@ getCurrentUser()</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>387</x>
-      <y>117</y>
+      <y>261</y>
       <w>180</w>
       <h>36</h>
     </coordinates>
@@ -98,7 +98,7 @@ user</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>540</x>
-      <y>54</y>
+      <y>198</y>
       <w>27</w>
       <h>144</h>
     </coordinates>
@@ -109,7 +109,7 @@ user</panel_attributes>
     <id>UMLGeneric</id>
     <coordinates>
       <x>477</x>
-      <y>18</y>
+      <y>162</y>
       <w>153</w>
       <h>45</h>
     </coordinates>
@@ -121,7 +121,7 @@ UserManager</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>864</x>
-      <y>54</y>
+      <y>198</y>
       <w>27</w>
       <h>1449</h>
     </coordinates>
@@ -132,7 +132,7 @@ UserManager</panel_attributes>
     <id>UMLGeneric</id>
     <coordinates>
       <x>801</x>
-      <y>18</y>
+      <y>162</y>
       <w>153</w>
       <h>45</h>
     </coordinates>
@@ -144,7 +144,7 @@ GlobalCalendar</panel_attributes>
     <id>UMLFrame</id>
     <coordinates>
       <x>0</x>
-      <y>153</y>
+      <y>297</y>
       <w>1422</w>
       <h>1377</h>
     </coordinates>
@@ -161,7 +161,7 @@ layer=-1</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>144</x>
-      <y>162</y>
+      <y>306</y>
       <w>261</w>
       <h>36</h>
     </coordinates>
@@ -173,7 +173,7 @@ throw UseCaseLogicException</panel_attributes>
     <id>UMLGeneric</id>
     <coordinates>
       <x>639</x>
-      <y>18</y>
+      <y>162</y>
       <w>153</w>
       <h>45</h>
     </coordinates>
@@ -186,7 +186,7 @@ Recurrency
     <id>Relation</id>
     <coordinates>
       <x>702</x>
-      <y>54</y>
+      <y>198</y>
       <w>27</w>
       <h>1449</h>
     </coordinates>
@@ -197,7 +197,7 @@ Recurrency
     <id>UMLGeneric</id>
     <coordinates>
       <x>540</x>
-      <y>99</y>
+      <y>243</y>
       <w>18</w>
       <h>45</h>
     </coordinates>
@@ -208,7 +208,7 @@ Recurrency
     <id>UMLGeneric</id>
     <coordinates>
       <x>972</x>
-      <y>18</y>
+      <y>162</y>
       <w>153</w>
       <h>45</h>
     </coordinates>
@@ -220,7 +220,7 @@ Turn</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1044</x>
-      <y>54</y>
+      <y>198</y>
       <w>27</w>
       <h>1449</h>
     </coordinates>
@@ -231,7 +231,7 @@ Turn</panel_attributes>
     <id>UMLGeneric</id>
     <coordinates>
       <x>1134</x>
-      <y>18</y>
+      <y>162</y>
       <w>180</w>
       <h>45</h>
     </coordinates>
@@ -243,7 +243,7 @@ TurnEventReceiver</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1215</x>
-      <y>54</y>
+      <y>198</y>
       <w>27</w>
       <h>1449</h>
     </coordinates>
@@ -254,7 +254,7 @@ TurnEventReceiver</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>387</x>
-      <y>324</y>
+      <y>468</y>
       <w>342</w>
       <h>45</h>
     </coordinates>
@@ -267,7 +267,7 @@ deadline?, startRec, endRec)</panel_attributes>
     <id>UMLGeneric</id>
     <coordinates>
       <x>702</x>
-      <y>342</y>
+      <y>486</y>
       <w>18</w>
       <h>576</h>
     </coordinates>
@@ -278,7 +278,7 @@ deadline?, startRec, endRec)</panel_attributes>
     <id>UMLFrame</id>
     <coordinates>
       <x>9</x>
-      <y>207</y>
+      <y>351</y>
       <w>1395</w>
       <h>1323</h>
     </coordinates>
@@ -291,7 +291,7 @@ fg=blue</panel_attributes>
     <id>UMLFrame</id>
     <coordinates>
       <x>414</x>
-      <y>360</y>
+      <y>504</y>
       <w>954</w>
       <h>576</h>
     </coordinates>
@@ -303,7 +303,7 @@ fg=blue</panel_attributes>
     <id>UMLFrame</id>
     <coordinates>
       <x>423</x>
-      <y>387</y>
+      <y>531</y>
       <w>936</w>
       <h>549</h>
     </coordinates>
@@ -319,7 +319,7 @@ lw=2
     <id>UMLFrame</id>
     <coordinates>
       <x>27</x>
-      <y>315</y>
+      <y>459</y>
       <w>1359</w>
       <h>1215</h>
     </coordinates>
@@ -376,7 +376,7 @@ lw=2
     <id>UMLFrame</id>
     <coordinates>
       <x>432</x>
-      <y>414</y>
+      <y>558</y>
       <w>909</w>
       <h>513</h>
     </coordinates>
@@ -393,7 +393,7 @@ lw=2
     <id>Relation</id>
     <coordinates>
       <x>144</x>
-      <y>441</y>
+      <y>585</y>
       <w>576</w>
       <h>36</h>
     </coordinates>
@@ -405,7 +405,7 @@ throw TurnException</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>387</x>
-      <y>828</y>
+      <y>972</y>
       <w>351</w>
       <h>36</h>
     </coordinates>
@@ -417,7 +417,7 @@ turnManager.notifyTurnModified(t)</panel_attributes>
     <id>UMLGeneric</id>
     <coordinates>
       <x>387</x>
-      <y>846</y>
+      <y>990</y>
       <w>18</w>
       <h>81</h>
     </coordinates>
@@ -428,7 +428,7 @@ turnManager.notifyTurnModified(t)</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>396</x>
-      <y>873</y>
+      <y>1017</y>
       <w>846</w>
       <h>36</h>
     </coordinates>
@@ -440,7 +440,7 @@ updateTurnModified(t)</panel_attributes>
     <id>UMLFrame</id>
     <coordinates>
       <x>216</x>
-      <y>864</y>
+      <y>1008</y>
       <w>1044</w>
       <h>45</h>
     </coordinates>
@@ -453,7 +453,7 @@ fg=blue</panel_attributes>
     <id>UMLGeneric</id>
     <coordinates>
       <x>1215</x>
-      <y>891</y>
+      <y>1035</y>
       <w>18</w>
       <h>18</h>
     </coordinates>
@@ -464,7 +464,7 @@ fg=blue</panel_attributes>
     <id>UMLGeneric</id>
     <coordinates>
       <x>387</x>
-      <y>1422</y>
+      <y>1566</y>
       <w>18</w>
       <h>63</h>
     </coordinates>
@@ -475,7 +475,7 @@ fg=blue</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>387</x>
-      <y>1449</y>
+      <y>1593</y>
       <w>855</w>
       <h>36</h>
     </coordinates>
@@ -487,7 +487,7 @@ updateTurnModified(t)</panel_attributes>
     <id>UMLFrame</id>
     <coordinates>
       <x>243</x>
-      <y>1440</y>
+      <y>1584</y>
       <w>999</w>
       <h>45</h>
     </coordinates>
@@ -501,7 +501,7 @@ fg=blue
     <id>UMLGeneric</id>
     <coordinates>
       <x>1215</x>
-      <y>1458</y>
+      <y>1602</y>
       <w>18</w>
       <h>18</h>
     </coordinates>
@@ -512,7 +512,7 @@ fg=blue
     <id>Relation</id>
     <coordinates>
       <x>387</x>
-      <y>1377</y>
+      <y>1521</y>
       <w>189</w>
       <h>63</h>
     </coordinates>
@@ -524,7 +524,7 @@ notifyTurnModified(t)</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>153</x>
-      <y>270</y>
+      <y>414</y>
       <w>261</w>
       <h>36</h>
     </coordinates>
@@ -536,7 +536,7 @@ throw TurnException</panel_attributes>
     <id>UMLFrame</id>
     <coordinates>
       <x>27</x>
-      <y>261</y>
+      <y>405</y>
       <w>1377</w>
       <h>1269</h>
     </coordinates>
@@ -552,7 +552,7 @@ lw=2
     <id>Relation</id>
     <coordinates>
       <x>1053</x>
-      <y>1053</y>
+      <y>1197</y>
       <w>180</w>
       <h>63</h>
     </coordinates>
@@ -564,7 +564,7 @@ this.timeStart=time</panel_attributes>
     <id>UMLGeneric</id>
     <coordinates>
       <x>1053</x>
-      <y>1098</y>
+      <y>1242</y>
       <w>18</w>
       <h>18</h>
     </coordinates>
@@ -575,7 +575,7 @@ this.timeStart=time</panel_attributes>
     <id>UMLFrame</id>
     <coordinates>
       <x>846</x>
-      <y>1215</y>
+      <y>1359</y>
       <w>414</w>
       <h>72</h>
     </coordinates>
@@ -591,7 +591,7 @@ lw=2
     <id>UMLFrame</id>
     <coordinates>
       <x>846</x>
-      <y>1296</y>
+      <y>1440</y>
       <w>414</w>
       <h>72</h>
     </coordinates>
@@ -607,7 +607,7 @@ lw=2
     <id>UMLFrame</id>
     <coordinates>
       <x>846</x>
-      <y>1053</y>
+      <y>1197</y>
       <w>414</w>
       <h>72</h>
     </coordinates>
@@ -623,7 +623,7 @@ lw=2
     <id>Relation</id>
     <coordinates>
       <x>1053</x>
-      <y>1215</y>
+      <y>1359</y>
       <w>189</w>
       <h>63</h>
     </coordinates>
@@ -635,7 +635,7 @@ this.location=location</panel_attributes>
     <id>UMLGeneric</id>
     <coordinates>
       <x>1053</x>
-      <y>1260</y>
+      <y>1404</y>
       <w>18</w>
       <h>18</h>
     </coordinates>
@@ -646,7 +646,7 @@ this.location=location</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1053</x>
-      <y>1296</y>
+      <y>1440</y>
       <w>198</w>
       <h>63</h>
     </coordinates>
@@ -658,7 +658,7 @@ this.deadline=deadline</panel_attributes>
     <id>UMLGeneric</id>
     <coordinates>
       <x>1053</x>
-      <y>1341</y>
+      <y>1485</y>
       <w>18</w>
       <h>18</h>
     </coordinates>
@@ -669,7 +669,7 @@ this.deadline=deadline</panel_attributes>
     <id>UMLGeneric</id>
     <coordinates>
       <x>1044</x>
-      <y>972</y>
+      <y>1116</y>
       <w>18</w>
       <h>405</h>
     </coordinates>
@@ -680,7 +680,7 @@ this.deadline=deadline</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>387</x>
-      <y>954</y>
+      <y>1098</y>
       <w>684</w>
       <h>45</h>
     </coordinates>
@@ -693,7 +693,7 @@ deadline?)</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>387</x>
-      <y>1359</y>
+      <y>1503</y>
       <w>675</w>
       <h>36</h>
     </coordinates>
@@ -705,7 +705,7 @@ t</panel_attributes>
     <id>UMLFrame</id>
     <coordinates>
       <x>846</x>
-      <y>1134</y>
+      <y>1278</y>
       <w>414</w>
       <h>72</h>
     </coordinates>
@@ -721,7 +721,7 @@ lw=2
     <id>Relation</id>
     <coordinates>
       <x>1053</x>
-      <y>1143</y>
+      <y>1287</y>
       <w>171</w>
       <h>63</h>
     </coordinates>
@@ -733,7 +733,7 @@ this.timeEnd=time</panel_attributes>
     <id>UMLGeneric</id>
     <coordinates>
       <x>1053</x>
-      <y>1188</y>
+      <y>1332</y>
       <w>18</w>
       <h>18</h>
     </coordinates>
@@ -744,7 +744,7 @@ this.timeEnd=time</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1053</x>
-      <y>504</y>
+      <y>648</y>
       <w>180</w>
       <h>63</h>
     </coordinates>
@@ -756,7 +756,7 @@ this.timeStart=time</panel_attributes>
     <id>UMLGeneric</id>
     <coordinates>
       <x>1053</x>
-      <y>549</y>
+      <y>693</y>
       <w>18</w>
       <h>18</h>
     </coordinates>
@@ -767,7 +767,7 @@ this.timeStart=time</panel_attributes>
     <id>UMLFrame</id>
     <coordinates>
       <x>846</x>
-      <y>666</y>
+      <y>810</y>
       <w>414</w>
       <h>72</h>
     </coordinates>
@@ -783,7 +783,7 @@ lw=2
     <id>UMLFrame</id>
     <coordinates>
       <x>846</x>
-      <y>747</y>
+      <y>891</y>
       <w>414</w>
       <h>72</h>
     </coordinates>
@@ -799,7 +799,7 @@ lw=2
     <id>UMLFrame</id>
     <coordinates>
       <x>846</x>
-      <y>504</y>
+      <y>648</y>
       <w>414</w>
       <h>72</h>
     </coordinates>
@@ -815,7 +815,7 @@ lw=2
     <id>Relation</id>
     <coordinates>
       <x>1053</x>
-      <y>666</y>
+      <y>810</y>
       <w>189</w>
       <h>63</h>
     </coordinates>
@@ -827,7 +827,7 @@ this.location=location</panel_attributes>
     <id>UMLGeneric</id>
     <coordinates>
       <x>1053</x>
-      <y>711</y>
+      <y>855</y>
       <w>18</w>
       <h>18</h>
     </coordinates>
@@ -838,7 +838,7 @@ this.location=location</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1053</x>
-      <y>747</y>
+      <y>891</y>
       <w>198</w>
       <h>63</h>
     </coordinates>
@@ -850,7 +850,7 @@ this.deadline=deadline</panel_attributes>
     <id>UMLGeneric</id>
     <coordinates>
       <x>1053</x>
-      <y>792</y>
+      <y>936</y>
       <w>18</w>
       <h>18</h>
     </coordinates>
@@ -861,7 +861,7 @@ this.deadline=deadline</panel_attributes>
     <id>UMLFrame</id>
     <coordinates>
       <x>846</x>
-      <y>585</y>
+      <y>729</y>
       <w>414</w>
       <h>72</h>
     </coordinates>
@@ -877,7 +877,7 @@ lw=2
     <id>Relation</id>
     <coordinates>
       <x>1053</x>
-      <y>594</y>
+      <y>738</y>
       <w>171</w>
       <h>63</h>
     </coordinates>
@@ -889,7 +889,7 @@ this.timeEnd=time</panel_attributes>
     <id>UMLGeneric</id>
     <coordinates>
       <x>1053</x>
-      <y>639</y>
+      <y>783</y>
       <w>18</w>
       <h>18</h>
     </coordinates>
@@ -900,7 +900,7 @@ this.timeEnd=time</panel_attributes>
     <id>UMLGeneric</id>
     <coordinates>
       <x>1044</x>
-      <y>486</y>
+      <y>630</y>
       <w>18</w>
       <h>351</h>
     </coordinates>
@@ -911,7 +911,7 @@ this.timeEnd=time</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>711</x>
-      <y>468</y>
+      <y>612</y>
       <w>360</w>
       <h>45</h>
     </coordinates>
@@ -924,12 +924,23 @@ deadline?)</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>711</x>
-      <y>819</y>
+      <y>963</y>
       <w>351</w>
       <h>36</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 t</panel_attributes>
     <additional_attributes>10.0;20.0;370.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>666</x>
+      <y>108</y>
+      <w>171</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>1b modifyTurn</panel_attributes>
+    <additional_attributes>10.0;20.0;170.0;20.0</additional_attributes>
   </element>
 </diagram>
