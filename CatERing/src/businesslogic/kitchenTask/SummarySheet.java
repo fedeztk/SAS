@@ -41,11 +41,11 @@ public class SummarySheet {
     @Override
     public String toString() {
         return "SummarySheet {" +
-                "\n\t id=" + id +
-                ",\n\t serviceUsed=" + serviceUsed +
-                ",\n\t owner=" + owner +
-                ",\n\t taskList= \n\t" + taskList +
-                "\n}";
+                "\n\tid = " + id +
+                ",\n\tserviceUsed = " + serviceUsed +
+                ",\n\towner = " + owner +
+                ",\n\ttaskList = " + taskList.toString().indent(8) +
+                "}";
     }
 
     public ArrayList<Task> sortTasks(ArrayList<Task> newtl) {

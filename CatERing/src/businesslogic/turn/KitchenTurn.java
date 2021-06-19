@@ -5,24 +5,23 @@ import persistence.ResultHandler;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.util.Date;
 
 public class KitchenTurn extends Turn {
     private boolean saturated;
 
-    public KitchenTurn(){
-        saturated=false;
+    public KitchenTurn() {
+        saturated = false;
     }
 
     @Override
     public String toString() {
         String s = super.toString();
-        return s.substring(0, s.length()-1)+", " +
-                "saturated=" + saturated +
-                '}';
+        return s.substring(0, s.length() - 2) + ",\n\t" +
+                "saturated = " + saturated +
+                "\n}";
     }
 
-    public boolean isSaturated (){
+    public boolean isSaturated() {
         return saturated;
     }
 
@@ -37,7 +36,7 @@ public class KitchenTurn extends Turn {
         PersistenceManager.executeQuery(query, new ResultHandler() {
             @Override
             public void handle(ResultSet rs) throws SQLException {
-                if (rs.getString("type").charAt(0)=='k'){
+                if (rs.getString("type").charAt(0) == 'k') {
                     kt.setStartDate(rs.getDate("start_date"));
                     kt.setEndDate(rs.getDate("end_date"));
                     kt.setSaturated(rs.getBoolean("saturation"));
@@ -51,7 +50,7 @@ public class KitchenTurn extends Turn {
 
 
     public static void saveKitchenTurnSat(KitchenTurn kt) {
-        String query = "UPDATE catering.Turns SET saturation = "+ ( kt.saturated ? 1 : 0 ) + " WHERE id="+kt.getId()+";";
+        String query = "UPDATE catering.Turns SET saturation = " + (kt.saturated ? 1 : 0) + " WHERE id=" + kt.getId() + ";";
 
         PersistenceManager.executeUpdate(query);
     }

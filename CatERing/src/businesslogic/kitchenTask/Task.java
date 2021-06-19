@@ -50,15 +50,15 @@ public class Task {
 
     @Override
     public String toString() {
-        return "\nTask{" +
-                "\n\t id=" + id +
-                ",\n\t quantity=" + quantity +
-                ",\n\t time=" + time +
-                ",\n\t done=" + done +
-                ",\n\t cook=" + cook +
-                ",\n\t consistingJob=" + consistingJob +
-                ",\n\t turnList=" + turnList +
-                "\n}";
+        return "\nTask { " +
+                "\n\tid = " + id +
+                ",\n\tquantity = " + quantity +
+                ",\n\ttime = " + time +
+                ",\n\tdone = " + done +
+                ",\n\tcook = " + cook +
+                ",\n\tconsistingJob = " + consistingJob +
+                ",\n\tturnList = " + turnList.toString().indent(8) +
+                "}";
     }
 
 
