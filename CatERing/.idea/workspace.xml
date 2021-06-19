@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2a1dc1cd-85b8-445e-a49a-9191e4104522" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaFXApplication" />
+        <option value="FxmlFile" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="1cPIUnvVBs9jwThUZQJMpT5ok0F" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="fb08d601-3d29-43a7-b84a-42a902089b0e" />
+    <property name="RunConfigurationTargetLRU" value="7a59d72f-0273-48bf-99ec-0b80fd342020/schema/&quot;catering&quot;&#10;7a59d72f-0273-48bf-99ec-0b80fd342020" />
+    <property name="RunOnceActivity.OpenDatabaseViewOnStart" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="TODO_SCOPE" value="All Places" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JAVA" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/businesslogic/testMenu" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.25875" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="businesslogic.testKitchenTask" />
+      <recent name="persistence" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="test" />
+      <recent name="businesslogic.testMenu" />
+      <recent name="businesslogic.recipe" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Test1">
+    <configuration name="Test" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="test.testMenu.TestCatERing" />
+      <module name="CatERing" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.testKitchenTask.Test1" />
+      <module name="CatERing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.testKitchenTask.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test1A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.testKitchenTask.Test1A" />
+      <module name="CatERing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.testKitchenTask.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.testKitchenTask.Test2" />
+      <module name="CatERing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.testKitchenTask.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test2A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.testKitchenTask.Test2A" />
+      <module name="CatERing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.testKitchenTask.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.testKitchenTask.Test3" />
+      <module name="CatERing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.testKitchenTask.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UI" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="CatERingApp" />
+      <module name="CatERing" />
+      <option name="VM_PARAMETERS" value="--module-path $PATH_TO_FX$ --add-modules javafx.controls,javafx.fxml --add-exports javafx.graphics/com.sun.javafx.sg.prism=ALL-UNNAMED" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.UI" />
+      <item itemvalue="Application.Test1" />
+      <item itemvalue="Application.Test1A" />
+      <item itemvalue="Application.Test2" />
+      <item itemvalue="Application.Test2A" />
+      <item itemvalue="Application.Test3" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2a1dc1cd-85b8-445e-a49a-9191e4104522" name="Default Changelist" comment="" />
+      <created>1590423819763</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1590423819763</updated>
+      <workItem from="1590423821721" duration="10152000" />
+      <workItem from="1590567651265" duration="472000" />
+      <workItem from="1590591721230" duration="364000" />
+      <workItem from="1590595653898" duration="1000" />
+      <workItem from="1590600610964" duration="5376000" />
+      <workItem from="1590831680089" duration="6000" />
+      <workItem from="1590832297284" duration="211000" />
+      <workItem from="1590832519597" duration="23394000" />
+      <workItem from="1591085901908" duration="13282000" />
+      <workItem from="1621350919695" duration="1688000" />
+      <workItem from="1621583880995" duration="2173000" />
+      <workItem from="1621587184370" duration="292000" />
+      <workItem from="1621587493202" duration="726000" />
+      <workItem from="1621588234093" duration="44000" />
+      <workItem from="1621588291340" duration="1770000" />
+      <workItem from="1621675237841" duration="278000" />
+      <workItem from="1621677950765" duration="1498000" />
+      <workItem from="1621687046882" duration="1219000" />
+      <workItem from="1621766710222" duration="1519000" />
+      <workItem from="1621845122588" duration="2392000" />
+      <workItem from="1621861628538" duration="341000" />
+      <workItem from="1622121869648" duration="11000" />
+      <workItem from="1622121892717" duration="4031000" />
+      <workItem from="1622191411250" duration="135000" />
+      <workItem from="1622191561791" duration="2569000" />
+      <workItem from="1622199879368" duration="215000" />
+      <workItem from="1622497725403" duration="1284000" />
+      <workItem from="1622627329633" duration="12000" />
+      <workItem from="1622645605320" duration="670000" />
+      <workItem from="1622648230885" duration="20745000" />
+      <workItem from="1622799033619" duration="878000" />
+      <workItem from="1622799929177" duration="2684000" />
+      <workItem from="1622971605841" duration="3401000" />
+      <workItem from="1622994879219" duration="7024000" />
+      <workItem from="1623343188017" duration="1172000" />
+      <workItem from="1623347660733" duration="2281000" />
+      <workItem from="1623429703598" duration="2028000" />
+      <workItem from="1623845161901" duration="650000" />
+      <workItem from="1623846275169" duration="14836000" />
+      <workItem from="1623916230445" duration="98000" />
+      <workItem from="1623916343997" duration="2592000" />
+      <workItem from="1623953512773" duration="19000" />
+      <workItem from="1623954340293" duration="137000" />
+      <workItem from="1624001183799" duration="42000" />
+      <workItem from="1624003524602" duration="4313000" />
+      <workItem from="1624109126049" duration="83000" />
+      <workItem from="1624109235289" duration="49000" />
+      <workItem from="1624109318770" duration="30000" />
+      <workItem from="1624109399266" duration="125000" />
+      <workItem from="1624109610244" duration="76000" />
+      <workItem from="1624109854939" duration="62000" />
+      <workItem from="1624110145035" duration="42000" />
+      <workItem from="1624110202599" duration="132000" />
+      <workItem from="1624110354911" duration="6000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>
