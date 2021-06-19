@@ -1,8 +1,6 @@
 package businesslogic.kitchenTask;
 
 import businesslogic.event.ServiceInfo;
-import businesslogic.menu.Menu;
-import businesslogic.menu.MenuItem;
 import businesslogic.recipe.Job;
 import businesslogic.turn.KitchenTurn;
 import businesslogic.user.User;
@@ -22,18 +20,13 @@ public class SummarySheet {
     private User owner;
     private ArrayList<Task> taskList;
 
-    public SummarySheet(ServiceInfo s, User u, Menu m) {
-        serviceUsed = s;
-        owner = u;
+    public SummarySheet() {
         taskList = new ArrayList<>();
-        ArrayList<MenuItem> recipes = m.getAllRecipes();
-        for (MenuItem r : recipes) {
-            Task t = new Task(r.getItemRecipe());
-            taskList.add(t);
-        }
     }
 
-    public SummarySheet() {
+    public SummarySheet(ServiceInfo s, User u) {
+        serviceUsed = s;
+        owner = u;
         taskList = new ArrayList<>();
     }
 

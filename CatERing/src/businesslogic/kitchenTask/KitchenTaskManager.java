@@ -3,6 +3,7 @@ package businesslogic.kitchenTask;
 import businesslogic.CatERing;
 import businesslogic.event.ServiceInfo;
 import businesslogic.menu.Menu;
+import businesslogic.menu.MenuItem;
 import businesslogic.recipe.Job;
 import businesslogic.turn.KitchenTurn;
 import businesslogic.turn.ShiftBoard;
@@ -29,9 +30,20 @@ public class KitchenTaskManager {
         if (!m.isOwner(u) || !u.isChef()) {
             throw new UseCaseLogicException();
         }
-        setCurrentSummarySheet(new SummarySheet(s, u, m));
+
+        setCurrentSummarySheet(new SummarySheet(s, u));
 
         this.notifySummarySheetCreated(currentSummarySheet);
+
+        //menu recompilation from approved menu of chosen service
+        for (MenuItem mi : m.getAllRecipes()) {
+            try {
+                CatERing.getInstance().getKitchenTaskMgr().addTask(mi.getItemRecipe());
+            } catch (SummarySheetException e) {
+                e.printStackTrace();
+            }
+        }
+
         return currentSummarySheet;
     }
 

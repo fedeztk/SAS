@@ -45,30 +45,6 @@ INSERT INTO `Events` VALUES (1,'Convegno Agile Community','2020-09-25','2020-09-
 UNLOCK TABLES;
 
 --
--- Table structure for table `Job`
---
-
-DROP TABLE IF EXISTS `Job`;
-/*!40101 SET @saved_cs_client     = @@character_set_client */;
-/*!40101 SET character_set_client = utf8 */;
-CREATE TABLE `Job` (
-  `id` int(11) NOT NULL AUTO_INCREMENT,
-  `type_id` char(1) NOT NULL DEFAULT 'r',
-  `name` varchar(128) DEFAULT NULL,
-  PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=utf8;
-/*!40101 SET character_set_client = @saved_cs_client */;
-
---
--- Dumping data for table `Job`
---
-
-LOCK TABLES `Job` WRITE;
-/*!40000 ALTER TABLE `Job` DISABLE KEYS */;
-/*!40000 ALTER TABLE `Job` ENABLE KEYS */;
-UNLOCK TABLES;
-
---
 -- Table structure for table `MenuFeatures`
 --
 
