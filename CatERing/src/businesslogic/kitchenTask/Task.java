@@ -4,7 +4,6 @@ import businesslogic.CatERing;
 import businesslogic.recipe.Job;
 import businesslogic.recipe.Recipe;
 import businesslogic.turn.KitchenTurn;
-import businesslogic.turn.Turn;
 import businesslogic.user.Cook;
 import businesslogic.user.User;
 import persistence.BatchUpdateHandler;
@@ -20,7 +19,7 @@ import java.util.ArrayList;
 public class Task {
     private int id;
     private int quantity;
-    private Time time; // time string or calendar??
+    private Time time;
     private boolean done;
     private User cook;
     private Job consistingJob;
@@ -107,7 +106,6 @@ public class Task {
         System.out.println(t);
 
     }
-
 
     public static void saveTaskAssigned(Task t) {
         String time = t.time == null ? null : "'" + t.time + "'";

@@ -16,7 +16,6 @@ import java.util.ArrayList;
 import java.util.Objects;
 
 
-//abbastanza fatto tutto
 public class SummarySheet {
     private int id;
     private ServiceInfo serviceUsed;
@@ -123,7 +122,6 @@ public class SummarySheet {
 
 
     //METODI STATICI PERSISTENCE
-
     public static void saveTaskSorted(Task t, int i) {
         String upd = "UPDATE Tasks SET position =" + i + " WHERE id =" + t.getId() + ";";
         PersistenceManager.executeUpdate(upd);

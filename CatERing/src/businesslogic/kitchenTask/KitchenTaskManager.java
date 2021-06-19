@@ -120,9 +120,6 @@ public class KitchenTaskManager {
                 throw new SummarySheetException();
             }
         }
-   //     System.out.println(t);
- //       System.out.println(currentSummarySheet);
-//        System.out.println(currentSummarySheet.contains(t));
         if (currentSummarySheet.contains(t)) {
             throw new SummarySheetException();
         }
@@ -255,7 +252,6 @@ public class KitchenTaskManager {
     public void modifyTask(Task t, Time duration, Job job, User cook) throws UseCaseLogicException, SummarySheetException {
         modifyTask(t, null, -1, duration, cook, job);
     }
-//25 -> 7
 
     public void modifyTask(Task t, ArrayList<KitchenTurn> tl, int portions, Time duration, Job job) throws UseCaseLogicException, SummarySheetException {
         modifyTask(t, tl, portions, duration, null, job);

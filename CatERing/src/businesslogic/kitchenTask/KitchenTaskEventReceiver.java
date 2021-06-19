@@ -1,8 +1,6 @@
 package businesslogic.kitchenTask;
 import businesslogic.turn.KitchenTurn;
 
-import java.util.ArrayList;
-
 public interface KitchenTaskEventReceiver {
     void updateSummarySheetCreated(SummarySheet ss);
     void updateTaskAdded(Task t);

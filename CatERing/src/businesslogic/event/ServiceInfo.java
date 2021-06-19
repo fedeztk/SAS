@@ -1,8 +1,5 @@
 package businesslogic.event;
-
-import businesslogic.kitchenTask.SummarySheet;
 import businesslogic.menu.Menu;
-import businesslogic.user.User;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import persistence.PersistenceManager;
@@ -45,8 +42,8 @@ public class ServiceInfo implements EventItemInfo {
         this.id = i;
     }
 
-    // STATIC METHODS FOR PERSISTENCE
 
+    // STATIC METHODS FOR PERSISTENCE
     public static ObservableList<ServiceInfo> loadServiceInfoForEvent(int event_id) {
         ObservableList<ServiceInfo> result = FXCollections.observableArrayList();
         String query = "SELECT id, name, service_date, time_start, time_end, expected_participants " +
