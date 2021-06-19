@@ -143,21 +143,4 @@ public class User {
     }
 }
 
-interface Behaviour {
-}
-
-
-class Organizer implements Behaviour {
-
-}
-
-class Service implements Behaviour {
-
-}
-
-class Chef implements Behaviour {
-
-
-}
-
-
+interface Behaviour { }

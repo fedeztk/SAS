@@ -6,24 +6,33 @@ import businesslogic.recipe.Recipe;
 
 public class Test2A {
     public static void main(String[] args) {
-        System.out.println("TEST FAKE LOGIN");
         CatERing.getInstance().getUserManager().fakeLogin("Lidia");
-        System.out.println(CatERing.getInstance().getUserManager().getCurrentUser());
+        System.out.println("TEST rimozione task");
 
         SummarySheet ss = SummarySheet.loadSummarySheetById(11);
+
         try {
             CatERing.getInstance().getKitchenTaskMgr().loadSummarySheet(ss);
         } catch (UseCaseLogicException | SummarySheetException e) {
             e.printStackTrace();
         }
+
         KitchenTaskManager ktm = CatERing.getInstance().getKitchenTaskMgr();
-        Task first = ktm.addTask(Recipe.loadRecipeById(1));
-        ktm.addTask(Recipe.loadRecipeById(2));
-        ktm.addTask(Recipe.loadRecipeById(3));
-        System.out.println(ktm.getCurrentSummarySheet());
+        Task first = null;
+
         try {
+            first = ktm.addTask(Recipe.loadRecipeById(1));
+        } catch (UseCaseLogicException | SummarySheetException e) {
+            e.printStackTrace();
+        }
+
+        System.out.println("Before:\n" + ktm.getCurrentSummarySheet());
+        try {
+            //delete "new" task
             ktm.deleteTask(first);
-            System.out.println(ktm.getCurrentSummarySheet());
+            //delete task already present in db
+            ktm.deleteTask(Task.loadTaskById(14));
+            System.out.println("After:\n" + ktm.getCurrentSummarySheet());
         } catch (UseCaseLogicException | SummarySheetException e) {
             e.printStackTrace();
         }

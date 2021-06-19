@@ -1,6 +1,5 @@
 package persistence;
 
-import businesslogic.CatERing;
 import businesslogic.kitchenTask.KitchenTaskEventReceiver;
 import businesslogic.kitchenTask.SummarySheet;
 import businesslogic.kitchenTask.Task;
@@ -37,7 +36,7 @@ public class KitchenTaskPersistence implements KitchenTaskEventReceiver {
     @Override
     public void updateTaskSorted(SummarySheet ss) {
         ArrayList<Task> newtl = ss.getTaskList();
-        for (int i=0; i< newtl.size(); i++){
+        for (int i = 0; i < newtl.size(); i++) {
             Task t = newtl.get(i);
             SummarySheet.saveTaskSorted(t, i);
         }
@@ -55,6 +54,6 @@ public class KitchenTaskPersistence implements KitchenTaskEventReceiver {
 
     @Override
     public void updateKitchenTurnSat(KitchenTurn kt) {
-            KitchenTurn.saveKitchenTurnSat(kt);
+        KitchenTurn.saveKitchenTurnSat(kt);
     }
 }

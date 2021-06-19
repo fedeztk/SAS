@@ -3,14 +3,11 @@ package test.testKitchenTask;
 import businesslogic.CatERing;
 import businesslogic.kitchenTask.*;
 import businesslogic.turn.KitchenTurn;
-import businesslogic.user.User;
 
 public class Test6 {
     public static void main(String[] args) {
-        System.out.println("TEST FAKE LOGIN");
         CatERing.getInstance().getUserManager().fakeLogin("Lidia");
-        User u = CatERing.getInstance().getUserManager().getCurrentUser();
-        System.out.println(u);
+        System.out.println("TEST modifica saturazione task");
 
         KitchenTaskManager ktm = CatERing.getInstance().getKitchenTaskMgr();
         SummarySheet ss = SummarySheet.loadSummarySheetById(11);
@@ -23,6 +20,7 @@ public class Test6 {
         }
 
         KitchenTurn t1 = KitchenTurn.loadKitchenTurnById(1);
+
         try {
             System.out.println(t1);
             ktm.setSaturation(t1, true);

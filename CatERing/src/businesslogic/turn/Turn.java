@@ -1,11 +1,5 @@
 package businesslogic.turn;
 
-import persistence.PersistenceManager;
-import persistence.ResultHandler;
-
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.sql.Time;
 import java.util.Date;
 
 public class Turn {
@@ -42,12 +36,12 @@ public class Turn {
 
     @Override
     public String toString() {
-        return "Turn{" +
-                "id=" + id +
-                ", startDate=" + startDate +
-                ", endDate=" + endDate +
-                ", deadline=" + deadline +
-                ", location='" + location + '\'' +
-                '}';
+        return "\nTurn{" +
+                "\n\t id=" + id +
+                ",\n\t startDate=" + startDate +
+                ",\n\t endDate=" + endDate +
+                ",\n\t deadline=" + deadline +
+                ",\n\t location='" + location + '\'' +
+                "\n}";
     }
 }

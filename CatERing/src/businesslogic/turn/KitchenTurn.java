@@ -31,8 +31,6 @@ public class KitchenTurn extends Turn {
     }
 
     public static KitchenTurn loadKitchenTurnById(int id) {
-        //TODO
-        //perchè non prenderlo direttamente da shiftboard?
         String query = "SELECT * FROM Turns WHERE id=" + id + ";";
         KitchenTurn kt = new KitchenTurn();
 
@@ -55,6 +53,6 @@ public class KitchenTurn extends Turn {
     public static void saveKitchenTurnSat(KitchenTurn kt) {
         String query = "UPDATE catering.Turns SET saturation = "+ ( kt.saturated ? 1 : 0 ) + " WHERE id="+kt.getId()+";";
 
-        if (PersistenceManager.executeUpdate(query) == 0) System.out.println("Errore inserimento saturazione");
+        PersistenceManager.executeUpdate(query);
     }
 }

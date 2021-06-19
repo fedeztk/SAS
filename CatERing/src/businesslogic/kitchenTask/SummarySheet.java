@@ -37,10 +37,23 @@ public class SummarySheet {
         taskList = new ArrayList<>();
     }
 
+    private void setId(int id) {
+        this.id = id;
+    }
+
     public int getId() {
         return this.id;
     }
 
+    @Override
+    public String toString() {
+        return "SummarySheet {" +
+                "\n\t id=" + id +
+                ",\n\t serviceUsed=" + serviceUsed +
+                ",\n\t owner=" + owner +
+                ",\n\t taskList= \n\t" + taskList +
+                "\n}";
+    }
 
     public ArrayList<Task> sortTasks(ArrayList<Task> newtl) {
         this.taskList = newtl;
@@ -106,20 +119,6 @@ public class SummarySheet {
         return this.serviceUsed;
     }
 
-    private void setId(int id) {
-        this.id = id;
-    }
-
-    @Override
-    public String toString() {
-        return "SummarySheet{" +
-                "id=" + id +
-                ", serviceUsed=" + serviceUsed +
-                ", owner=" + owner +
-                ", taskList=" + taskList +
-                '}';
-    }
-
 
     //METODI STATICI PERSISTENCE
     public static void saveTaskSorted(Task t, int i) {
@@ -133,7 +132,6 @@ public class SummarySheet {
         if (PersistenceManager.executeUpdate(upd) == 1)
             ss.setId(PersistenceManager.getLastId());
     }
-
 
     public static SummarySheet loadSummarySheetById(int id) {
         String query = "SELECT * FROM SummarySheets WHERE id =" + id + ";";

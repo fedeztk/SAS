@@ -301,7 +301,6 @@ public class Menu {
 
 
     public ArrayList<MenuItem> getAllRecipes() {
-        //c'è modo di farlo meglio??
         ArrayList<MenuItem> array = new ArrayList<>(freeItems);
         for (Section s : sections) {
             array.addAll(s.getItems());

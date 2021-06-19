@@ -59,8 +59,15 @@ public class KitchenTaskManager {
         currentSummarySheet = ss;
     }
 
-    public Task addTask(Job j) {
+    public Task addTask(Job j) throws UseCaseLogicException, SummarySheetException {
         User u = CatERing.getInstance().getUserManager().getCurrentUser();
+        if (!u.isChef()) {
+            throw new UseCaseLogicException();
+        }
+        if (currentSummarySheet == null) {
+            throw new SummarySheetException();
+        }
+
         Task added = currentSummarySheet.addTask(j);
 
         this.notifyTaskAdded(added);
@@ -75,6 +82,7 @@ public class KitchenTaskManager {
         if (currentSummarySheet == null || !currentSummarySheet.contains(t)) {
             throw new SummarySheetException();
         }
+
         currentSummarySheet.deleteTask(t);
         this.notifyTaskDeleted(t);
     }
@@ -120,7 +128,7 @@ public class KitchenTaskManager {
                 throw new SummarySheetException();
             }
         }
-        if (currentSummarySheet.contains(t)) {
+        if (!currentSummarySheet.contains(t)) {
             throw new SummarySheetException();
         }
         currentSummarySheet.assignTask(t, tl, quantity, time, u);
@@ -133,12 +141,7 @@ public class KitchenTaskManager {
         if (!currentUser.isChef()) {
             throw new UseCaseLogicException();
         }
-        if (currentSummarySheet == null || currentSummarySheet.contains(t)) {
-            if(currentSummarySheet!=null) {
-                System.out.println("SummarySheet contains task? "+currentSummarySheet.contains(t));
-            }else{
-                System.out.println("SummarySheet is null");
-            }
+        if (currentSummarySheet == null || !currentSummarySheet.contains(t)) {
             throw new SummarySheetException();
         }
         if (tl != null) {
@@ -279,7 +282,7 @@ public class KitchenTaskManager {
         if (!currentUser.isChef()) {
             throw new UseCaseLogicException();
         }
-        if (currentSummarySheet == null || currentSummarySheet.contains(t)) {
+        if (currentSummarySheet == null || !currentSummarySheet.contains(t)) {
             throw new SummarySheetException();
         }
         currentSummarySheet.disassignTask(t);
@@ -312,7 +315,7 @@ public class KitchenTaskManager {
         if (!u.isChef()) {
             throw new UseCaseLogicException();
         }
-        if (currentSummarySheet == null) {
+        if (currentSummarySheet == null || !currentSummarySheet.contains(t)) {
             throw new SummarySheetException();
         }
         currentSummarySheet.taskDone(t);

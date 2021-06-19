@@ -1,45 +1,21 @@
 package test.testKitchenTask;
 
 import businesslogic.CatERing;
-import businesslogic.UseCaseLogicException;
 import businesslogic.event.ServiceInfo;
 import businesslogic.kitchenTask.KitchenTaskManager;
-import businesslogic.menu.Menu;
-import businesslogic.menu.Section;
-import businesslogic.recipe.Recipe;
-import javafx.collections.ObservableList;
 
 
 public class Test1 {
     public static void main(String[] args) {
-        try{
+        CatERing.getInstance().getUserManager().fakeLogin("Lidia");
+        System.out.println("TEST creazione foglio riepilogativo");
 
-            CatERing.getInstance().getUserManager().fakeLogin("Lidia");
-            System.out.println(CatERing.getInstance().getUserManager().getCurrentUser());
+        ServiceInfo si = ServiceInfo.loadServiceInfoById(2);
+        KitchenTaskManager ktm = CatERing.getInstance().getKitchenTaskMgr();
 
-            Menu m = CatERing.getInstance().getMenuManager().createMenu("Menu da Cancellare");
-
-            Section antipasti = CatERing.getInstance().getMenuManager().defineSection("Antipasti");
-            Section primi = CatERing.getInstance().getMenuManager().defineSection("Primi");
-            Section secondi = CatERing.getInstance().getMenuManager().defineSection("Secondi");
-
-            ObservableList<Recipe> recipes = CatERing.getInstance().getRecipeManager().getRecipes();
-            CatERing.getInstance().getMenuManager().insertItem(recipes.get(0), antipasti);
-            CatERing.getInstance().getMenuManager().insertItem(recipes.get(1), antipasti);
-            CatERing.getInstance().getMenuManager().insertItem(recipes.get(2), antipasti);
-            CatERing.getInstance().getMenuManager().insertItem(recipes.get(6), secondi);
-            CatERing.getInstance().getMenuManager().insertItem(recipes.get(7), secondi);
-            CatERing.getInstance().getMenuManager().insertItem(recipes.get(3));
-            CatERing.getInstance().getMenuManager().insertItem(recipes.get(4));
-
-            CatERing.getInstance().getMenuManager().publish();
-
-            ServiceInfo si = ServiceInfo.loadServiceInfoById(2);
-            KitchenTaskManager ktm = CatERing.getInstance().getKitchenTaskMgr();
-
+        try {
             System.out.println(ktm.createSummarySheet(si));
-
-        } catch (UseCaseLogicException | businesslogic.kitchenTask.UseCaseLogicException e) {
+        } catch (businesslogic.kitchenTask.UseCaseLogicException e) {
             System.out.println("Errore di logica nello use case");
         }
     }

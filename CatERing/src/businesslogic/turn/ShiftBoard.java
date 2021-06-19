@@ -1,10 +1,5 @@
 package businesslogic.turn;
 
-import businesslogic.CatERing;
-import businesslogic.event.ServiceInfo;
-import businesslogic.kitchenTask.SummarySheet;
-import businesslogic.kitchenTask.Task;
-import businesslogic.user.User;
 import persistence.PersistenceManager;
 import persistence.ResultHandler;
 
@@ -21,6 +16,13 @@ public class ShiftBoard {
             singleInstance = ShiftBoard.loadShiftBoard();
         }
         return singleInstance;
+    }
+
+    @Override
+    public String toString() {
+        return "ShiftBoard{" +
+                "ktList=" + ktList +
+                '}';
     }
 
     private ShiftBoard(ArrayList<KitchenTurn> ktl) {
@@ -48,12 +50,5 @@ public class ShiftBoard {
         });
 
         return new ShiftBoard(ktl);
-    }
-
-    @Override
-    public String toString() {
-        return "ShiftBoard{" +
-                "ktList=" + ktList +
-                '}';
     }
 }

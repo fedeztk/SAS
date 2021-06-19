@@ -2,14 +2,11 @@ package test.testKitchenTask;
 
 import businesslogic.CatERing;
 import businesslogic.kitchenTask.*;
-import businesslogic.user.User;
 
 public class Test5c {
     public static void main(String[] args) {
-        System.out.println("TEST FAKE LOGIN");
         CatERing.getInstance().getUserManager().fakeLogin("Lidia");
-        User u = CatERing.getInstance().getUserManager().getCurrentUser();
-        System.out.println(u);
+        System.out.println("TEST modifica completamento task");
 
         KitchenTaskManager ktm = CatERing.getInstance().getKitchenTaskMgr();
         SummarySheet ss = SummarySheet.loadSummarySheetById(11);
