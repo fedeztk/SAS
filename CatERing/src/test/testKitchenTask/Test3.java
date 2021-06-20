@@ -20,7 +20,7 @@ public class Test3 {
         }
 
         KitchenTaskManager ktm = CatERing.getInstance().getKitchenTaskMgr();
-        ArrayList<Task> newtl = (ArrayList<Task>) ktm.getCurrentSummarySheet().getTaskList().clone();
+        ArrayList<Task> newtl = (ArrayList<Task>)ktm.getCurrentSummarySheet().getTaskList().clone();
         Collections.shuffle(newtl);
 
         try {

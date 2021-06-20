@@ -20,9 +20,9 @@ public class Test5c {
 
         Task t1 = Task.loadTaskById(11);
         try {
-            System.out.println(t1);
+            System.out.println("Before: \n"+t1);
             ktm.taskDone(t1);
-            System.out.println(t1);
+            System.out.println("After: \n"+t1);
         } catch (UseCaseLogicException | SummarySheetException e) {
             e.printStackTrace();
         }

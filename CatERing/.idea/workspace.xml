@@ -5,7 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2a1dc1cd-85b8-445e-a49a-9191e4104522" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/CatERing.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CatERing.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/businesslogic/kitchenTask/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/businesslogic/kitchenTask/Task.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/testKitchenTask/Test2A.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/testKitchenTask/Test2A.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/testKitchenTask/Test3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/testKitchenTask/Test3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/testKitchenTask/Test5c.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/testKitchenTask/Test5c.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/testKitchenTask/Test6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/testKitchenTask/Test6.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,10 +59,12 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JAVA" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/businesslogic/testMenu" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../mysql-connector-java-8.0.25/mysql-connector-java-8.0.25.jar" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.25875" />
@@ -73,7 +83,7 @@
       <recent name="businesslogic.recipe" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test1">
+  <component name="RunManager" selected="Application.Test6">
     <configuration name="Test" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="test.testMenu.TestCatERing" />
       <module name="CatERing" />
@@ -81,8 +91,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.testKitchenTask.Test1" />
+    <configuration name="Test5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.testKitchenTask.Test5" />
       <module name="CatERing" />
       <extension name="coverage">
         <pattern>
@@ -94,8 +104,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test1A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.testKitchenTask.Test1A" />
+    <configuration name="Test5a" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.testKitchenTask.Test5a" />
       <module name="CatERing" />
       <extension name="coverage">
         <pattern>
@@ -107,8 +117,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.testKitchenTask.Test2" />
+    <configuration name="Test5b" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.testKitchenTask.Test5b" />
       <module name="CatERing" />
       <extension name="coverage">
         <pattern>
@@ -120,8 +130,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test2A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.testKitchenTask.Test2A" />
+    <configuration name="Test5c" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.testKitchenTask.Test5c" />
       <module name="CatERing" />
       <extension name="coverage">
         <pattern>
@@ -133,8 +143,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.testKitchenTask.Test3" />
+    <configuration name="Test6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.testKitchenTask.Test6" />
       <module name="CatERing" />
       <extension name="coverage">
         <pattern>
@@ -154,15 +164,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Test" />
       <item itemvalue="Application.UI" />
-      <item itemvalue="Application.Test1" />
-      <item itemvalue="Application.Test1A" />
-      <item itemvalue="Application.Test2" />
-      <item itemvalue="Application.Test2A" />
-      <item itemvalue="Application.Test3" />
+      <item itemvalue="Application.Test5" />
+      <item itemvalue="Application.Test5a" />
+      <item itemvalue="Application.Test5b" />
+      <item itemvalue="Application.Test5c" />
+      <item itemvalue="Application.Test6" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Test6" />
+        <item itemvalue="Application.Test5c" />
+        <item itemvalue="Application.Test5b" />
+        <item itemvalue="Application.Test5a" />
+        <item itemvalue="Application.Test5" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -231,6 +261,8 @@
       <workItem from="1624110354911" duration="6000" />
       <workItem from="1624110437537" duration="87000" />
       <workItem from="1624111197216" duration="179000" />
+      <workItem from="1624114689769" duration="1228000" />
+      <workItem from="1624180266554" duration="1793000" />
     </task>
     <servers />
   </component>

@@ -14,7 +14,6 @@ public class Test6 {
 
         try {
             ktm.loadSummarySheet(ss);
-            System.out.println(ktm.getCurrentSummarySheet());
         } catch (UseCaseLogicException | SummarySheetException e) {
             e.printStackTrace();
         }

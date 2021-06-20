@@ -29,6 +29,7 @@ public class Test2A {
         System.out.println("Before:\n" + ktm.getCurrentSummarySheet());
         try {
             //delete "new" task
+            System.out.println("Task to delete: "+first);
             ktm.deleteTask(first);
             //delete task already present in db
             ktm.deleteTask(Task.loadTaskById(14));
