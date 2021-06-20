@@ -1,6 +1,7 @@
 package test.testKitchenTask;
 
 import businesslogic.CatERing;
+import businesslogic.UseCaseLogicException;
 import businesslogic.event.ServiceInfo;
 import businesslogic.kitchenTask.KitchenTaskManager;
 
@@ -15,8 +16,9 @@ public class Test1 {
 
         try {
             System.out.println(ktm.createSummarySheet(si));
-        } catch (businesslogic.kitchenTask.UseCaseLogicException e) {
+        } catch (UseCaseLogicException e) {
             System.out.println("Errore di logica nello use case");
+            e.printStackTrace();
         }
     }
 }

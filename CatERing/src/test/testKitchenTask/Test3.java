@@ -6,6 +6,8 @@ import businesslogic.kitchenTask.*;
 import java.util.ArrayList;
 import java.util.Collections;
 
+import businesslogic.UseCaseLogicException;
+
 public class Test3 {
     public static void main(String[] args) {
         CatERing.getInstance().getUserManager().fakeLogin("Lidia");
@@ -20,7 +22,7 @@ public class Test3 {
         }
 
         KitchenTaskManager ktm = CatERing.getInstance().getKitchenTaskMgr();
-        ArrayList<Task> newtl = (ArrayList<Task>)ktm.getCurrentSummarySheet().getTaskList().clone();
+        ArrayList<Task> newtl = (ArrayList<Task>) ktm.getCurrentSummarySheet().getTaskList().clone();
         Collections.shuffle(newtl);
 
         try {

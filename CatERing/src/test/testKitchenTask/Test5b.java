@@ -1,6 +1,7 @@
 package test.testKitchenTask;
 
 import businesslogic.CatERing;
+import businesslogic.UseCaseLogicException;
 import businesslogic.kitchenTask.*;
 
 public class Test5b {

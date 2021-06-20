@@ -3,6 +3,7 @@ package test.testKitchenTask;
 import businesslogic.CatERing;
 import businesslogic.kitchenTask.*;
 import businesslogic.recipe.Recipe;
+import businesslogic.UseCaseLogicException;
 
 public class Test2A {
     public static void main(String[] args) {

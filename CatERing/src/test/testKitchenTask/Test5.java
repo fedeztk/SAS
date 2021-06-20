@@ -4,6 +4,7 @@ import businesslogic.CatERing;
 import businesslogic.kitchenTask.*;
 import businesslogic.turn.KitchenTurn;
 import businesslogic.user.User;
+import businesslogic.UseCaseLogicException;
 
 import java.sql.Time;
 import java.util.ArrayList;

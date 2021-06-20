@@ -1,7 +1,7 @@
 package test.testKitchenTask;
 
+import businesslogic.UseCaseLogicException;
 import businesslogic.CatERing;
-import businesslogic.kitchenTask.UseCaseLogicException;
 import businesslogic.turn.ShiftBoard;
 
 public class Test4 {

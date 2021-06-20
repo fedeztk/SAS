@@ -2,6 +2,7 @@ package test.testKitchenTask;
 
 import businesslogic.CatERing;
 import businesslogic.kitchenTask.*;
+import businesslogic.UseCaseLogicException;
 
 public class Test5c {
     public static void main(String[] args) {
@@ -20,9 +21,9 @@ public class Test5c {
 
         Task t1 = Task.loadTaskById(11);
         try {
-            System.out.println("Before: \n"+t1);
+            System.out.println("Before: \n" + t1);
             ktm.taskDone(t1);
-            System.out.println("After: \n"+t1);
+            System.out.println("After: \n" + t1);
         } catch (UseCaseLogicException | SummarySheetException e) {
             e.printStackTrace();
         }

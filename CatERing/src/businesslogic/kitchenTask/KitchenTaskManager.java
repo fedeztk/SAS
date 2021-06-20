@@ -1,6 +1,7 @@
 package businesslogic.kitchenTask;
 
 import businesslogic.CatERing;
+import businesslogic.UseCaseLogicException;
 import businesslogic.event.ServiceInfo;
 import businesslogic.menu.Menu;
 import businesslogic.menu.MenuItem;
