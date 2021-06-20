@@ -34,6 +34,10 @@ public class ServiceInfo implements EventItemInfo {
         return m;
     }
 
+    public void setMenu(Menu m) {
+        this.m = m;
+    }
+
     public int getId() {
         return id;
     }
@@ -65,11 +69,6 @@ public class ServiceInfo implements EventItemInfo {
 
         return result;
     }
-
-    public void setMenu(Menu m) {
-        this.m = m;
-    }
-
 
     public static ServiceInfo loadServiceInfoById(int id) {
         String query = "SELECT * FROM Services WHERE id =" + id + ";";

@@ -130,7 +130,6 @@ public class Task {
                 ", time = " + time +
                 ", done =" + (t.done ? 1 : 0) +
                 ",cook_id= " + t.cook.getId() +
-                ",consisting_job = " + t.consistingJob.getId() +
                 " WHERE id=" + t.getId() + ";";
 
         PersistenceManager.executeUpdate(query);
@@ -197,7 +196,7 @@ public class Task {
                 t.cook = User.loadUserById(rs.getInt("cook_id"));
                 t.consistingJob = Recipe.loadRecipeById(rs.getInt("consisting_job"));
 
-                // get all kicthen turn relevant to this task
+                // get all kitchen turn relevant to this task
                 String query = "SELECT *\n" +
                         "FROM (SELECT turn_id FROM catering.TurnList WHERE task_id=" + t.id + ") as tl\n" +
                         "    JOIN Turns AS t\n" +
