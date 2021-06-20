@@ -50,7 +50,7 @@ public class ServiceInfo implements EventItemInfo {
     // STATIC METHODS FOR PERSISTENCE
     public static ObservableList<ServiceInfo> loadServiceInfoForEvent(int event_id) {
         ObservableList<ServiceInfo> result = FXCollections.observableArrayList();
-        String query = "SELECT id, name, service_date, time_start, time_end, expected_participants " +
+        String query = "SELECT * " +
                 "FROM Services WHERE event_id = " + event_id;
         PersistenceManager.executeQuery(query, new ResultHandler() {
             @Override
