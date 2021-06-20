@@ -128,7 +128,6 @@ public class Task {
         String time = t.time == null ? null : "'" + t.time + "'";
         String query = "UPDATE catering.Tasks SET quantity=" + t.quantity +
                 ", time = " + time +
-                ", done =" + (t.done ? 1 : 0) +
                 ",cook_id= " + t.cook.getId() +
                 " WHERE id=" + t.getId() + ";";
 
